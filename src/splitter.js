@@ -86,15 +86,6 @@ function splitImage(fn, dir, names, b2, extension) {
 fs.readdir("./", (err, fns) => {
 	for(let f in fns) {
 		let fileName = fns[f];
-		if(fileName.match(/.xml/)) {
-			fs.rename(fileName, "./Cockatrice/data/cards.xml", (err) => {
-				if(err) {
-					console.log(err);
-				}else{
-					console.log(`XML moved.`);
-				}
-			})
-		}
 		if(!fileName.match(/-files$/))
 			continue;
 		let folderName = fileName.replace(/-files/, "");
@@ -109,8 +100,20 @@ fs.readdir("./", (err, fns) => {
 					for(let f2 in fns2) {
 						let fileName2 = fns2[f2];
 						let imgext = fileName2.match(/.(png|jpe?g)/);
+						if(!imgext) {
+							if(fileName2.match(/.xml/)) {
+								fs.rename(newdir + "/" + fileName2, "./Cockatrice/data/cards.xml", (err) => {
+									if(err) {
+										console.log(err);
+									}else{
+										console.log(`XML moved.`);
+									}
+								})
+							}
+							continue;
+						}
 						let names = fileName2.replace(/.png|.jpe?g/, "").split("__");
-						if(names.length < 2 || !imgext)
+						if(names.length < 2)
 							continue;
 						console.log(`Splitting ${names[0]} and ${names[1]}...`);
 						splitImage(newdir+"/"+fileName2, newdir+"/", names, false, imgext[1])
