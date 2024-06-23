@@ -1,0 +1,5399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+    <set>
+      <name>CCR</name>
+      <longname>Chikyu: Chaos Rains</longname>
+      <settype>Custom</settype>
+    </set>
+  </sets>
+  <cards>
+
+    <card>
+      <name>Sunny Day</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonred Weathers as this enters.)
+Whenever you attack, add {R} for each attacking creature. Until end of turn, you don’t lose this mana as steps and phases end.</text>
+    </card>
+    <card>
+      <name>Hail</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonwhite Weathers as this enters.)
+Whenever you attack, attacking creatures you control get +1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Sandstorm</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblack Weathers as this enters.)
+Whenever you attack, defending player loses 2 life and you gain 2 life.</text>
+    </card>
+    <card>
+      <name>Clear Skies</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nongreen Weathers as this enters.)
+Whenever you attack, untap a land you control and a nonland permanent you control.</text>
+    </card>
+    <card>
+      <name>Scruffy Rascal</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Raccoon </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Scruffy Rascal enters, mill three cards. You may put a permanent card from among the cards milled this way into your hand. If you don’t, create a Treasure token.</text>
+      <related count="1">Treasure</related>
+    </card>
+    <card>
+      <name>Padpole</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Plant Frog </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Padpole enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Surface 3G (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Pitfall Pincher</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>1BR</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, Pitfall Pincher deals 1 damage to any target. If that target is a creature, it blocks this turn if able.</text>
+    </card>
+    <card>
+      <name>Beloved Poppet</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Beloved Poppet can’t be blocked by creatures with power 4 or greater.
+Surface 4B. This spell costs {3} less to cast if Beloved Poppet died this turn. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Abandoned Poppet</text>
+    </card>
+    <card>
+      <name>Abandoned Poppet</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Spirit 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Abandoned Poppet can’t be blocked by creatures with power 2 or less.
+Whenever a creature an opponent controls dies, they lose 2 life.
+---
+(Front): Beloved Poppet</text>
+    </card>
+    <card>
+      <name>Omenhorn</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost>RWB</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elk </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike
+Landfall — Whenever a land you control enters, other creatures you control get +1/+1 until end of turn.
+2RWB: Transform Omenhorn.
+---
+(Back): Omenhalo</text>
+    </card>
+    <card>
+      <name>Omenhalo</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Elk Angel 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, first strike, lifelink
+Landfall — Whenever a land you control enters, other creatures you control get +2/+2 until end of turn.
+---
+(Front): Omenhorn</text>
+    </card>
+    <card>
+      <name>Maw Imposter</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+4BB: Transform Maw Imposter.
+---
+(Back): Imposing Maw</text>
+    </card>
+    <card>
+      <name>Imposing Maw</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Beast 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>4/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+Whenever Imposing Maw deals combat damage to a player, that player loses 3 life unless they discard a card.
+---
+(Front): Maw Imposter</text>
+    </card>
+    <card>
+      <name>Seafloor Treasures</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Look at the top two cards of your library. Put one into your hand and the other into your graveyard.
+Surface 2U (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Shining Angler</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>UBG</colors>
+        <manacost>2BGU</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>5/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Shining Angler attacks, target creature an opponent controls blocks Shining Angler this turn if able and other creatures can’t block Shining Angler.
+Surface 4BGU (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Buried Geode</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Surface 3GG (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+Buried Geode surfaces with a +1/+1 counter on it.</text>
+    </card>
+    <card>
+      <name>Enspirited Ore</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Enspirited Ore gets +1/+1 for each other artifact you control.
+Tap three untapped artifacts you control: Enspirited Ore gains indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Magnetic Mystery</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{2}: Magnetic Mystery gets +1/+0 until end of turn. Activate only as a sorcery.
+As long as you control another artifact, Magnetic Mystery has flying.</text>
+    </card>
+    <card>
+      <name>Feeble Fish</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate a nonmana ability, you may put a +1/+1 counter on Feeble Fish. Then if there are three or more, remove them all and transform it.
+---
+(Back): Fabulous Serpent</text>
+    </card>
+    <card>
+      <name>Fabulous Serpent</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>Creature - Serpent 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>5/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward {2}
+Spells and abilities you control that target Fabulous Serpent cost {2} less.
+2U: Creatures you control get +0/+1 until end of turn.
+---
+(Front): Feeble Fish</text>
+    </card>
+    <card>
+      <name>Calamity Cat</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Cat </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+{T}, Discard a card: Put a +1/+1 counter on target creature you control and untap it. It gains haste until end of turn.</text>
+    </card>
+    <card>
+      <name>Delivery Gull</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+{1}, {T}: Draw a card, then discard a card.
+Whenever one or more creatures you control deal combat damage to a player, untap Delivery Gull.</text>
+    </card>
+    <card>
+      <name>Charismatic Chameleon</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WUR</colors>
+        <manacost>URW</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Lizard </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>2U: Charismatic Chameleon can’t be blocked this turn.
+1R: Charismatic Chameleon gets +1/+1 until end of turn.
+{W}: Charismatic Chameleon gains lifelink until end of turn.</text>
+    </card>
+    <card>
+      <name>Bloom Brute</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Berry Hunting</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Search your library for a basic land card, put it onto the battlefield, then shuffle.
+Create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Mirage Tower</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Landfall — Whenever a land you control enters, exile the top card of your library. You may play that card until end of turn.
+1R, Sacrifice Mirage Tower: It deals damage equal to the number of cards exiled with it to target player.</text>
+    </card>
+    <card>
+      <name>Gleaming Hot Springs</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Gleaming Hot Springs enters tapped unless you control a Mountain.
+{T}: Add {W} or {U}.</text>
+    </card>
+    <card>
+      <name>Deeplife Cavern</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Deeplife Cavern enters tapped unless you control a Forest.
+{T}: Add {U} or {B}.</text>
+    </card>
+    <card>
+      <name>Calmed Battleground</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Calmed Battleground enters tapped unless you control a Plains.
+{T}: Add {B} or {R}.</text>
+    </card>
+    <card>
+      <name>Frigid Highlands</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Frigid Highlands enters tapped unless you control an Island.
+{T}: Add {R} or {G}.</text>
+    </card>
+    <card>
+      <name>Sunlit Ruins</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Sunlit Ruins enters tapped unless you control a Swamp.
+{T}: Add {G} or {W}.</text>
+    </card>
+    <card>
+      <name>A Journey Begins</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Look at the top five cards of your library. You may reveal a permanent card with converted mana cost 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
+    </card>
+    <card>
+      <name>Starved Piranha</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+Surface 3BB (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Chum Chaser</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Shark </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you cast a spell from your graveyard, each opponent loses 1 life and you gain 1 life.
+Surface 3BB. Chum Chaser surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Ship Shredder</text>
+    </card>
+    <card>
+      <name>Ship Shredder</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>Creature - Shark 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>5/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+Whenever this creature enters or you cast a spell from your graveyard, each opponent loses 2 life and you gain 2 life.
+---
+(Front): Chum Chaser</text>
+    </card>
+    <card>
+      <name>Riverbed Snapper</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Crab </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Surface 2BGU. Riverbed Snapper surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Daunting Snapper</text>
+    </card>
+    <card>
+      <name>Daunting Snapper</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>UBG</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>Creature - Crab 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>6/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
+Daunting Snapper can’t be blocked by creatures with power 2 or less.
+---
+(Front): Riverbed Snapper</text>
+    </card>
+    <card>
+      <name>Blooming Sauropod</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WBG</colors>
+        <manacost>2WBG</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Plant Dinosaur </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Unnerving Moth</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate a nonmana ability, you may have creatures your opponents control get -1/-0 until end of turn.
+{2}: Unnerving Moth gains flying until end of turn.</text>
+    </card>
+    <card>
+      <name>Burning Celestial</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Burning Celestial and exactly one other creature, Burning Celestial acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+As long as you control a red Weather, Burning Celestial has trample.</text>
+    </card>
+    <card>
+      <name>Calming Celestial</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Calming Celestial and exactly one other creature, Calming Celestial acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+As long as you control a blue Weather, Calming Celestial has flying.</text>
+    </card>
+    <card>
+      <name>Floe Master</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>4U</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Walrus </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Floe Master or another creature you control surfaces, tap up to one target creature and put a stun counter on it.
+Surface 5UU (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Falling Ash</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Landfall — Whenever a land you control enters, you gain 2 life.
+Whenever a land an opponent controls enters, that player loses 2 life.
+At the beginning of your end step, sacrifice Falling Ash unless a land entered the battlefield under your control this turn.</text>
+    </card>
+    <card>
+      <name>Eager Scavenger</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Hyena </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+    </card>
+    <card>
+      <name>Dustwing Butterfly</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Dustwing Butterfly and exactly one other creature, create a tapped and attacking token that’s a copy of target creature you control, except it’s 1/1. Sacrifice it at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Dustwing Moth</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Dustwing Moth and exactly one other creature, Dustwing Moth deals 2 damage to any target.</text>
+    </card>
+    <card>
+      <name>Root Fossil</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{2}, Sacrifice Root Fossil: Surveil 1. If you surveilled a land, you may put it onto the battlefield tapped.
+Surface 2G. Root Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Reborn Lily</text>
+    </card>
+    <card>
+      <name>Reborn Lily</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Plant 
+        <type></type>
+        <maintype>Artifact</maintype>
+        <pt>2/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Reborn Lily attacks, surveil 1. If you surveilled a land, you may put it onto the battlefield tapped. (Look at the top card of your library. You may put that card into your graveyard.)
+---
+(Front): Root Fossil</text>
+    </card>
+    <card>
+      <name>Rain Dance</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblue Weathers as this enters.)
+Whenever you attack, create a token that’s a copy of target attacking creature that’s tapped and attacking. Sacrifice it at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Claw Fossil</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, Sacrifice Claw Fossil: Target creature has base toughness 1 until end of turn. Activate only as a sorcery.
+Surface 2B. Claw Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Reborn Scuttler</text>
+    </card>
+    <card>
+      <name>Reborn Scuttler</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Dinosaur Insect 
+        <type></type>
+        <maintype>Artifact</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Reborn Scuttler attacks, up to one target creature has base toughness 1 until end of turn.
+---
+(Front): Claw Fossil</text>
+    </card>
+    <card>
+      <name>Sandstorm Dancer</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+Landfall — Whenever a land you control enters, Sandstorm Dancer acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</text>
+    </card>
+    <card>
+      <name>Scuttling Cicada</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Surface {U}. Scuttling Cicada surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Buzzing Metamorph</text>
+    </card>
+    <card>
+      <name>Buzzing Metamorph</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Insect 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+---
+(Front): Scuttling Cicada</text>
+    </card>
+    <card>
+      <name>Herald of Drizzles</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Herald of Drizzles enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</text>
+    </card>
+    <card>
+      <name>Dormant Camel</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>RW</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Camel </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.
+RW: You may play land cards from your graveyard this turn.</text>
+    </card>
+    <card>
+      <name>Lum Berry</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Berry </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, Sacrifice Lum Berry: Exile target creature you control. Return that card to the battlefield under your control with a +1/+1 counter on it.</text>
+    </card>
+    <card>
+      <name>Whipping Winds</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>You may cast this spell as though it had flash if you activated a nonmana ability this turn.
+Target artifact or creature’s owner puts it on the top or bottom of their library.</text>
+    </card>
+    <card>
+      <name>Walk Among the Dead</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Mill two cards, then return a creature card from your graveyard to your hand.
+Surface 3B (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>King of Gluttons</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>2BG</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+{1}, Sacrifice an artifact or creature: Put a +1/+1 counter on King of Gluttons.</text>
+    </card>
+    <card>
+      <name>Berry Harvester</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>2GW</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Berry Harvester enters or attacks, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+The first time you create Berry tokens each turn, create an additional Berry token.</text>
+      <related count="1">Berry</related>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Jade Temple</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add CC. You can’t spend this mana to cast spells.</text>
+    </card>
+    <card>
+      <name>Rooting Raccoon</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>1WB</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Raccoon </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Lifelink
+Landfall — Whenever a land you control enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Twinned Beak</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Double strike</text>
+    </card>
+    <card>
+      <name>Magma Grunt</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Magma Grunt and exactly one other creature, Magma Grunt deals 1 damage to each opponent.</text>
+    </card>
+    <card>
+      <name>Contest Judge</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Human Performer  </type>
+        <maintype>Creature</maintype>
+        <pt>2/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate an ability of a creature you control, untap that creature and put a +1/+1 counter on it.</text>
+    </card>
+    <card>
+      <name>Lavaborn Slug</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Elemental Slug </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{T}: Lavaborn Slug deals 1 damage to any target.
+Landfall — Whenever a land you control enters, untap Lavaborn Slug.</text>
+    </card>
+    <card>
+      <name>Empty Shell</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets -3/-3 until end of turn. If you’ve sacrificed a permanent this turn, that creature gets -5/-5 until end of turn instead.</text>
+    </card>
+    <card>
+      <name>Generous Farmer</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Human  </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Generous Farmer enters the battlefield, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Whenever you sacrifice a Berry, create a 1/1 green Plant creature token.</text>
+      <related count="1">Plant</related>
+    </card>
+    <card>
+      <name>Plucky Trainer</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, Plucky Trainer gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Canopy Creeper</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+When Canopy Creeper enters, create two Berry tokens. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Magma Flow</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{R}, Sacrifice Magma Flow: It deals 3 damage to any target.
+1R, Discard a card, Sacrifice Magma Flow: Draw two cards.</text>
+    </card>
+    <card>
+      <name>Aroma Spinner</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Reach
+At the beginning of your upkeep, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Archaovolcanologist</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Advisor </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Sacrifice Archaovolcanologist: Choose an instant, sorcery or land card in your graveyard. You may play that card this turn.</text>
+    </card>
+    <card>
+      <name>Cloud Nine</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Exile target enchantment.
+• You gain 4 life.
+• Target creature acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on that creature.)</text>
+    </card>
+    <card>
+      <name>Bulk Up</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 for each Berry sacrificed this way. Then it fights target creature you don’t control. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Bubbling Firesnail</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental Snail </type>
+        <maintype>Creature</maintype>
+        <pt>0/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate a nonmana ability, you may have Bubbling Firesnail deal 1 damage to each opponent.
+1R: Bubbling Firesnail gets +2/-2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Contest Spectators</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Human Performer  </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate a nonmana ability, you gain 2 life.</text>
+    </card>
+    <card>
+      <name>Tough Nut</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>0/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{1}, {T}: Add one mana of any color.
+{T}: Add one mana of any color. You can’t spend this mana to cast spells from your hand.</text>
+    </card>
+    <card>
+      <name>Magical Leaves</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Create two 1/1 green Plant creature tokens and two Berry tokens. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+      <related count="2">Plant</related>
+    </card>
+    <card>
+      <name>Iron Defense</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gains indestructible until end of turn. You gain life equal to its toughness.</text>
+    </card>
+    <card>
+      <name>Bind</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Counter target activated ability. (Mana abilities can’t be targeted.)
+Draw a card.</text>
+    </card>
+    <card>
+      <name>Hungry Blob</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Hungry Blob enters, destroy up to three target artifacts with total mana value 3 or less.</text>
+    </card>
+    <card>
+      <name>Echocrafter</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WUR</colors>
+        <manacost>2URW</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Once each turn, when you activate a nonmana ability, you may copy it. You may choose new targets for the copy.
+1URW, {T}: Tap target creature. Echocrafter deals 1 damage to that creature’s controller.</text>
+    </card>
+    <card>
+      <name>The Ruins Awaken</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Create two 1/1 colorless Golem creature tokens.
+Landfall — {W}, Exile The Ruins Awaken from your graveyard: Create a 1/1 white Golem creature token. Activate only if a land entered the battlefield under your control this turn.</text>
+      <related count="1">Golem</related>
+      <related count="2">Golem</related>
+    </card>
+    <card>
+      <name>Hungry Songbird</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Hungry Songbird enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Chiming Soul</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Lifelink
+1W: Put a stun counter on target creature that attacked this turn. Activate only once each turn.</text>
+    </card>
+    <card>
+      <name>Swooping Hunter</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flash
+Flying
+When Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner’s hand. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Restless Sloth</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Sloth </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+2W: Create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Armored Raptor</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>4W</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Armored Raptor enters, if you control an artifact, draw a card.</text>
+    </card>
+    <card>
+      <name>Capricious Cat</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Cat </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Capricious Cat enters, it acclimates twice. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</text>
+    </card>
+    <card>
+      <name>Gone Pickin&apos;</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Gone Pickin’ enters, exile up to one target artifact or creature until Gone Pickin’ leaves the battlefield. Then create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>To the Last Breath</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>To the Last Breath deals 4 damage to target attacking or blocking creature.</text>
+    </card>
+    <card>
+      <name>Pick Up</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Return up to one target artifact, enchantment, or land card from your graveyard to your hand.
+Create two Berry tokens. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Tough It Out</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flash
+Enchant creature
+Enchanted creature gets +2/+5.</text>
+    </card>
+    <card>
+      <name>Pathetic Cocoon</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>0/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Pathetic Cocoon enters or dies, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Feasting Sloth</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Sloth </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender
+When Feasting Sloth enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Feasting Sloth can attack as though it didn’t have defender if its power is 4 or greater.</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Urban Explorer</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Urban Explorer enters, return a permanent card with mana value 1 or less from your graveyard to your hand.
+Landfall — Whenever a land you control enters, Urban Explorer gets +2/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Muddy Water</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets -3/-3 until end of turn.
+Surface 5B (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Reaper of the Deep</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>4BB</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Jellyfish </type>
+        <maintype>Creature</maintype>
+        <pt>6/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+When Reaper of the Deep enters, mill two cards. Repeat this process until there are seven or more cards in your graveyard.
+Surface 5BB (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Lady of the Mists</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>4B</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Elemental Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Lady of the Mists enters, you may pay 2 life. If you do, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+As long as you control a Weather, Lady of the Mists gets +0/+2.</text>
+    </card>
+    <card>
+      <name>Hoard</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>You draw two cards and you lose 2 life.
+Landfall — If a land entered the battlefield under your control this turn, each opponent loses 2 life.</text>
+    </card>
+    <card>
+      <name>Homesick</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target player discards two cards. If that player discarded a land card, they lose 2 life.</text>
+    </card>
+    <card>
+      <name>Ace Tamer</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>4G</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Ace Tamer enters, look at the top six cards of your library. You may reveal a non-Human creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
+      <name>Rejuvenating Kappa</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant Frog </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>At the beginning of your end step, you gain 2 life if you cast a spell from your graveyard this turn, and you gain 2 life if a card was put into your graveyard from your library this turn. 
+Surface 4GG (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Meteor Lobber</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>4GG</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Rhino Beast </type>
+        <maintype>Creature</maintype>
+        <pt>6/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Reach
+Surface 4GG (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Cheer On</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Amity — When you cast this spell, copy it if you attacked with exactly two creatures this turn. You may choose new targets for the copy.
+Target creature you control gets +2/+2 until end of turn. Untap it.</text>
+    </card>
+    <card>
+      <name>Harvest Time</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.
+Surface {G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Nowhere To Run</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +2/+2 until end of turn and must be blocked this turn if able. Untap up to one target creature. It blocks this turn if able.
+Surface 4G (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Poised Flame</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Poised Flame deals 2 damage to any target.
+Add RR. You can’t spend this mana to cast spells.</text>
+    </card>
+    <card>
+      <name>Charge Beam</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Charge Beam deals 4 damage to target creature or planeswalker.
+Amity — If you attacked with exactly two creatures this turn, Charge Beam deals 2 damage to that permanent’s controller.</text>
+    </card>
+    <card>
+      <name>Dragon Dance</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +2/+0 and gains first strike until end of turn. If it’s a Dragon, put a +1/+1 counter on it.</text>
+    </card>
+    <card>
+      <name>Hone Claws</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>As an additional cost to cast this spell, discard a card.
+Draw a card. Then choose a creature you control. Whenever that creature deals combat damage to a player this turn, draw a card.</text>
+    </card>
+    <card>
+      <name>Eerie Sculpture</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, it deals 1 damage to target player or planeswalker.</text>
+    </card>
+    <card>
+      <name>Zipping Lightningbug</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Zipping Lightningbug and exactly one other creature, target creature you don’t control gets -2/-0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Floating Familiar</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental Mouse </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+{T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
+Surface 3U (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>King of Currents</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>4UU</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Seahorse Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>King of Currents can’t attack unless there are six or more cards in your graveyard.
+Surface 4UU (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Illuminate</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Amity — This spell costs {1} less to cast if you attacked with exactly two creatures this turn.
+Draw two cards.</text>
+    </card>
+    <card>
+      <name>Kinesis</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1UU</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Counter target spell. Mill two cards.</text>
+    </card>
+    <card>
+      <name>Out of Sight</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature you control gains hexproof until end of turn. When a nonmana ability of that creature is next activated or triggered this turn, copy it. You may choose new targets for the copy.</text>
+    </card>
+    <card>
+      <name>Amnesia</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Amity — When you cast this spell, copy it if you attacked with exactly two creatures this turn. You may choose new targets for the copy.
+Target creature gets +0/+2 and gains hexproof until end of turn.</text>
+    </card>
+    <card>
+      <name>Aqua Jet</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Return target creature to its owner’s hand.
+• Target creature can’t be blocked this turn.
+Surface 2U (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Collector&apos;s Item</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+When Collector’s Item enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Enchanted creature loses all abilities and is a colorless Sculpture creature with base power and toughness 1/1.</text>
+    </card>
+    <card>
+      <name>Shiver Elemental</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>4W</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>3W: Creatures you control get +1+1 until end of turn. Activated abilities you activate this turn cost {1} less to activate. Activate only as a sorcery.</text>
+    </card>
+    <card>
+      <name>Foraging Grub</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+1W, {T}: Create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+2B, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Creature Catalog</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Add one mana of any color.
+{T}: Draw a card, then discard a card. Activate only if you’ve cast a non-Human creature spell this turn.</text>
+    </card>
+    <card>
+      <name>Life Orb</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +2/-1.
+Equip {1}</text>
+    </card>
+    <card>
+      <name>Glassblower&apos;s Forge</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Glassblower’s Forge enters, draw a card.
+{1}, {T}, Sacrifice Glassblower’s Forge and another artifact or enchantment: Draw a card.</text>
+    </card>
+    <card>
+      <name>Aqua Gang Diver</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>1UB</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Pirate </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Aqua Gang Diver enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Spells you cast from your graveyard cost {1} less to cast.</text>
+    </card>
+    <card>
+      <name>Dazzling Performer</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>1GUR</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Faerie Performer </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Dazzling Performer and exactly one other creature, put a +1/+1 counter on each of those creatures. Until end of turn, they gain trample and “Whenever this creature deals combat damage to a player, draw a card.”</text>
+    </card>
+    <card>
+      <name>Feasting Predator</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WBG</colors>
+        <manacost>WBG</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Snake </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+When Feasting Predator attacks, if its power is 4 or greater, draw a card.
+Whenever a creature dealt damage by Feasting Predator dies, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Talon Triplets</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1RG</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Talon Triplets can’t be blocked by creatures with power 2 or less.
+Amity — Whenever you attack with Talon Triplets and exactly one other creature, that creature can’t be blocked by creatures with power 2 or less this turn.</text>
+    </card>
+    <card>
+      <name>Practicing Guru</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Ape </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Practicing Guru enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Sacrifice a Berry: Practicing Guru gets +2/+0 until end of turn.
+Sacrifice a Berry: Practicing Guru gains indestructible until end of turn.</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Spore Collector</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Fungus </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, put a +1/+1 counter on Spore Collector. It gains your choice of vigilance, first strike, or lifelink until end of turn.</text>
+    </card>
+    <card>
+      <name>Fight as One</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one or both —
+• Target Human creature you control gets +1/+1 and gains indestructible until end of turn.
+• Target non-Human creature you control gets +1/+1 and gains indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Center of Attention</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>4W</manacost>
+        <cmc>5</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {X} less to cast, where X is the amount of mana you’ve spent to activate abilities this turn.
+Exile target nonland permanent.</text>
+    </card>
+    <card>
+      <name>Past Unresolved</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>BB</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>You draw two cards, lose 2 life, and mill two cards.</text>
+    </card>
+    <card>
+      <name>Waterway Distraction</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>0/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, each opponent loses 1 life.</text>
+    </card>
+    <card>
+      <name>Smiling Sludge</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Smiling Sludge enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Whenever you sacrifice a nonland permanent, target opponent loses 1 life and you gain 1 life.</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Soul&apos;s Sunset</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Surface 4BB (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+When Soul’s Sunset surfaces, exile up to three target cards from graveyards. You gain 3 life.</text>
+    </card>
+    <card>
+      <name>Territory Dispute</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Destroy target non-Human creature. Create X Berry tokens, where X is its power. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="x">Berry</related>
+    </card>
+    <card>
+      <name>Kicking Fowl</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4R</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Kicking Fowl attacks, add RRRR. You can’t spend this mana to cast spells.
+1R: Kicking Fowl gets +1/+0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Psych Up</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>RR</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Amity — This spell costs {R} less to cast if you attacked with exactly two creatures this turn.
+When you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.</text>
+    </card>
+    <card>
+      <name>Rollephant</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Elephant </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Rollephant and exactly one other creature, Rollephant gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Sunsoaker</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Plant Lizard </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{T}: Add one mana of any color.
+Amity — Whenever you attack with Sunsoaker and exactly one other creature, put a +1/+1 counter on Sunsoaker and add one mana of any color. Until end of turn, you don’t lose that mana as steps and phases end.</text>
+    </card>
+    <card>
+      <name>Bottom Feeder</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever a creature card is put into your graveyard from anywhere, put a +1/+1 counter on Bottom Feeder.</text>
+    </card>
+    <card>
+      <name>Vine Whip</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature you control gets +1/+1 until end of turn for each basic land type among lands you control. Then it fights up ton one target creature.</text>
+    </card>
+    <card>
+      <name>Exotic Transformer</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4R</manacost>
+        <cmc>5</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>3R: Exile the top card of your library. You may play that card until the end of your next turn.
+7R: Exotic Transformer deals 4 damage to any target.</text>
+    </card>
+    <card>
+      <name>Plated Tunneler</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost>1RWB</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Dinosaur </type>
+        <maintype>Creature</maintype>
+        <pt>4/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Return a land you control to its owner’s hand: Plated Tunneler gets +1/+0 and gains menace until end of turn.</text>
+    </card>
+    <card>
+      <name>Leaping Hatchling</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, Leaping Hatchling gains flying and trample until end of turn.</text>
+    </card>
+    <card>
+      <name>Fluttering Firefly</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Fluttering Firefly and exactly one other creature, target creature you control gets +2/+0 until end of turn.</text>
+    </card>
+    <card>
+      <name>Puddle Crasher</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>2GU</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Amity — Whenever you attack with Puddle Crasher and exactly one other creature, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
+    </card>
+    <card>
+      <name>Nimbus Dragon</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Nimbus Dragon and exactly one other creature, tap target creature defending player controls.</text>
+    </card>
+    <card>
+      <name>Psychohopper</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{U}: Psychohopper gains flying until end of turn.
+2G: Psychohopper gets +2/+2 until end of turn. Activate only once each turn.</text>
+    </card>
+    <card>
+      <name>Amateur Tamer</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Amateur Tamer and exactly one other creature, put a +1/+1 counter on target creature.</text>
+    </card>
+    <card>
+      <name>Thornfist Bruiser</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Reach
+Amity — Whenever you attack with Thornfist Bruiser and exactly one other creature, Thornfist Bruiser must be blocked this combat if able.</text>
+    </card>
+    <card>
+      <name>Harbor Mail</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Surveil 1. Draw a card. (Look at the top card of your library. You may put that card into your graveyard.)
+When you cast a spell with a surface ability, you may cast Harbor Mail from your graveyard without paying its mana cost. If it would be put into your graveyard, exile it instead.</text>
+    </card>
+    <card>
+      <name>Lustrous Starfish</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Starfish </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{2}: Target creature gets +0/+3 until end of turn. Activate only as a sorcery and only once each turn.</text>
+    </card>
+    <card>
+      <name>Outlands Prowler</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Mongoose </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Outlands Prowler has first strike as long as it’s your turn.
+Landfall — Whenever a land you control enters, Outlands Prowler gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Moonlight Adventurer</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, you gain 2 life. Then if you control a Mountain and a Plains, Moonlight Adventurer deals 2 damage to each opponent.</text>
+    </card>
+    <card>
+      <name>Brick Breaker</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4RR</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Giant Warrior </type>
+        <maintype>Creature</maintype>
+        <pt>6/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Landfall — Whenever a land you control enters, target creature blocks Brick Breaker this turn if able.</text>
+    </card>
+    <card>
+      <name>Living Compass</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{1}, {T}: Add one mana of any color.
+{2}, Sacrifice Living Compass: Draw a card.</text>
+    </card>
+    <card>
+      <name>Elegant Hunter</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>GUR</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Elegant Hunter and exactly one other creature, choose one —
+• Attacking creatures you control get +2/+0 until end of turn.
+• Attacking creatures you control can’t be blocked this turn.</text>
+    </card>
+    <card>
+      <name>Sandstorm Devil</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Reach
+When Sandstorm Devil enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+As long as you control a Weather, Sandstorm Devil has menace.</text>
+    </card>
+    <card>
+      <name>Searing Grace</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {2} less to cast if you activated a nonmana ability this turn.
+Searing Grace deals 3 damage to any target.</text>
+    </card>
+    <card>
+      <name>Relentless Bats</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Bat </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Surface 2BB. This spell costs 2BB less if you control a creature named Relentless Bats. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+A deck may have any number of cards named Relentless Bats.</text>
+    </card>
+    <card>
+      <name>Crunch</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3BB</manacost>
+        <cmc>5</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Destroy target creature. Create two Berry tokens. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Forest</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Forest </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Melt</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>XR</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one — 
+• Destroy target noncreature artifact with mana value X.
+• Melt deals X damage to target creature or planeswalker.</text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Island </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Stratus Fledgling</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Stratus Fledgling enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+Weather spells you cast cost {1} less to cast.</text>
+    </card>
+    <card>
+      <name>Brewing Storm</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>XU</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one. If you control a Weather, you may choose both instead.
+• Counter target spell unless its controller pays {X}.
+• Return target nonland permanent with mana value X or less to its owner’s hand.</text>
+    </card>
+    <card>
+      <name>Contest Star</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Human Performer </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you activate a nonmana ability, scry 1. If this is the second time this ability has resolved this turn, draw a card instead.
+3U, {T}: Copy target activated or triggered ability you control.</text>
+    </card>
+    <card>
+      <name>Whispering Runt</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{3}: Whispering Runt gets +1/+1 until end of turn. If you spent URW to activate this ability, you may transform Whispering Runt.
+---
+(Back): Bellowing Beast</text>
+    </card>
+    <card>
+      <name>Bellowing Beast</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Beast 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>URW: Creatures you control get +1/+1 until end of turn.
+---
+(Front): Whispering Runt</text>
+    </card>
+    <card>
+      <name>Solid Smog</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Amity — Whenever you attack with Solid Smog and exactly one other creature, you may pay {R}. If you do, transform Solid Smog.
+---
+(Back): Splitting Smog</text>
+    </card>
+    <card>
+      <name>Splitting Smog</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>Creature - Elemental 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+Amity — Whenever you attack with Splitting Smog and exactly one other creature, you may pay 1R. If you do, attacking creatures you control get +2/+0 until end of turn.
+---
+(Front): Solid Smog</text>
+    </card>
+    <card>
+      <name>Prolific Fisher</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>1UR</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{T}: Create a 1/1 blue Fish creature token with haste. Exile it at the beginning of the next end step. Activate only as a sorcery.</text>
+      <related count="1">Fish</related>
+    </card>
+    <card>
+      <name>Imminent Disaster</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {1} less to cast if there is a card named Imminent Disaster in your graveyard.
+Exile target creature or planeswalker.</text>
+    </card>
+    <card>
+      <name>Brief Stop</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Exile target permanent you control, then return that card to the battlefield under your control.</text>
+    </card>
+    <card>
+      <name>Figy Berry</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - Berry </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, Sacrifice Figy Berry: Target creature gets +2/+2 until end of turn. Activate only outside of combat.
+{7}, Sacrifice Figy Berry: Destroy target nonland permanent.</text>
+    </card>
+    <card>
+      <name>Gold Berry</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Berry </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, Sacrifice Gold Berry: Target creature gets +2/+2 until end of turn. Create a Berry token and a Treasure token. Activate only outside of combat. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="1">Berry</related>
+      <related count="1">Treasure</related>
+    </card>
+    <card>
+      <name>Static Scamp</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental Dog </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike
+Landfall — Whenever a land you control enters, you may tap target creature.</text>
+    </card>
+    <card>
+      <name>Contest Coordinator</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Human Performer </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Contest Coordinator enters, look at the top five cards of your library. You may reveal a Plains or a nonland card with an activated ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
+      <name>Soothing Singer</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Faerie Beast Performer </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Soothing Singer enters, exile target nonland permanent you don’t control until Soothing Singer leaves the battlefield.
+1W: Soothing Singer gets +0/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Explore Wreckage</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2UU</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Draw three cards.
+Surface 5UU (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Kappa Colony</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever you cast a spell from your graveyard, create a 1/1 green Plant creature token.
+{4}, Discard a card: Kappa Colony becomes an X/X Plant Frog creature until end of turn, where X is the number of cards in your graveyard.</text>
+      <related count="1">Plant</related>
+    </card>
+    <card>
+      <name>Teeter Dance</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Once each turn, when enchanted creature becomes tapped, you may untap it or put a stun counter on it.</text>
+    </card>
+    <card>
+      <name>Under the Collar</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You may spend mana of any type to activate its abilities this turn.</text>
+    </card>
+    <card>
+      <name>Boiling Storm</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1RR</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one. If you control a Weather, you may choose both instead.
+• Boiling Storm deals 2 damage to each creature.
+• Creatures you control get +2/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Bumbling Pollinator</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Bumbling Pollinator and exactly one other creature, create a 1/1 green Plant creature token.</text>
+      <related count="1">Plant</related>
+    </card>
+    <card>
+      <name>Seafloor Scavenger</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>UBG</colors>
+        <manacost>BGU</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Seafloor Scavenger enters or deals combat damage to a player, you may return target exiled card with surface you own to your hand.</text>
+    </card>
+    <card>
+      <name>Berry CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Berry </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, Sacrifice this: Target creature gets +1+1 until end of turn. Activate only outside of combat.</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Forgotten Doorway</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{T}: Add CC. Spend this mana only to cast spells from your graveyard.</text>
+    </card>
+    <card>
+      <name>Prickly Dunes</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - Desert </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{3}, {T}, Sacrifice Prickly Dunes: Create two 1/1 green Plant creature tokens. Activate only as a sorcery.</text>
+      <related count="1">Plant</related>
+    </card>
+    <card>
+      <name>Ominous Quag</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Ominous Quag enters tapped.
+{T}: Add {W} or {B}.
+2WB, {T}, Sacrifice Ominous Quag: Draw a card.</text>
+    </card>
+    <card>
+      <name>Stunning Cascade</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Stunning Cascade enters tapped.
+{T}: Add {U} or {R}.
+2UR, {T}, Sacrifice Stunning Cascade: Draw a card.</text>
+    </card>
+    <card>
+      <name>Serpentine Woods</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Serpentine Woods enters tapped.
+{T}: Add {B} or {G}.
+2BG, {T}, Sacrifice Serpentine Woods: Draw a card.</text>
+    </card>
+    <card>
+      <name>Fortress Arena</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Fortress Arena enters tapped.
+{T}: Add {R} or {W}.
+2RW, {T}, Sacrifice Fortress Arena: Draw a card.</text>
+    </card>
+    <card>
+      <name>Cryptic Reef</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Cryptic Reef enters tapped.
+{T}: Add {G} or {U}.
+2GU, {T}, Sacrifice Cryptic Reef: Draw a card.</text>
+    </card>
+    <card>
+      <name>Evolving Wilds</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Plains </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Mountain </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Basic Land - Swamp </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text></text>
+    </card>
+    <card>
+      <name>Karina&apos;s Substitute</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>You may have Karina’s Substitute enter as a copy of a creature you control, except it’s 1/4.</text>
+    </card>
+    <card>
+      <name>Magnetic Snuffler</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>5</manacost>
+        <cmc>5</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Magnetic Snuffler enters, return target Equipment card from your graveyard to the battlefield attached to Magnetic Snuffler.
+Whenever you sacrifice an artifact, put a +1/+1 counter on Magnetic Snuffler.</text>
+    </card>
+    <card>
+      <name>King&apos;s Rock</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +1/+0.
+Whenever equipped creature deals combat damage to a player, put a stun counter on target permanent they control.
+Equip {2}</text>
+    </card>
+    <card>
+      <name>Snazzy Scarf</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +1/+1.
+As long as equipped creature has been activated this turn, it gets an additional +2/+2 and can attack as though it were untapped.
+Equip {2}</text>
+    </card>
+    <card>
+      <name>Hard Stone</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Landfall — Whenever a land you control enters, you may attach Hard Stone to target creature.
+Equipped creature gets +3/+3.
+Equip {3}</text>
+    </card>
+    <card>
+      <name>Meteorite</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>5</manacost>
+        <cmc>5</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Meteorite enters the battlefield, it deals 2 damage to any target.
+{T}: Add one mana of any color.</text>
+    </card>
+    <card>
+      <name>Treasure CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact - Treasure </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+      <token>1</token>
+      <reverse-related count="3">Treasure Beach</reverse-related>
+    </card>
+    <card>
+      <name>Golem CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Fish CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>U</colors>
+        <type>Token Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Heavy Snowfall</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonwhite Weathers as this enters.)
+When Heavy Snowfall enters, target creature you control gets +1/+1 and gains indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Sea Breeze</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblue Weathers as this enters.)
+When Sea Breeze enters, target creature you control gets +1/+1 and gains flying until end of turn.</text>
+    </card>
+    <card>
+      <name>Volcanic Soot</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblack Weathers as this enters.)
+When Volcanic Soot enters, exile up to two target cards from graveyards, then you gain 2 life.</text>
+    </card>
+    <card>
+      <name>Streaking Sunrise</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonred Weathers as this enters.)
+When Streaking Sunrise enters, scry 1, then exile the top card of your library. You may play it until the end of your next turn.</text>
+    </card>
+    <card>
+      <name>Pollen Warning</name>
+      <set rarity="common">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nongreen Weathers as this enters.)
+When Pollen Warning enters, create a 1/1 green Plant creature token, then put a +1/+1 counter on a Plant you control.</text>
+      <related count="1">Plant</related>
+    </card>
+    <card>
+      <name>Plant CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>G</colors>
+        <type>Token Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Seal Shoals</name>
+      <set rarity="uncommon">CCR</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>WU</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of each end step, if you activated three or more nonmana abilities this turn, create a 2/2 white and blue Seal Orb creature token.
+WU: Scry 1. You gain 1 life.</text>
+      <related count="1">Seal Orb</related>
+    </card>
+    <card>
+      <name>Seal Orb CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>WU</colors>
+        <type>Token Creature - Seal Orb </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Altaria CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <type>Token Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Bird CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <type>Token Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Bird Warrior CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>R</colors>
+        <type>Token Creature - Bird Warrior </type>
+        <maintype>Creature</maintype>
+        <pt>2/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Double strike</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Goodra CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <type>Token Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Human Pirate CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>U</colors>
+        <type>Token Creature - Human Pirate </type>
+        <maintype>Creature</maintype>
+        <pt>21/</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Noivern CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <type>Token Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, vigilance</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Singularity</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Destroy target creature or enchantment with mana value 1.
+Landfall — Destroy that permanent if its mana value is less than or equal to the number of lands you control if a land entered the battlefield under your control this turn.</text>
+    </card>
+    <card>
+      <name>Pressuring Ghoul</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Landfall — Whenever a land you control enters, put a +1/+1 counter on Pressuring Ghoul unless any opponent discards a card.</text>
+    </card>
+    <card>
+      <name>Serrated Fossil</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{B}, Sacrifice Serrated Fossil: Choose a card name. Target player reveals their hand and discards a card with that name if able. Activate only as a sorcery.
+Surface 3BB. Serrated Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Reborn Fisher</text>
+    </card>
+    <card>
+      <name>Reborn Fisher</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Dinosaur Insect 
+        <type></type>
+        <maintype>Artifact</maintype>
+        <pt>4/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward—Discard a card.
+Whenever Reborn Fisher attacks, choose a card name, then defending player reveals their hand and discards a card with that name if able.
+---
+(Front): Serrated Fossil</text>
+    </card>
+    <card>
+      <name>Calculated Recovery</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of your upkeep, put a plot counter on Calculated Recovery, then choose a card in your graveyard. Any opponent may pay life equal to the number of plot counters on Calculated Recovery. If they don’t, return that card to your hand and remove all plot counters from Calculated Recovery.</text>
+    </card>
+    <card>
+      <name>Unyielding Titan</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt>6/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Indestructible
+Unyielding Titan can’t attack or block unless you control three or more Golems.
+Whenever Unyielding Titan enters or attacks, target player loses 3 life unless they discard a card or sacrifice a nonland permanent.
+{3}, {T}: Create a 1/1 white Golem creature token.</text>
+      <related count="1">Golem</related>
+      <related>
+Registeel
+</related>
+      <related>
+Indestructible
+</related>
+      <related>Unyielding Titan can't attack or block unless you control three or more Golems.
+</related>
+      <related>Whenever Unyielding Titan enters or attacks, target player loses 3 life unless they discard a card or sacrifice a nonland permanent.</related>
+    </card>
+    <card>
+      <name>Depths Ancient</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3BB</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Fish </type>
+        <maintype>Creature</maintype>
+        <pt>*/*</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Depths Ancient’s power and toughness are each equal to the number of cards in your graveyard.
+Surface 5BB (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Gloomy Meteorologist</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Lifelink
+When Gloomy Meteorologist enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+Whenever an ability of a Weather you control triggers, Gloomy Meteorologist deals 1 damage to any target.</text>
+    </card>
+    <card>
+      <name>Shadow Sky</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>4BB</manacost>
+        <cmc>6</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblack Weathers as this enters.)
+Whenever you cast a spell, creatures target player controls get -1/-1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Weather Elemental</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever Weather Elemental attacks, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+If a triggered ability of a Weather you control would trigger, it triggers an additional time.</text>
+    </card>
+    <card>
+      <name>Magnetling</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>6</manacost>
+        <cmc>6</cmc>
+        <type>Artifact Creature - Construct </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{1}: Untap Magnetling.
+{1}: Magnetling can’t be blocked by creatures with power 2 or less this turn.
+{1}: Choose a card type. Magnetling loses that type until end of turn.
+{1}: Magnetling gets +1/-1 or -1/+1 until end of turn.</text>
+    </card>
+    <card>
+      <name>Sky Pillar</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{3}, {T}: Create a 1/1 white Golem creature token. Spend mana of three different colors to activate this ability.
+{T}:  Put a +1/+1 counter on target creature. It gains flying until end of turn. Activate only if you control ten or more permanents.</text>
+      <related count="1">Golem</related>
+    </card>
+    <card>
+      <name>Mirage Island</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land - </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>{T}: Add {C}.
+{T}: Surveil 1. Return Mirage Island to its owner’s hand.</text>
+    </card>
+    <card>
+      <name>Hoenn Champion</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>4RG</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Human </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Hoenn Champion enters, create a creature token with haste and vigilance for each of the following characteristics.
+• 3/3 white and black Bird with flying.
+• 2/4 red Bird Warrior with double strike.
+Exactly two creatures must attack each combat if able, and exactly two creatures must block each combat if able.</text>
+      <related count="1">Bird</related>
+      <related count="1">Bird Warrior</related>
+      <related>
+When Hoenn Champion enters the battlefield, create a red and green creature token for each of the following characteristics.
+</related>
+      <related>• 33 Bird with flying, vigilance, and haste.
+</related>
+      <related>• 24 Bird Warrior with double strike, vigilance, and haste.
+</related>
+      <related>Exactly two creatures must attack each combat if able, and exactly two creatures must block each combat if able.</related>
+    </card>
+    <card>
+      <name>Growing Gecko</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Plant Lizard </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Growing Gecko and exactly one other creature, that creature gets +2/+2 until end of turn.
+Whenever Growing Gecko deals combat damage to a player, you may transform it.
+---
+(Back): Old-Growth Gecko</text>
+    </card>
+    <card>
+      <name>Old-Growth Gecko</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Plant Lizard 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>6/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Amity — Whenever Old-Growth Gecko attacks, put two +1/+1 counters on another creature you control. If exactly one other creature attacked with it, this ability triggers three times instead.
+---
+(Front): Growing Gecko</text>
+    </card>
+    <card>
+      <name>Mystery Egg</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Egg </type>
+        <maintype>Creature</maintype>
+        <pt>0/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Mystery Egg enters, search your library for a card and exile it face down, then shuffle your library. You may look at that card.
+{G}, {T}, Sacrifice Mystery Egg: Turn the exiled card face up. You may cast that card this turn if it’s a creature spell, and you may cast that spell as though it had flash.</text>
+    </card>
+    <card>
+      <name>Berry Fermenter</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Turtle </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Berry Fermenter enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Berries you control have “{T}, Sacrifice this artifact: Add one mana of any color.” and “{2}, {T}, Sacrifice this artifact: You gain 3 life.”</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Parental Pair</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Parental Pair enters, create a token that’s a copy of it, except it’s 2/2 and doesn’t have this ability.
+Amity — Whenever you attack with Parental Pair and exactly one other creature, you may have Parental Pair fight target creature.</text>
+    </card>
+    <card>
+      <name>Unflinching Titan</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt>5/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Unflinching Titan can’t attack or block unless you control three or more Golems.
+Whenever Unflinching Titan enters or attacks, put a +1/+1 counter on target land you control. If it isn’t a creature, it becomes a 0/0 creature that’s still a land.
+{3}, {T}: Create a 1/1 white Golem creature token.</text>
+      <related count="1">Golem</related>
+      <related>
+Regirock
+</related>
+      <related>Trample
+</related>
+      <related>Unflinching Titan can't attack or block unless you control three or more Golems.
+</related>
+      <related>Whenever Unflinching Titan enters or attacks, untap up to two permanents.
+</related>
+      <related>
+Whenever Unflinching Titan enters or attacks, draw a card. You may play an additional land this turn.
+</related>
+      <related>When Unflinching Titan enters, sacrifice it unless it's a token.
+</related>
+      <related>Surface 3GG</related>
+    </card>
+    <card>
+      <name>Frenzy Plant</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="2">Berry</related>
+    </card>
+    <card>
+      <name>Entangled Fossil</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{G}, Sacrifice Entangled Fossil: Target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.
+Surface 4GG. Entangled Fossil surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Reborn Reef</text>
+    </card>
+    <card>
+      <name>Reborn Reef</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost></manacost>
+        <cmc>1</cmc>Creature - Plant 
+        <type></type>
+        <maintype>Artifact</maintype>
+        <pt>4/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Whenever Reborn Reef attacks, target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.
+---
+(Front): Entangled Fossil</text>
+    </card>
+    <card>
+      <name>Heavy Winds</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nongreen Weathers as this enters.)
+Whenever you cast a spell, prevent all damage up to one target creature would deal this turn.</text>
+    </card>
+    <card>
+      <name>The Berry Master</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WBG</colors>
+        <manacost>1WBG</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Druid </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When The Berry Master enters, create a Berry token.
+If you would create one or more tokens, also create that many Berry tokens.
+{2}, Sacrifice two Berries: Up to one target creature gets +2/+2 until end of turn. Up to one target creature gets -2/-2 until end of turn. You gain 4 life.</text>
+      <related count="x">Berry</related>
+    </card>
+    <card>
+      <name>Ema, the Returned</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WUR</colors>
+        <manacost>URW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Legendary permanents you control have “{1}, {T}: Tap target creature.”
+At the beginning of each end step, scry 1 if you spent {U} to activate abilities this turn, Ema deals 1 damage to each opponent if you spent {R}, and put a +1/+1 counter on a creature you control if you spent {W}.</text>
+    </card>
+    <card>
+      <name>The Aqua Crew</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UBG</colors>
+        <manacost>3BGU</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Human Pirate </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flash
+Whenever The Aqua Crew enters, mill six cards, then you gain 1 life for each card type among cards in your graveyard.
+You may cast exiled cards you own for their surface costs.</text>
+    </card>
+    <card>
+      <name>The Magma Council</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost>2RWB</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Human Advisor </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, put a drought counter on target permanent. It becomes a land named Lava Flow, loses all abilities except for mana abilities, and gains “{T}: Add {C}.”</text>
+    </card>
+    <card>
+      <name>Stitches, Adopted</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>2GUR</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Haste
+Amity — Whenever you attack with Stitches, Adopted and exactly one other creature, create a 2/2 Doll artifact creature token with defender, then tap all Dolls you control. They’re attacking.
+At the beginning of your end step, if you didn’t create a Doll this turn, transform Stitches.
+---
+(Back): Stitches, Orphaned</text>
+      <related count="1">Doll</related>
+    </card>
+    <card>
+      <name>Stitches, Orphaned</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost></manacost>
+        <cmc>5</cmc>Legendary Creature - Spirit 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Amity — Whenever you attack with Stitches, Orphaned and exactly one other creature, transform Stitches, Orphaned at the beginning of the next turn’s upkeep.
+---
+(Front): Stitches, Adopted</text>
+      <related count="1">Doll</related>
+    </card>
+    <card>
+      <name>Sanaito, Voidsinger</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>2WB</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Planeswalker - Sanaito </type>
+        <maintype>Planeswalker</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>[+2]: Target nonland permanent loses all abilities until your next turn.
+[0]: Target creature you control gets +2/+2 and gains lifelink until your next turn.
+[-1]: Each player discards a card.
+[-3]: Exile target creature or creature card in a graveyard. Return it to the battlefield under its owner’s control at the beginning of that player’s next end step.</text>
+    </card>
+    <card>
+      <name>Iviana, Monster Matron</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>3UR</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Planeswalker - Iviana </type>
+        <maintype>Planeswalker</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the beginning of combat on your turn, gain control of all Dragons until end of turn. Untap them. They gain haste until end of turn.
+[+1]: Iviana deals X damage divided as you choose among any number of creatures, where X is 2 plus twice the number of Dragons you control.
+[-2]: You may reveal a Dragon card you own from outside the game and put it into your hand. Create two Treasure tokens.</text>
+      <related count="2">Treasure</related>
+    </card>
+    <card>
+      <name>Jack, Monster Mentor</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>2BG</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Planeswalker - Jack </type>
+        <maintype>Planeswalker</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever one or more permanent cards are put into graveyards, each opponent loses 1 life and you gain 1 life.
+[+2]: Mill two cards.
+[+1]: Sacrifice a land or discard a land card. If you do, you may play target creature or land card in your graveyard this turn.
+[-3]: Each player sacrifices a creature. Return a creature card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Karina, Budding Diplomat</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1RW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Planeswalker - Karina </type>
+        <maintype>Planeswalker</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever an opponent gains life or draws cards during your turn, you do the same.
+[+1]: You may discard a card. If you do, each player may draw a card.
+[+1]: For each player, up to one target creature they control gains lifelink until end of turn.
+[-7]: Choose a card type. Each opponent who controls more permanents of that type than you sacrifices a number equal to the difference.</text>
+    </card>
+    <card>
+      <name>Simul, Genetic Artisan</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>3GU</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Planeswalker - Simul </type>
+        <maintype>Planeswalker</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>[+1]: Put a +1/+1 counter on each creature you control.
+[-3]: You may put a permanent card from your hand onto the battlefield. It enters with two additional +1/+1 or loyalty counters on it.
+[-7]: For each creature you control, create a token that’s a copy of it. You may merge any number of those tokens with each other.</text>
+    </card>
+    <card>
+      <name>Fragile Soul</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>1WB</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Insect Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>3/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike
+If a source would deal 2 or more damage to Fragile Soul, prevent that damage.</text>
+    </card>
+    <card>
+      <name>Iviana&apos;s Spellmaw</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>2UR</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, trample
+If a Dragon you control would deal damage to an opponent, it deals that much damage plus 1 instead.
+2UR: Transform Iviana’s Spellmaw.
+---
+(Back): Iviana's Splitmaw</text>
+    </card>
+    <card>
+      <name>Iviana&apos;s Splitmaw</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>Creature - Dragon 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>4/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, trample
+If a source you control would deal damage to an opponent or a permanent an opponent controls, if it’s a Dragon or Iviana planeswalker, you may have it deal twice that much damage instead. Otherwise, it deals that much damage plus 2 instead.
+---
+(Front): Iviana's Spellmaw</text>
+    </card>
+    <card>
+      <name>Spikey, Jack&apos;s Gravetiller</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>1BG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature - Plant Scarecrow </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>As an additional cost to cast this spell, exile two permanent cards from your graveyard.
+Whenever Spikey, Jack’s Gravetiller deals combat damage to a player, return a card exiled with it to its owner’s hand.
+You may cast Spikey from your graveyard.</text>
+    </card>
+    <card>
+      <name>Amber, Nimble Companion</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>RW</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Weasel </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Once each turn, when you activate a nonmana ability, you may put a counter on Amber that it doesn’t already have from among +1/+1, first strike, prowess, lifelink, haste, and vigilance.
+{R}, {T}, Discard a card: Draw a card.</text>
+    </card>
+    <card>
+      <name>Nocturne, Monstrous Krasis</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>2GU</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Fox Werewolf </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Nocturne, Monstrous Krasis enters and at the beginning of your upkeep, put X +1/+1 counters on Nocturne, where X is the number of different kinds of counters on permanents you control.</text>
+    </card>
+    <card>
+      <name>Heartbreak</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WBG</colors>
+        <manacost>1WBG</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Each player chooses up to one nontoken, nonland permanent they control. They lose life equal to its mana value. Destroy the rest.</text>
+    </card>
+    <card>
+      <name>Idolized Coordinator</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WUR</colors>
+        <manacost>URW</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Human Performer </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Creatures you control that are the target of a spell or ability you control have hexproof (until that spell or ability resolves).
+Once each turn, when you spend mana to activate an ability, you may gain that much life.
+XURW: Until end of turn, Idolized Coordinator and another target creature you control each get +X/+X and gain vigilance and ward {2}.</text>
+    </card>
+    <card>
+      <name>Turf Warfare</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UBG</colors>
+        <manacost>1BGU</manacost>
+        <cmc>4</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Turf Warfare enters, each player mills six cards.
+At the beginning of your upkeep, exile up to one card from each graveyard that has seven or more cards in it. You may play a copy of each of those cards this turn, and mana of any type can be spent to cast them.</text>
+    </card>
+    <card>
+      <name>Suncaller Tortoise</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WBR</colors>
+        <manacost>1RWB</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental Turtle </type>
+        <maintype>Creature</maintype>
+        <pt>3/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Suncaller Tortoise enters, pay up to 3 life. Search your library for that many basic land cards, reveal them, put them into your hand, then shuffle.
+Landfall — When a land you control enters, Suncaller Tortoise deals 2 damage to target player. If it’s a Mountain, it deals 3 damage instead. If it’s a Plains, you gain life equal to the damage dealt. If it’s a Swamp, that player discards a card.</text>
+    </card>
+    <card>
+      <name>Higana, Dragon Tamer</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <manacost>1GUR</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Higana and exactly one other creature, create a 3/3 green, blue, and red Dragon creature token. If the other attacking creature was a Dragon, the token has flying. If it also had flying, the token has vigilance. If it also had vigilance, the token has double strike.
+1W: Create Shigana, a legendary 2/2 white Beast creature token with haste.</text>
+      <related count="1">Goodra</related>
+      <related count="1">Altaria</related>
+      <related count="1">Noivern</related>
+      <related count="1">Salamence</related>
+      <related count="1">Shigana</related>
+    </card>
+    <card>
+      <name>Weaver of Fates</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>1WU</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+{2}: Exile the top card of your library face down. You may look at it as long as it remains exiled.
+During each of your opponents’ turns, you may cast a card exiled with Weaver of Fates as though it had flash.</text>
+    </card>
+    <card>
+      <name>Warden of Depths</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>3UUB</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Leviathan Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Spells you cast cost UB less to cast.
+Nonland cards in your graveyard have surface. The surface cost is equal to their mana cost. (You may cast it from your graveyard if there are six or more other cards there. Exile it if it’s countered, would be put into a graveyard, or would leave the battlefield.)
+Surface 6UUB</text>
+    </card>
+    <card>
+      <name>Scattering Swine</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>BR</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Boar </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Scattering Swine deals combat damage to a player, you may return a permanent you control to its owner’s hand. If you do, that player loses 3 life unless they discard a card that shares a type with the returned card.</text>
+    </card>
+    <card>
+      <name>Warden of Tremors</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>3RRG</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Dinosaur Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>7/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Spells you cast cost RG less to cast.
+You may play two additional lands on each of your turns.
+Landfall — Whenever a land you control enters, you may exile the top three cards of your library. You may play those cards from exile as long as you control Warden of Tremors.</text>
+    </card>
+    <card>
+      <name>Warden of Skies</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>4GGW</manacost>
+        <cmc>7</cmc>
+        <type>Legendary Creature - Dragon Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>9/9</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell can’t be countered.
+Flying, vigilance, trample
+Each spell that would cost less than its mana value to cast costs that much mana to cast.
+Players can’t cast spells from anywhere other than their hands.</text>
+    </card>
+    <card>
+      <name>Warden of Wishes</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>3WB</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Faerie Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, lifelink
+When Warden of Wishes enters, put seven wish counters on it, then you gain 7 life.
+Whenever you lose life, you may remove a wish counter from Warden of Wishes. If you do, search your graveyard, library, and/or outside the game for a card and exile it. You may play that card until the end of your next turn. If you searched your library this way, shuffle.</text>
+    </card>
+    <card>
+      <name>Charged Party</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>1UR</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental Mouse </type>
+        <maintype>Creature</maintype>
+        <pt>1/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Charged Party and exactly one other creature, create a token that’s a copy of Charged Party that’s tapped and attacking, except its power and toughness are switched. Sacrifice the token at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Poisoned Rose</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>1BG</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Poisoned Rose enters, create a Berry token. (It’s an artifact with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)
+Sacrifice a Berry: Target creature gets -1/-1 until end of turn. Activate only outside of combat.</text>
+      <related count="1">Berry</related>
+    </card>
+    <card>
+      <name>Ironback Tyke</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1RW</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Dinosaur </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Ironback Tyke enters, you may search your library for a basic Mountain or Plains card, reveal it, put it into your hand, then shuffle.
+2RW: Any number of target creatures you control have base power and toughness 3/3 until end of turn. If you control seven or more permanents with activated abilities, transform Ironback Tyke. Activate only as a sorcery.
+---
+(Back): Ironback Sovereign</text>
+    </card>
+    <card>
+      <name>Ironback Sovereign</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Dinosaur 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>7/7</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample, vigilance
+2RW: Any number of target creatures you control have base power and toughness 6/6 until end of turn.
+---
+(Front): Ironback Tyke</text>
+    </card>
+    <card>
+      <name>Carefree Kappa</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>2GU</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Carefree Kappa enters, it acclimates. (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+At the beginning of combat on your turn, target Weather you control becomes a 2/2 creature in addition to its other types until end of turn.</text>
+    </card>
+    <card>
+      <name>Tempermental Chick</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Tempermental Chick and exactly one other creature, Tempermental Chick deals 1 damage to target creature.
+When Tempermental Chick deals combat damage to a player, you may transform it.
+---
+(Back): Tempered Fowl</text>
+    </card>
+    <card>
+      <name>Tempered Fowl</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Bird 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>5/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike
+Amity — Whenever Tempered Fowl attacks, it deals 1 damage to up to one target creature. It can’t block this turn. If exactly one other creature attacked with it, this ability triggers three times instead.
+---
+(Front): Tempermental Chick</text>
+    </card>
+    <card>
+      <name>Warden of Heart</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3RR</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Dragon Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, haste
+Amity — Whenever you attack with Warden of Heart and exactly one other creature, you may put a legendary or Dragon card from your hand onto the battlefield tapped and attacking.</text>
+    </card>
+    <card>
+      <name>Earthbreaker Dragon</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Earthbreaker Dragon and exactly one other creature, Earthbreaker Dragon deals 1 damage to each of up to two target creatures without flying.</text>
+    </card>
+    <card>
+      <name>Mimicry Elemental</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{R}, {T}: Copy target activated ability you control. You may choose new targets for the copy.</text>
+    </card>
+    <card>
+      <name>End of Mutations</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3RRR</manacost>
+        <cmc>6</cmc>
+        <type>Legendary Creature - Alien Mutant </type>
+        <maintype>Creature</maintype>
+        <pt>5/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell can’t be countered.
+First strike, haste
+Each player can’t cast noncreature spells unless they’ve attacked this turn.
+The first spell cast each turn costs {X} less to cast, where X is the amount of damage dealt to players this turn.</text>
+    </card>
+    <card>
+      <name>Volcamel</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Camel Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>4/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>1RR: Volcamel and up to one other target creature you control get +2/+0 until end of turn. If you’ve spent at least six mana to activate abilities this turn, transform Volcamel.
+---
+(Back): Erupting Volcamel</text>
+    </card>
+    <card>
+      <name>Erupting Volcamel</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>Creature - Camel Elemental 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>8/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>1RR: Creatures you control get +2/+0 until end of turn. Erupting Volcamel deals 2 damage to each creature your opponents’ control.
+---
+(Front): Volcamel</text>
+    </card>
+    <card>
+      <name>Generator Alpha</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3R</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental Dog </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample, haste
+Landfall — When a land you control enters, target creature can’t block this turn.
+At the beginning of your end step, return Generator Alpha or a land you control to its owner’s hand.</text>
+    </card>
+    <card>
+      <name>Desolate Lands</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3RR</manacost>
+        <cmc>5</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonred Weathers as this enters.)
+Whenever you cast a spell, each opponent sacrifices a permanent.</text>
+    </card>
+    <card>
+      <name>Splashing Mudskipper</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Salamander </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Amity — Whenever you attack with Splashing Mudskipper and exactly one other creature, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
+Whenever Splashing Mudskipper deals combat damage to a player, you may transform it.
+---
+(Back): Surging Mudskipper</text>
+    </card>
+    <card>
+      <name>Surging Mudskipper</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Salamander 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>4/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward {2}
+Whenever Surging Mudskipper attacks, surveil 1. You may play that card from your graveyard this turn. If exactly one other creature attacked with it, this ability triggers three times instead.
+---
+(Front): Splashing Mudskipper</text>
+    </card>
+    <card>
+      <name>Tenki, Forecaster</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Human Ranger </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>WUBRG: Choose a color, then Tenki, Forecaster acclimates. This ability costs {0} the first time you activate it.  (You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)
+Weather spells of the chosen colors you cast cost {1} less to cast.
+Weather you control are the chosen colors.</text>
+    </card>
+    <card>
+      <name>Warden of Soul</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2UU</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Creature - Dragon Avatar </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Amity — Whenever you attack with Warden of Soul and exactly one other creature, search your library for a legendary or Dragon card, reveal it, put it into your hand, then shuffle.</text>
+    </card>
+    <card>
+      <name>Aqua Crew Flagship</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Artifact - Vehicle </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{T}: Draw a card, then discard a card.
+Whenever you cast a spell from your graveyard, create a 2/1 blue Human Pirate creature token.
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</text>
+      <related count="1">Human Pirate</related>
+    </card>
+    <card>
+      <name>Unspeaking Titan</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward {2}
+Unspeaking Titan can’t attack or block unless you control three or more Golems.
+Whenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.
+{3}, {T}: Create a 1/1 white Golem creature token.</text>
+      <related count="1">Golem</related>
+      <related>
+Regice</related>
+    </card>
+    <card>
+      <name>Wrecking Whale</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>6UU</manacost>
+        <cmc>8</cmc>
+        <type>Creature - Whale </type>
+        <maintype>Creature</maintype>
+        <pt>8/8</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell can’t be countered.
+Trample
+Surface 3UU. Wrecking Whale surfaces tapped. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</text>
+    </card>
+    <card>
+      <name>Lucky Pearlbearer</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Oyster </type>
+        <maintype>Creature</maintype>
+        <pt>0/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Lucky Pearlbearer enters, draw a card, then discard a card.
+Surface 5UU. Lucky Pearlbearer surfaces transformed. (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)
+---
+(Back): Fins of Misfortune</text>
+    </card>
+    <card>
+      <name>Fins of Misfortune</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost></manacost>
+        <cmc>2</cmc>Creature - Fish 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>6/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Fins of Misfortune attacks, reveal the top card of your library and put it into your hand. If it’s a noncreature card, you may cast a copy of it. (You still pay its costs. If it’s a permanent spell, it becomes a token.)
+---
+(Front): Lucky Pearlbearer</text>
+    </card>
+    <card>
+      <name>Primordial Seas</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>4UU</manacost>
+        <cmc>6</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonblue Weathers as this enters.)
+Whenever you cast a spell, if you spent mana to cast it, you may exile a card with a lesser mana value from your graveyard. If you do, cast a copy of it without paying its mana cost.</text>
+    </card>
+    <card>
+      <name>Teetering Panda</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Panda </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>As long as Teetering Panda is tapped, it has distorted. (Tapped creatures can block it rather than untapped creatures.)
+{1}, {T}: You may tap or untap another target creature.
+{2}, {Q}: Until end of turn, target creature has distorted as long as it’s tapped.</text>
+    </card>
+    <card>
+      <name>Smart Shopper</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Human </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Smart Shopper enters or whenever you cast a creature spell, create X Berry tokens, where X is the number of colors spent to cast it. (They’re artifacts with “{1}, Sacrifice this: Target creature gets +1/+1 until end of turn. Activate only outside of combat.”)</text>
+      <related count="x">Berry</related>
+    </card>
+    <card>
+      <name>Cirriform Dragon</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3WW</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, lifelink
+2W: Untap each creature you’ve activated this turn. They get +1/+1 and gain lifelink until end of turn. Activate only once each turn.</text>
+    </card>
+    <card>
+      <name>Snoring Stone</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Snoring Stone enters the battlefield with two defender counters on it.
+Landfall — Whenever a land you control enters, move a defender counter from it onto another target permanent.
+When Snoring Stone attacks, transform it.
+---
+(Back): Seismic Brute</text>
+    </card>
+    <card>
+      <name>Seismic Brute</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost></manacost>
+        <cmc>4</cmc>Creature - Elemental 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>6/8</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Seismic Brute can’t be blocked by creatures with defender.
+---
+(Front): Snoring Stone</text>
+    </card>
+    <card>
+      <name>Dark Horse Victory</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Return target permanent card with an activated ability from your graveyard to the battlefield.</text>
+    </card>
+    <card>
+      <name>Catch Your Breath</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>When you cast this spell, if an opponent has cast more spells than you this turn, copy it.
+If an opponent has more life than you, you gain 3 life.
+If an opponent has more cards in hand than you, you draw a card.
+If an opponent controls more lands than you, search your library for a Plains card, put it onto the battlefield tapped, then shuffle.</text>
+    </card>
+    <card>
+      <name>Plush Collection</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever you activate a nontoken creature, if it’s the first time you’ve activated it this turn, you may create a token that’s a copy of that creature, except it’s 1/1 and isn’t legendary.</text>
+    </card>
+    <card>
+      <name>Diamond Dust</name>
+      <set rarity="rare">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3WW</manacost>
+        <cmc>5</cmc>
+        <type>Enchantment - Weather </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>(Players sacrifice all nonwhite Weathers as this enters.)
+Whenever you cast a spell, put a +1/+1 counter on each creature you control.</text>
+    </card>
+    <card>
+      <name>Salamence CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>URG</colors>
+        <type>Token Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, double strike, vigilance</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Shigana CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors>W</colors>
+        <type>Token Legendary Creature - Beast </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Admonish</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Tap target creature and put two stun counters on it. </text>
+    </card>
+    <card>
+      <name>Underhanded Designs</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever an artifact enters the battlefield under your control, you may pay {1}. If you do, each opponent loses 1 life and you gain 1 life.
+1B, Sacrifice Underhanded Designs: Destroy target creature. Activate only if you control two or more artifacts.</text>
+    </card>
+    <card>
+      <name>Maven of Fear</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Maven of Fear enters the battlefield, mill two cards.
+Maven of Fear gets +2/+1 and has menace as long as six or more cards are in your graveyard.</text>
+    </card>
+    <card>
+      <name>Monkeyshines</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Look at the top two cards of your library. You may put both of those cards into your graveyard or back on top of your library in any order.
+Draw a card.</text>
+    </card>
+    <card>
+      <name>Plated Geopede</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike
+Landfall — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Tomb Hex</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets -2/-2 until end of turn.
+Landfall — If you had a land enter the battlefield under your control this turn, that creature gets -4/-4 until end of turn instead.</text>
+    </card>
+    <card>
+      <name>Risen Reef</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>1GU</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Risen Reef or another Elemental enters the battlefield under your control, look at the top card of your library. If it’s a land card, you may put it onto the battlefield tapped. If you don’t put the card onto the battlefield, put it into your hand.</text>
+    </card>
+    <card>
+      <name>Glasswing Grace</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>3W/BW/B</manacost>
+        <cmc>5</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Enchant creature
+Enchanted creature gets +2/+2 and has flying and lifelink.
+---
+(Back): Age-Graced Chapel</text>
+    </card>
+    <card>
+      <name>Age-Graced Chapel</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost></manacost>
+        <cmc>5</cmc>Land - 
+        <type></type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>Age-Graced Chapel enters tapped.
+{T}: Add {W} or {B}.
+---
+(Front): Glasswing Grace</text>
+    </card>
+    <card>
+      <name>Ruin Crab</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Crab </type>
+        <maintype>Creature</maintype>
+        <pt>0/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters, each opponent mills three cards.</text>
+    </card>
+    <card>
+      <name>Make a Wish</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Return two cards at random from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Cryptic Trilobite</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>XX</manacost>
+        <cmc>0</cmc>
+        <type>Creature - Trilobite </type>
+        <maintype>Creature</maintype>
+        <pt>0/0</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Cryptic Trilobite enters the battlefield with X +1/+1 counters on it.
+Remove a +1/+1 counter from Cryptic Trilobite: Add CC. Spend this mana only to activate abilities.
+{1}, {T}: Put a +1/+1 counter on Cryptic Trilobite.</text>
+    </card>
+    <card>
+      <name>Mountain Runt</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Dinosaur </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land you control enters,, put a +1/+1 counter on Mountain Runt, then it deals 1 damage to up to one target creature you don’t control.
+When Mountain Runt has three or more +1/+1 counters on it, remove them all and transform it.
+---
+(Back): Mountain Tyrant</text>
+    </card>
+    <card>
+      <name>Mountain Tyrant</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost></manacost>
+        <cmc>3</cmc>Creature - Dinosaur 
+        <type></type>
+        <maintype>Creature</maintype>
+        <pt>7/7</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace
+At the beginning of your end step, Mountain Tyrant deals 1 damage to each creature you don’t control.
+---
+(Front): Mountain Runt</text>
+    </card>
+    <card>
+      <name>Spring-Leaf Avenger</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Insect Ninja </type>
+        <maintype>Creature</maintype>
+        <pt>6/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ninjutsu 3G (3G, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Spring-Leaf Avenger deals combat damage to a player, return target permanent card from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Steppe Lynx</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Cat </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.</text>
+    </card>
+    <card>
+      <name>Ravenous Squirrel</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>B/G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Squirrel </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you sacrifice an artifact or creature, put a +1/+1 counter on Ravenous Squirrel.
+1BG, Sacrifice an artifact or creature: You gain 1 life and draw a card.</text>
+    </card>
+    <card>
+      <name>Military Intelligence</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever you attack with two or more creatures, draw a card.</text>
+    </card>
+    <card>
+      <name>Swan Song</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.</text>
+    </card>
+    <card>
+      <name>Spider Spawning</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>4G</manacost>
+        <cmc>5</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Create a 1/2 green Spider creature token with reach for each creature card in your graveyard.
+Flashback 6B (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+    </card>
+    <card>
+      <name>Willow Geist</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>G</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Treefolk Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+Whenever one or more cards leave your graveyard, put a +1/+1 counter on Willow Geist.
+When Willow Geist dies, you gain life equal to its power.</text>
+    </card>
+    <card>
+      <name>Ruin Ghost</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Spirit </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{W}, {T}: Exile target land you control, then return it to the battlefield under your control.</text>
+    </card>
+    <card>
+      <name>Dreadhound</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>4BB</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Demon Dog </type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When Dreadhound enters the battlefield, mill three cards.
+Whenever a creature dies or a creature card is put into a graveyard from a library, each opponent loses 1 life.</text>
+    </card>
+    <card>
+      <name>Helping Hand</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Return target creature card with mana value 3 or less from your graveyard to the battlefield tapped.</text>
+    </card>
+    <card>
+      <name>Wurmscape</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>4GG</manacost>
+        <cmc>6</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Landfall — Whenever a land enters the battlefield under your control, create a 5/5 green Wurm creature token with trample.</text>
+    </card>
+    <card>
+      <name>Dragon Whelp</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2RR</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>2/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Power of Love</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3WW</manacost>
+        <cmc>5</cmc>
+        <type>Enchantment - Aura </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Flash
+Enchant creature you control
+Enchanted creature gets +3/+3 and has lifelink and indestructible.</text>
+    </card>
+    <card>
+      <name>Displacer Kitten</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Cat Beast </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you cast a noncreature spell, exile up to one target nonland permanent you control, then return that card to the battlefield under its owner’s control.</text>
+    </card>
+    <card>
+      <name>Earthquake Dragon</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>10G</manacost>
+        <cmc>11</cmc>
+        <type>Creature - Elemental Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>10/10</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell costs {X} less to cast, where X is the total mana value of Dragons you control.
+Flying, trample
+2G, Sacrifice a land: Return Earthquake Dragon from your graveyard to your hand.</text>
+    </card>
+    <card>
+      <name>Selfless Savior</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Dog </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Sacrifice Selfless Savior: Another target creature you control gains indestructible until end of turn.</text>
+    </card>
+    <card>
+      <name>Wish</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>You may play a card you own from outside the game this turn.</text>
+    </card>
+    <card>
+      <name>Prosperous Partnership</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1RW</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment - </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When Prosperous Partnership enters the battlefield, create two 1/1 green and white Citizen creature tokens.
+Tap three untapped creatures you control: Create a Treasure token.</text>
+    </card>
+    <card>
+      <name>Liquify</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Counter target spell with mana value 3 or less. If that spell is countered this way, exile it instead of putting it into its owner’s graveyard.</text>
+    </card>
+    <card>
+      <name>Sporemound</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Fungus </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Landfall — Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.</text>
+    </card>
+    <card>
+      <name>Trumpeting Carnosaur</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4RR</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Dinosaur </type>
+        <maintype>Creature</maintype>
+        <pt>7/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+When Trumpeting Carnosaur enters the battlefield, discover 5. (Exile cards from the top of your library until you exile a nonland card with mana value 5 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
+2R, Discard Trumpeting Carnosaur: It deals 3 damage to target creature or planeswalker.</text>
+    </card>
+    <card>
+      <name>Ghostfire Slice</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors></colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Devoid (This card has no color.)
+This spell costs {2} less to cast if an opponent controls a multicolored permanent.
+Ghostfire Slice deals 4 damage to any target.</text>
+    </card>
+    <card>
+      <name>Luna, the Lost</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature - Fox </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Luna enters the battlefield or phases in, each player loses 1 life.
+Whenever a player casts a spell or a creature attacks, Luna phases out.</text>
+    </card>
+    <card>
+      <name>Evil Twin</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>2UB</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Shapeshifter </type>
+        <maintype>Creature</maintype>
+        <pt>0/0</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it has “UB, {T}: Destroy target creature with the same name as this creature.”</text>
+    </card>
+    <card>
+      <name>Pay Up</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Sorcery - </type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target opponent reveals their hand. You choose a nonland card from it. If you can’t, they discard a card. Otherwise, that player discards a card, then if they didn’t discard the chosen card, you create a tapped Treasure token.</text>
+    </card>
+    <card>
+      <name>Terror of the Peaks</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3RR</manacost>
+        <cmc>5</cmc>
+        <type>Creature - Dragon </type>
+        <maintype>Creature</maintype>
+        <pt>5/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Spells your opponents cast that target Terror of the Peaks cost an additional 3 life to cast.
+Whenever another creature enters the battlefield under your control, Terror of the Peaks deals damage equal to that creature’s power to any target.</text>
+    </card>
+    <card>
+      <name>Run for Your Life</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>UR</manacost>
+        <cmc>2</cmc>
+        <type>Instant - </type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>One or two target creatures each gain haste until end of turn. They can’t be blocked this turn except by creatures with haste.
+Escape—2UR, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+    </card>
+    <card>
+      <name>Flickerwisp</name>
+      <set rarity="">CCR</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1WW</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner’s control at the beginning of the next end step.</text>
+    </card>
+    <card>
+      <name>Doll CCR</name>
+      <set>CCR</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact Creature - Doll </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender</text>
+      <token>1</token>
+    </card>
+
+  </cards>
+</cockatrice_carddatabase>
