@@ -1,0 +1,6 @@
+# ignore user data
+/Cockatrice/data/decks/*
+/Cockatrice/data/pics/CUSTOM/*
+/Cockatrice/data/replays/*
+/Cockatrice/data/settings/*
+/Cockatrice/data/themes/*
