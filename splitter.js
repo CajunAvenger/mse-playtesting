@@ -97,22 +97,26 @@ fs.readdir("./", (err, fns) => {
 		}
 		if(!fileName.match(/-files$/))
 			continue;
-		let folderName = fileName.replace(/-files/);
+		let folderName = fileName.replace(/-files/, "");
 		let newdir = "./Cockatrice/data/pics/downloadedPics/"+folderName;
-		console.log(`Relocating ${fileName} to {newdir}`);
+		console.log(`Relocating ${fileName} to ${newdir}`);
 		fs.removeSync(newdir);
-		
-		fs.readdir(newdir + "/", (err2, fns2) => {
-			for(let f2 in fns2) {
-				let fileName2 = fns2[f2];
-				let imgext = fileName2.match(/.(png|jpe?g)/);
-				let names = fileName2.replace(/.png|.jpe?g/, "").split("__");
-				if(names.length < 2 || !imgext)
-					continue;
-				console.log(`Splitting ${names[0]} and ${names[1]}...`);
-				splitImage(newdir+"/"+fileName2, newdir+"/", names, false, imgext[1])
+		fs.rename(fileName, newdir, (err3) => {
+			if(err) {
+				console.log(err);
+			}else{
+				fs.readdir(newdir + "/", (err2, fns2) => {
+					for(let f2 in fns2) {
+						let fileName2 = fns2[f2];
+						let imgext = fileName2.match(/.(png|jpe?g)/);
+						let names = fileName2.replace(/.png|.jpe?g/, "").split("__");
+						if(names.length < 2 || !imgext)
+							continue;
+						console.log(`Splitting ${names[0]} and ${names[1]}...`);
+						splitImage(newdir+"/"+fileName2, newdir+"/", names, false, imgext[1])
+					}
+				})
 			}
 		})
-
 	}
 })
