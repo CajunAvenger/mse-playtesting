@@ -1,7 +1,6 @@
 [Settings]
 {
-	"name": Chikyu: Chaos Rains,
-	"withReplacement": true,
+	"name": "Chikyu: Chaos Rains",
 	"layouts": {
 		"rareRoll": {
 			"weight":1000,
@@ -17,7 +16,7 @@
 		}
 	}
 }
-[Custom Cards]
+[CustomCards]
 [
 	{
 		"name": "Sunny Day",
@@ -27,7 +26,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sunny Day.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sunny Day.jpg"
 		}
 	},
 	{
@@ -38,7 +37,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hail.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hail.jpg"
 		}
 	},
 	{
@@ -49,7 +48,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sandstorm.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sandstorm.jpg"
 		}
 	},
 	{
@@ -60,7 +59,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Clear Skies.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Clear Skies.jpg"
 		}
 	},
 	{
@@ -71,7 +70,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Raccoon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Scruffy Rascal.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Scruffy Rascal.jpg"
 		}
 	},
 	{
@@ -82,7 +81,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Creature — Plant Frog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Padpole.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Padpole.jpg"
 		}
 	},
 	{
@@ -93,7 +92,7 @@
 		"mana_cost": "{1}{B}{R}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pitfall Pincher.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pitfall Pincher.jpg"
 		}
 	},
 	{
@@ -104,17 +103,17 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Beloved Poppet.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Beloved Poppet.jpg"
+		},
 		"printed names": {
 			"en": "Beloved Poppet"
-		}
+		},
 		"back": {
 			"name": "Abandoned Poppet",
 			"mana_cost": "",
 			"type": "Creature — Spirit ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Abandoned Poppet.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Abandoned Poppet.jpg"
 			}
 		}
 	},
@@ -126,17 +125,17 @@
 		"mana_cost": "{R}{W}{B}",
 		"type": "Creature — Elk ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Omenhorn.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Omenhorn.jpg"
+		},
 		"printed names": {
 			"en": "Omenhorn"
-		}
+		},
 		"back": {
 			"name": "Omenhalo",
 			"mana_cost": "",
 			"type": "Creature — Elk Angel ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Omenhalo.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Omenhalo.jpg"
 			}
 		}
 	},
@@ -148,17 +147,17 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Maw Imposter.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Maw Imposter.jpg"
+		},
 		"printed names": {
 			"en": "Maw Imposter"
-		}
+		},
 		"back": {
 			"name": "Imposing Maw",
 			"mana_cost": "",
 			"type": "Creature — Beast ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Imposing Maw.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Imposing Maw.jpg"
 			}
 		}
 	},
@@ -170,7 +169,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Seafloor Treasures.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Seafloor Treasures.jpg"
 		}
 	},
 	{
@@ -181,7 +180,7 @@
 		"mana_cost": "{2}{B}{G}{U}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Shining Angler.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Shining Angler.jpg"
 		}
 	},
 	{
@@ -192,7 +191,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Buried Geode.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Buried Geode.jpg"
 		}
 	},
 	{
@@ -203,7 +202,7 @@
 		"mana_cost": "{4}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Enspirited Ore.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Enspirited Ore.jpg"
 		}
 	},
 	{
@@ -214,7 +213,7 @@
 		"mana_cost": "{3}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magnetic Mystery.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magnetic Mystery.jpg"
 		}
 	},
 	{
@@ -225,17 +224,17 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Feeble Fish.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Feeble Fish.jpg"
+		},
 		"printed names": {
 			"en": "Feeble Fish"
-		}
+		},
 		"back": {
 			"name": "Fabulous Serpent",
 			"mana_cost": "",
 			"type": "Creature — Serpent ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fabulous Serpent.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fabulous Serpent.jpg"
 			}
 		}
 	},
@@ -247,7 +246,7 @@
 		"mana_cost": "{R}",
 		"type": "Creature — Cat ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Calamity Cat.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Calamity Cat.jpg"
 		}
 	},
 	{
@@ -258,7 +257,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Delivery Gull.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Delivery Gull.jpg"
 		}
 	},
 	{
@@ -269,7 +268,7 @@
 		"mana_cost": "{U}{R}{W}",
 		"type": "Creature — Lizard ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Charismatic Chameleon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Charismatic Chameleon.jpg"
 		}
 	},
 	{
@@ -280,7 +279,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bloom Brute.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bloom Brute.jpg"
 		}
 	},
 	{
@@ -291,7 +290,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Berry Hunting.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Berry Hunting.jpg"
 		}
 	},
 	{
@@ -302,7 +301,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mirage Tower.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mirage Tower.jpg"
 		}
 	},
 	{
@@ -313,7 +312,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Gleaming Hot Springs.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Gleaming Hot Springs.jpg"
 		}
 	},
 	{
@@ -324,7 +323,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Deeplife Cavern.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Deeplife Cavern.jpg"
 		}
 	},
 	{
@@ -335,7 +334,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Calmed Battleground.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Calmed Battleground.jpg"
 		}
 	},
 	{
@@ -346,7 +345,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Frigid Highlands.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Frigid Highlands.jpg"
 		}
 	},
 	{
@@ -357,7 +356,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sunlit Ruins.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sunlit Ruins.jpg"
 		}
 	},
 	{
@@ -368,7 +367,7 @@
 		"mana_cost": "{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/A Journey Begins.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/A Journey Begins.jpg"
 		}
 	},
 	{
@@ -379,7 +378,7 @@
 		"mana_cost": "{3}{B}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Starved Piranha.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Starved Piranha.jpg"
 		}
 	},
 	{
@@ -390,17 +389,17 @@
 		"mana_cost": "{3}{B}",
 		"type": "Creature — Shark ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Chum Chaser.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Chum Chaser.jpg"
+		},
 		"printed names": {
 			"en": "Chum Chaser"
-		}
+		},
 		"back": {
 			"name": "Ship Shredder",
 			"mana_cost": "",
 			"type": "Creature — Shark ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ship Shredder.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ship Shredder.jpg"
 			}
 		}
 	},
@@ -412,17 +411,17 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Crab ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Riverbed Snapper.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Riverbed Snapper.jpg"
+		},
 		"printed names": {
 			"en": "Riverbed Snapper"
-		}
+		},
 		"back": {
 			"name": "Daunting Snapper",
 			"mana_cost": "",
 			"type": "Creature — Crab ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Daunting Snapper.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Daunting Snapper.jpg"
 			}
 		}
 	},
@@ -434,7 +433,7 @@
 		"mana_cost": "{2}{W}{B}{G}",
 		"type": "Creature — Plant Dinosaur ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Blooming Sauropod.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Blooming Sauropod.jpg"
 		}
 	},
 	{
@@ -445,7 +444,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Unnerving Moth.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Unnerving Moth.jpg"
 		}
 	},
 	{
@@ -456,7 +455,7 @@
 		"mana_cost": "{3}{R}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Burning Celestial.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Burning Celestial.jpg"
 		}
 	},
 	{
@@ -467,7 +466,7 @@
 		"mana_cost": "{3}{U}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Calming Celestial.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Calming Celestial.jpg"
 		}
 	},
 	{
@@ -478,7 +477,7 @@
 		"mana_cost": "{4}{U}",
 		"type": "Creature — Walrus ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Floe Master.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Floe Master.jpg"
 		}
 	},
 	{
@@ -489,7 +488,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Falling Ash.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Falling Ash.jpg"
 		}
 	},
 	{
@@ -500,7 +499,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Hyena ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Eager Scavenger.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Eager Scavenger.jpg"
 		}
 	},
 	{
@@ -511,7 +510,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dustwing Butterfly.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dustwing Butterfly.jpg"
 		}
 	},
 	{
@@ -522,7 +521,7 @@
 		"mana_cost": "{3}{R}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dustwing Moth.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dustwing Moth.jpg"
 		}
 	},
 	{
@@ -533,17 +532,17 @@
 		"mana_cost": "{1}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Root Fossil.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Root Fossil.jpg"
+		},
 		"printed names": {
 			"en": "Root Fossil"
-		}
+		},
 		"back": {
 			"name": "Reborn Lily",
 			"mana_cost": "",
 			"type": "Creature — Plant ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Reborn Lily.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Reborn Lily.jpg"
 			}
 		}
 	},
@@ -555,7 +554,7 @@
 		"mana_cost": "{3}{U}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Rain Dance.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Rain Dance.jpg"
 		}
 	},
 	{
@@ -566,17 +565,17 @@
 		"mana_cost": "{1}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Claw Fossil.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Claw Fossil.jpg"
+		},
 		"printed names": {
 			"en": "Claw Fossil"
-		}
+		},
 		"back": {
 			"name": "Reborn Scuttler",
 			"mana_cost": "",
 			"type": "Creature — Dinosaur Insect ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Reborn Scuttler.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Reborn Scuttler.jpg"
 			}
 		}
 	},
@@ -588,7 +587,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sandstorm Dancer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sandstorm Dancer.jpg"
 		}
 	},
 	{
@@ -599,17 +598,17 @@
 		"mana_cost": "{U}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Scuttling Cicada.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Scuttling Cicada.jpg"
+		},
 		"printed names": {
 			"en": "Scuttling Cicada"
-		}
+		},
 		"back": {
 			"name": "Buzzing Metamorph",
 			"mana_cost": "",
 			"type": "Creature — Insect ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Buzzing Metamorph.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Buzzing Metamorph.jpg"
 			}
 		}
 	},
@@ -621,7 +620,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Herald of Drizzles.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Herald of Drizzles.jpg"
 		}
 	},
 	{
@@ -632,7 +631,7 @@
 		"mana_cost": "{R}{W}",
 		"type": "Creature — Camel ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dormant Camel.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dormant Camel.jpg"
 		}
 	},
 	{
@@ -643,7 +642,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact — Berry ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Lum Berry.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Lum Berry.jpg"
 		}
 	},
 	{
@@ -654,7 +653,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Whipping Winds.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Whipping Winds.jpg"
 		}
 	},
 	{
@@ -665,7 +664,7 @@
 		"mana_cost": "{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Walk Among the Dead.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Walk Among the Dead.jpg"
 		}
 	},
 	{
@@ -676,7 +675,7 @@
 		"mana_cost": "{2}{B}{G}",
 		"type": "Creature — Ooze ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/King of Gluttons.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/King of Gluttons.jpg"
 		}
 	},
 	{
@@ -687,7 +686,7 @@
 		"mana_cost": "{2}{G}{W}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Berry Harvester.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Berry Harvester.jpg"
 		}
 	},
 	{
@@ -698,7 +697,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Jade Temple.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Jade Temple.jpg"
 		}
 	},
 	{
@@ -709,7 +708,7 @@
 		"mana_cost": "{1}{W}{B}",
 		"type": "Creature — Raccoon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Rooting Raccoon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Rooting Raccoon.jpg"
 		}
 	},
 	{
@@ -720,7 +719,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Twinned Beak.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Twinned Beak.jpg"
 		}
 	},
 	{
@@ -731,7 +730,7 @@
 		"mana_cost": "{R}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magma Grunt.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magma Grunt.jpg"
 		}
 	},
 	{
@@ -742,7 +741,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Human Performer  ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Contest Judge.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Contest Judge.jpg"
 		}
 	},
 	{
@@ -753,7 +752,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Creature — Elemental Slug ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Lavaborn Slug.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Lavaborn Slug.jpg"
 		}
 	},
 	{
@@ -764,7 +763,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Empty Shell.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Empty Shell.jpg"
 		}
 	},
 	{
@@ -775,7 +774,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Human  ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Generous Farmer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Generous Farmer.jpg"
 		}
 	},
 	{
@@ -786,7 +785,7 @@
 		"mana_cost": "{R}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Plucky Trainer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Plucky Trainer.jpg"
 		}
 	},
 	{
@@ -797,7 +796,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Canopy Creeper.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Canopy Creeper.jpg"
 		}
 	},
 	{
@@ -808,7 +807,7 @@
 		"mana_cost": "{R}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magma Flow.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magma Flow.jpg"
 		}
 	},
 	{
@@ -819,7 +818,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Aroma Spinner.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Aroma Spinner.jpg"
 		}
 	},
 	{
@@ -830,7 +829,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Creature — Human Advisor ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Archaovolcanologist.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Archaovolcanologist.jpg"
 		}
 	},
 	{
@@ -841,7 +840,7 @@
 		"mana_cost": "{W}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Cloud Nine.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Cloud Nine.jpg"
 		}
 	},
 	{
@@ -852,7 +851,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bulk Up.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bulk Up.jpg"
 		}
 	},
 	{
@@ -863,7 +862,7 @@
 		"mana_cost": "{3}{R}",
 		"type": "Creature — Elemental Snail ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bubbling Firesnail.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bubbling Firesnail.jpg"
 		}
 	},
 	{
@@ -874,7 +873,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Human Performer  ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Contest Spectators.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Contest Spectators.jpg"
 		}
 	},
 	{
@@ -885,7 +884,7 @@
 		"mana_cost": "{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tough Nut.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tough Nut.jpg"
 		}
 	},
 	{
@@ -896,7 +895,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magical Leaves.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magical Leaves.jpg"
 		}
 	},
 	{
@@ -907,7 +906,7 @@
 		"mana_cost": "{B}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Iron Defense.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Iron Defense.jpg"
 		}
 	},
 	{
@@ -918,7 +917,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bind.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bind.jpg"
 		}
 	},
 	{
@@ -929,7 +928,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Ooze ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hungry Blob.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hungry Blob.jpg"
 		}
 	},
 	{
@@ -940,7 +939,7 @@
 		"mana_cost": "{2}{U}{R}{W}",
 		"type": "Creature — Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Echocrafter.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Echocrafter.jpg"
 		}
 	},
 	{
@@ -951,7 +950,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/The Ruins Awaken.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/The Ruins Awaken.jpg"
 		}
 	},
 	{
@@ -962,7 +961,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hungry Songbird.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hungry Songbird.jpg"
 		}
 	},
 	{
@@ -973,7 +972,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Chiming Soul.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Chiming Soul.jpg"
 		}
 	},
 	{
@@ -984,7 +983,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Swooping Hunter.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Swooping Hunter.jpg"
 		}
 	},
 	{
@@ -995,7 +994,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Sloth ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Restless Sloth.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Restless Sloth.jpg"
 		}
 	},
 	{
@@ -1006,7 +1005,7 @@
 		"mana_cost": "{4}{W}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Armored Raptor.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Armored Raptor.jpg"
 		}
 	},
 	{
@@ -1017,7 +1016,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Cat ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Capricious Cat.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Capricious Cat.jpg"
 		}
 	},
 	{
@@ -1028,7 +1027,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Gone Pickin'.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Gone Pickin'.jpg"
 		}
 	},
 	{
@@ -1039,7 +1038,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/To the Last Breath.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/To the Last Breath.jpg"
 		}
 	},
 	{
@@ -1050,7 +1049,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pick Up.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pick Up.jpg"
 		}
 	},
 	{
@@ -1061,7 +1060,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Enchantment — Aura ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tough It Out.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tough It Out.jpg"
 		}
 	},
 	{
@@ -1072,7 +1071,7 @@
 		"mana_cost": "{B}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pathetic Cocoon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pathetic Cocoon.jpg"
 		}
 	},
 	{
@@ -1083,7 +1082,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Sloth ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Feasting Sloth.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Feasting Sloth.jpg"
 		}
 	},
 	{
@@ -1094,7 +1093,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Urban Explorer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Urban Explorer.jpg"
 		}
 	},
 	{
@@ -1105,7 +1104,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Muddy Water.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Muddy Water.jpg"
 		}
 	},
 	{
@@ -1116,7 +1115,7 @@
 		"mana_cost": "{4}{B}{B}",
 		"type": "Creature — Jellyfish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Reaper of the Deep.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Reaper of the Deep.jpg"
 		}
 	},
 	{
@@ -1127,7 +1126,7 @@
 		"mana_cost": "{4}{B}",
 		"type": "Creature — Elemental Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Lady of the Mists.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Lady of the Mists.jpg"
 		}
 	},
 	{
@@ -1138,7 +1137,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hoard.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hoard.jpg"
 		}
 	},
 	{
@@ -1149,7 +1148,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Homesick.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Homesick.jpg"
 		}
 	},
 	{
@@ -1160,7 +1159,7 @@
 		"mana_cost": "{4}{G}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ace Tamer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ace Tamer.jpg"
 		}
 	},
 	{
@@ -1171,7 +1170,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Creature — Plant Frog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Rejuvenating Kappa.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Rejuvenating Kappa.jpg"
 		}
 	},
 	{
@@ -1182,7 +1181,7 @@
 		"mana_cost": "{4}{G}{G}",
 		"type": "Creature — Rhino Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Meteor Lobber.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Meteor Lobber.jpg"
 		}
 	},
 	{
@@ -1193,7 +1192,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Cheer On.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Cheer On.jpg"
 		}
 	},
 	{
@@ -1204,7 +1203,7 @@
 		"mana_cost": "{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Harvest Time.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Harvest Time.jpg"
 		}
 	},
 	{
@@ -1215,7 +1214,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Nowhere To Run.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Nowhere To Run.jpg"
 		}
 	},
 	{
@@ -1226,7 +1225,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Poised Flame.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Poised Flame.jpg"
 		}
 	},
 	{
@@ -1237,7 +1236,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Charge Beam.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Charge Beam.jpg"
 		}
 	},
 	{
@@ -1248,7 +1247,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dragon Dance.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dragon Dance.jpg"
 		}
 	},
 	{
@@ -1259,7 +1258,7 @@
 		"mana_cost": "{R}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hone Claws.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hone Claws.jpg"
 		}
 	},
 	{
@@ -1270,7 +1269,7 @@
 		"mana_cost": "{3}{R}",
 		"type": "Creature — Golem ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Eerie Sculpture.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Eerie Sculpture.jpg"
 		}
 	},
 	{
@@ -1281,7 +1280,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Zipping Lightningbug.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Zipping Lightningbug.jpg"
 		}
 	},
 	{
@@ -1292,7 +1291,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Creature — Elemental Mouse ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Floating Familiar.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Floating Familiar.jpg"
 		}
 	},
 	{
@@ -1303,7 +1302,7 @@
 		"mana_cost": "{4}{U}{U}",
 		"type": "Creature — Seahorse Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/King of Currents.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/King of Currents.jpg"
 		}
 	},
 	{
@@ -1314,7 +1313,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Illuminate.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Illuminate.jpg"
 		}
 	},
 	{
@@ -1325,7 +1324,7 @@
 		"mana_cost": "{1}{U}{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Kinesis.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Kinesis.jpg"
 		}
 	},
 	{
@@ -1336,7 +1335,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Out of Sight.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Out of Sight.jpg"
 		}
 	},
 	{
@@ -1347,7 +1346,7 @@
 		"mana_cost": "{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Amnesia.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Amnesia.jpg"
 		}
 	},
 	{
@@ -1358,7 +1357,7 @@
 		"mana_cost": "{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Aqua Jet.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Aqua Jet.jpg"
 		}
 	},
 	{
@@ -1369,7 +1368,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Enchantment — Aura ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Collector's Item.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Collector's Item.jpg"
 		}
 	},
 	{
@@ -1380,7 +1379,7 @@
 		"mana_cost": "{4}{W}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Shiver Elemental.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Shiver Elemental.jpg"
 		}
 	},
 	{
@@ -1391,7 +1390,7 @@
 		"mana_cost": "{G}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Foraging Grub.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Foraging Grub.jpg"
 		}
 	},
 	{
@@ -1402,7 +1401,7 @@
 		"mana_cost": "{3}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Creature Catalog.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Creature Catalog.jpg"
 		}
 	},
 	{
@@ -1413,7 +1412,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact — Equipment ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Life Orb.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Life Orb.jpg"
 		}
 	},
 	{
@@ -1424,7 +1423,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Glassblower's Forge.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Glassblower's Forge.jpg"
 		}
 	},
 	{
@@ -1435,7 +1434,7 @@
 		"mana_cost": "{1}{U}{B}",
 		"type": "Creature — Human Pirate ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Aqua Gang Diver.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Aqua Gang Diver.jpg"
 		}
 	},
 	{
@@ -1446,7 +1445,7 @@
 		"mana_cost": "{1}{G}{U}{R}",
 		"type": "Creature — Faerie Performer ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dazzling Performer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dazzling Performer.jpg"
 		}
 	},
 	{
@@ -1457,7 +1456,7 @@
 		"mana_cost": "{W}{B}{G}",
 		"type": "Creature — Snake ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Feasting Predator.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Feasting Predator.jpg"
 		}
 	},
 	{
@@ -1468,7 +1467,7 @@
 		"mana_cost": "{1}{R}{G}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Talon Triplets.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Talon Triplets.jpg"
 		}
 	},
 	{
@@ -1479,7 +1478,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Ape ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Practicing Guru.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Practicing Guru.jpg"
 		}
 	},
 	{
@@ -1490,7 +1489,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Fungus ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Spore Collector.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Spore Collector.jpg"
 		}
 	},
 	{
@@ -1501,7 +1500,7 @@
 		"mana_cost": "{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fight as One.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fight as One.jpg"
 		}
 	},
 	{
@@ -1512,7 +1511,7 @@
 		"mana_cost": "{4}{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Center of Attention.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Center of Attention.jpg"
 		}
 	},
 	{
@@ -1523,7 +1522,7 @@
 		"mana_cost": "{B}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Past Unresolved.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Past Unresolved.jpg"
 		}
 	},
 	{
@@ -1534,7 +1533,7 @@
 		"mana_cost": "{B}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Waterway Distraction.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Waterway Distraction.jpg"
 		}
 	},
 	{
@@ -1545,7 +1544,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Ooze ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Smiling Sludge.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Smiling Sludge.jpg"
 		}
 	},
 	{
@@ -1556,7 +1555,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Soul's Sunset.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Soul's Sunset.jpg"
 		}
 	},
 	{
@@ -1567,7 +1566,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Territory Dispute.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Territory Dispute.jpg"
 		}
 	},
 	{
@@ -1578,7 +1577,7 @@
 		"mana_cost": "{4}{R}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Kicking Fowl.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Kicking Fowl.jpg"
 		}
 	},
 	{
@@ -1589,7 +1588,7 @@
 		"mana_cost": "{R}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Psych Up.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Psych Up.jpg"
 		}
 	},
 	{
@@ -1600,7 +1599,7 @@
 		"mana_cost": "{G}",
 		"type": "Creature — Elephant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Rollephant.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Rollephant.jpg"
 		}
 	},
 	{
@@ -1611,7 +1610,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Creature — Plant Lizard ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sunsoaker.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sunsoaker.jpg"
 		}
 	},
 	{
@@ -1622,7 +1621,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bottom Feeder.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bottom Feeder.jpg"
 		}
 	},
 	{
@@ -1633,7 +1632,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Vine Whip.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Vine Whip.jpg"
 		}
 	},
 	{
@@ -1644,7 +1643,7 @@
 		"mana_cost": "{4}{R}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Exotic Transformer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Exotic Transformer.jpg"
 		}
 	},
 	{
@@ -1655,7 +1654,7 @@
 		"mana_cost": "{1}{R}{W}{B}",
 		"type": "Creature — Dinosaur ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Plated Tunneler.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Plated Tunneler.jpg"
 		}
 	},
 	{
@@ -1666,7 +1665,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Leaping Hatchling.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Leaping Hatchling.jpg"
 		}
 	},
 	{
@@ -1677,7 +1676,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fluttering Firefly.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fluttering Firefly.jpg"
 		}
 	},
 	{
@@ -1688,7 +1687,7 @@
 		"mana_cost": "{2}{G}{U}",
 		"type": "Creature — Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Puddle Crasher.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Puddle Crasher.jpg"
 		}
 	},
 	{
@@ -1699,7 +1698,7 @@
 		"mana_cost": "{3}{U}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Nimbus Dragon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Nimbus Dragon.jpg"
 		}
 	},
 	{
@@ -1710,7 +1709,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Psychohopper.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Psychohopper.jpg"
 		}
 	},
 	{
@@ -1721,7 +1720,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Amateur Tamer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Amateur Tamer.jpg"
 		}
 	},
 	{
@@ -1732,7 +1731,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Thornfist Bruiser.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Thornfist Bruiser.jpg"
 		}
 	},
 	{
@@ -1743,7 +1742,7 @@
 		"mana_cost": "{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Harbor Mail.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Harbor Mail.jpg"
 		}
 	},
 	{
@@ -1754,7 +1753,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Starfish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Lustrous Starfish.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Lustrous Starfish.jpg"
 		}
 	},
 	{
@@ -1765,7 +1764,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Mongoose ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Outlands Prowler.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Outlands Prowler.jpg"
 		}
 	},
 	{
@@ -1776,7 +1775,7 @@
 		"mana_cost": "{3}{B}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Moonlight Adventurer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Moonlight Adventurer.jpg"
 		}
 	},
 	{
@@ -1787,7 +1786,7 @@
 		"mana_cost": "{4}{R}{R}",
 		"type": "Creature — Giant Warrior ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Brick Breaker.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Brick Breaker.jpg"
 		}
 	},
 	{
@@ -1798,7 +1797,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Living Compass.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Living Compass.jpg"
 		}
 	},
 	{
@@ -1809,7 +1808,7 @@
 		"mana_cost": "{G}{U}{R}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Elegant Hunter.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Elegant Hunter.jpg"
 		}
 	},
 	{
@@ -1820,7 +1819,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Creature — Insect Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sandstorm Devil.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sandstorm Devil.jpg"
 		}
 	},
 	{
@@ -1831,7 +1830,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Searing Grace.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Searing Grace.jpg"
 		}
 	},
 	{
@@ -1842,7 +1841,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Bat ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Relentless Bats.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Relentless Bats.jpg"
 		}
 	},
 	{
@@ -1853,7 +1852,7 @@
 		"mana_cost": "{3}{B}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Crunch.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Crunch.jpg"
 		}
 	},
 	{
@@ -1864,7 +1863,7 @@
 		"mana_cost": "",
 		"type": "Basic Land — Forest ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Forest.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Forest.jpg"
 		}
 	},
 	{
@@ -1875,7 +1874,7 @@
 		"mana_cost": "{X}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Melt.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Melt.jpg"
 		}
 	},
 	{
@@ -1886,7 +1885,7 @@
 		"mana_cost": "",
 		"type": "Basic Land — Island ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Island.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Island.jpg"
 		}
 	},
 	{
@@ -1897,7 +1896,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Stratus Fledgling.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Stratus Fledgling.jpg"
 		}
 	},
 	{
@@ -1908,7 +1907,7 @@
 		"mana_cost": "{X}{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Brewing Storm.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Brewing Storm.jpg"
 		}
 	},
 	{
@@ -1919,7 +1918,7 @@
 		"mana_cost": "{3}{U}",
 		"type": "Creature — Human Performer ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Contest Star.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Contest Star.jpg"
 		}
 	},
 	{
@@ -1930,17 +1929,17 @@
 		"mana_cost": "{W}",
 		"type": "Creature — Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Whispering Runt.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Whispering Runt.jpg"
+		},
 		"printed names": {
 			"en": "Whispering Runt"
-		}
+		},
 		"back": {
 			"name": "Bellowing Beast",
 			"mana_cost": "",
 			"type": "Creature — Beast ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bellowing Beast.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bellowing Beast.jpg"
 			}
 		}
 	},
@@ -1952,17 +1951,17 @@
 		"mana_cost": "{1}{R}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Solid Smog.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Solid Smog.jpg"
+		},
 		"printed names": {
 			"en": "Solid Smog"
-		}
+		},
 		"back": {
 			"name": "Splitting Smog",
 			"mana_cost": "",
 			"type": "Creature — Elemental ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Splitting Smog.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Splitting Smog.jpg"
 			}
 		}
 	},
@@ -1974,7 +1973,7 @@
 		"mana_cost": "{1}{U}{R}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Prolific Fisher.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Prolific Fisher.jpg"
 		}
 	},
 	{
@@ -1985,7 +1984,7 @@
 		"mana_cost": "{3}{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Imminent Disaster.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Imminent Disaster.jpg"
 		}
 	},
 	{
@@ -1996,7 +1995,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Brief Stop.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Brief Stop.jpg"
 		}
 	},
 	{
@@ -2007,7 +2006,7 @@
 		"mana_cost": "{1}",
 		"type": "Artifact — Berry ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Figy Berry.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Figy Berry.jpg"
 		}
 	},
 	{
@@ -2018,7 +2017,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact — Berry ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Gold Berry.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Gold Berry.jpg"
 		}
 	},
 	{
@@ -2029,7 +2028,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Elemental Dog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Static Scamp.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Static Scamp.jpg"
 		}
 	},
 	{
@@ -2040,7 +2039,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Human Performer ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Contest Coordinator.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Contest Coordinator.jpg"
 		}
 	},
 	{
@@ -2051,7 +2050,7 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Faerie Beast Performer ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Soothing Singer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Soothing Singer.jpg"
 		}
 	},
 	{
@@ -2062,7 +2061,7 @@
 		"mana_cost": "{2}{U}{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Explore Wreckage.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Explore Wreckage.jpg"
 		}
 	},
 	{
@@ -2073,7 +2072,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Kappa Colony.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Kappa Colony.jpg"
 		}
 	},
 	{
@@ -2084,7 +2083,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Enchantment — Aura ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Teeter Dance.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Teeter Dance.jpg"
 		}
 	},
 	{
@@ -2095,7 +2094,7 @@
 		"mana_cost": "{2}{R}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Under the Collar.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Under the Collar.jpg"
 		}
 	},
 	{
@@ -2106,7 +2105,7 @@
 		"mana_cost": "{1}{R}{R}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Boiling Storm.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Boiling Storm.jpg"
 		}
 	},
 	{
@@ -2117,7 +2116,7 @@
 		"mana_cost": "{3}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Bumbling Pollinator.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Bumbling Pollinator.jpg"
 		}
 	},
 	{
@@ -2128,7 +2127,7 @@
 		"mana_cost": "{B}{G}{U}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Seafloor Scavenger.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Seafloor Scavenger.jpg"
 		}
 	},
 	{
@@ -2139,7 +2138,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Forgotten Doorway.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Forgotten Doorway.jpg"
 		}
 	},
 	{
@@ -2150,7 +2149,7 @@
 		"mana_cost": "",
 		"type": "Land — Desert ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Prickly Dunes.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Prickly Dunes.jpg"
 		}
 	},
 	{
@@ -2161,7 +2160,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ominous Quag.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ominous Quag.jpg"
 		}
 	},
 	{
@@ -2172,7 +2171,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Stunning Cascade.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Stunning Cascade.jpg"
 		}
 	},
 	{
@@ -2183,7 +2182,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Serpentine Woods.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Serpentine Woods.jpg"
 		}
 	},
 	{
@@ -2194,7 +2193,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fortress Arena.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fortress Arena.jpg"
 		}
 	},
 	{
@@ -2205,7 +2204,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Cryptic Reef.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Cryptic Reef.jpg"
 		}
 	},
 	{
@@ -2216,7 +2215,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Evolving Wilds.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Evolving Wilds.jpg"
 		}
 	},
 	{
@@ -2227,7 +2226,7 @@
 		"mana_cost": "",
 		"type": "Basic Land — Plains ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Plains.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Plains.jpg"
 		}
 	},
 	{
@@ -2238,7 +2237,7 @@
 		"mana_cost": "",
 		"type": "Basic Land — Mountain ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mountain.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mountain.jpg"
 		}
 	},
 	{
@@ -2249,7 +2248,7 @@
 		"mana_cost": "",
 		"type": "Basic Land — Swamp ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Swamp.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Swamp.jpg"
 		}
 	},
 	{
@@ -2260,7 +2259,7 @@
 		"mana_cost": "{3}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Karina's Substitute.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Karina's Substitute.jpg"
 		}
 	},
 	{
@@ -2271,7 +2270,7 @@
 		"mana_cost": "{5}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magnetic Snuffler.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magnetic Snuffler.jpg"
 		}
 	},
 	{
@@ -2282,7 +2281,7 @@
 		"mana_cost": "{1}",
 		"type": "Artifact — Equipment ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/King's Rock.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/King's Rock.jpg"
 		}
 	},
 	{
@@ -2293,7 +2292,7 @@
 		"mana_cost": "{2}",
 		"type": "Artifact — Equipment ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Snazzy Scarf.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Snazzy Scarf.jpg"
 		}
 	},
 	{
@@ -2304,7 +2303,7 @@
 		"mana_cost": "{3}",
 		"type": "Artifact — Equipment ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hard Stone.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hard Stone.jpg"
 		}
 	},
 	{
@@ -2315,7 +2314,7 @@
 		"mana_cost": "{5}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Meteorite.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Meteorite.jpg"
 		}
 	},
 	{
@@ -2326,7 +2325,7 @@
 		"mana_cost": "{W}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Heavy Snowfall.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Heavy Snowfall.jpg"
 		}
 	},
 	{
@@ -2337,7 +2336,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sea Breeze.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sea Breeze.jpg"
 		}
 	},
 	{
@@ -2348,7 +2347,7 @@
 		"mana_cost": "{B}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Volcanic Soot.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Volcanic Soot.jpg"
 		}
 	},
 	{
@@ -2359,7 +2358,7 @@
 		"mana_cost": "{1}{R}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Streaking Sunrise.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Streaking Sunrise.jpg"
 		}
 	},
 	{
@@ -2370,7 +2369,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pollen Warning.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pollen Warning.jpg"
 		}
 	},
 	{
@@ -2381,7 +2380,7 @@
 		"mana_cost": "{W}{U}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Seal Shoals.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Seal Shoals.jpg"
 		}
 	},
 	{
@@ -2392,7 +2391,7 @@
 		"mana_cost": "{B}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Singularity.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Singularity.jpg"
 		}
 	},
 	{
@@ -2403,7 +2402,7 @@
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pressuring Ghoul.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pressuring Ghoul.jpg"
 		}
 	},
 	{
@@ -2414,17 +2413,17 @@
 		"mana_cost": "{B}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Serrated Fossil.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Serrated Fossil.jpg"
+		},
 		"printed names": {
 			"en": "Serrated Fossil"
-		}
+		},
 		"back": {
 			"name": "Reborn Fisher",
 			"mana_cost": "",
 			"type": "Creature — Dinosaur Insect ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Reborn Fisher.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Reborn Fisher.jpg"
 			}
 		}
 	},
@@ -2436,7 +2435,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Calculated Recovery.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Calculated Recovery.jpg"
 		}
 	},
 	{
@@ -2447,7 +2446,7 @@
 		"mana_cost": "{3}{B}",
 		"type": "Creature — Golem ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Unyielding Titan.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Unyielding Titan.jpg"
 		}
 	},
 	{
@@ -2458,7 +2457,7 @@
 		"mana_cost": "{3}{B}{B}",
 		"type": "Creature — Fish ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Depths Ancient.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Depths Ancient.jpg"
 		}
 	},
 	{
@@ -2469,7 +2468,7 @@
 		"mana_cost": "{2}{B}",
 		"type": "Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Gloomy Meteorologist.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Gloomy Meteorologist.jpg"
 		}
 	},
 	{
@@ -2480,7 +2479,7 @@
 		"mana_cost": "{4}{B}{B}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Shadow Sky.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Shadow Sky.jpg"
 		}
 	},
 	{
@@ -2491,7 +2490,7 @@
 		"mana_cost": "{4}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Weather Elemental.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Weather Elemental.jpg"
 		}
 	},
 	{
@@ -2502,7 +2501,7 @@
 		"mana_cost": "{6}",
 		"type": "Artifact Creature — Construct ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Magnetling.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Magnetling.jpg"
 		}
 	},
 	{
@@ -2513,7 +2512,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sky Pillar.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sky Pillar.jpg"
 		}
 	},
 	{
@@ -2524,7 +2523,7 @@
 		"mana_cost": "",
 		"type": "Land — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mirage Island.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mirage Island.jpg"
 		}
 	},
 	{
@@ -2535,7 +2534,7 @@
 		"mana_cost": "{4}{R}{G}",
 		"type": "Legendary Creature — Human ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Hoenn Champion.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Hoenn Champion.jpg"
 		}
 	},
 	{
@@ -2546,17 +2545,17 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Plant Lizard ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Growing Gecko.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Growing Gecko.jpg"
+		},
 		"printed names": {
 			"en": "Growing Gecko"
-		}
+		},
 		"back": {
 			"name": "Old-Growth Gecko",
 			"mana_cost": "",
 			"type": "Creature — Plant Lizard ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Old-Growth Gecko.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Old-Growth Gecko.jpg"
 			}
 		}
 	},
@@ -2568,7 +2567,7 @@
 		"mana_cost": "{G}",
 		"type": "Creature — Egg ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mystery Egg.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mystery Egg.jpg"
 		}
 	},
 	{
@@ -2579,7 +2578,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Turtle ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Berry Fermenter.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Berry Fermenter.jpg"
 		}
 	},
 	{
@@ -2590,7 +2589,7 @@
 		"mana_cost": "{3}{G}{G}",
 		"type": "Creature — Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Parental Pair.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Parental Pair.jpg"
 		}
 	},
 	{
@@ -2601,7 +2600,7 @@
 		"mana_cost": "{2}{G}",
 		"type": "Creature — Golem ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Unflinching Titan.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Unflinching Titan.jpg"
 		}
 	},
 	{
@@ -2612,7 +2611,7 @@
 		"mana_cost": "{3}{G}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Frenzy Plant.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Frenzy Plant.jpg"
 		}
 	},
 	{
@@ -2623,17 +2622,17 @@
 		"mana_cost": "{G}",
 		"type": "Artifact — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Entangled Fossil.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Entangled Fossil.jpg"
+		},
 		"printed names": {
 			"en": "Entangled Fossil"
-		}
+		},
 		"back": {
 			"name": "Reborn Reef",
 			"mana_cost": "",
 			"type": "Creature — Plant ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Reborn Reef.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Reborn Reef.jpg"
 			}
 		}
 	},
@@ -2645,7 +2644,7 @@
 		"mana_cost": "{1}{G}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Heavy Winds.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Heavy Winds.jpg"
 		}
 	},
 	{
@@ -2656,7 +2655,7 @@
 		"mana_cost": "{1}{W}{B}{G}",
 		"type": "Legendary Creature — Human Druid ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/The Berry Master.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/The Berry Master.jpg"
 		}
 	},
 	{
@@ -2667,7 +2666,7 @@
 		"mana_cost": "{U}{R}{W}",
 		"type": "Legendary Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ema, the Returned.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ema, the Returned.jpg"
 		}
 	},
 	{
@@ -2678,7 +2677,7 @@
 		"mana_cost": "{3}{B}{G}{U}",
 		"type": "Legendary Creature — Human Pirate ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/The Aqua Crew.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/The Aqua Crew.jpg"
 		}
 	},
 	{
@@ -2689,7 +2688,7 @@
 		"mana_cost": "{2}{R}{W}{B}",
 		"type": "Legendary Creature — Human Advisor ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/The Magma Council.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/The Magma Council.jpg"
 		}
 	},
 	{
@@ -2700,17 +2699,17 @@
 		"mana_cost": "{2}{G}{U}{R}",
 		"type": "Legendary Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Stitches, Adopted.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Stitches, Adopted.jpg"
+		},
 		"printed names": {
 			"en": "Stitches, Adopted"
-		}
+		},
 		"back": {
 			"name": "Stitches, Orphaned",
 			"mana_cost": "",
 			"type": "Legendary Creature — Spirit ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Stitches, Orphaned.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Stitches, Orphaned.jpg"
 			}
 		}
 	},
@@ -2722,7 +2721,7 @@
 		"mana_cost": "{2}{W}{B}",
 		"type": "Legendary Planeswalker — Sanaito ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sanaito, Voidsinger.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sanaito, Voidsinger.jpg"
 		}
 	},
 	{
@@ -2733,7 +2732,7 @@
 		"mana_cost": "{3}{U}{R}",
 		"type": "Legendary Planeswalker — Iviana ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Iviana, Monster Matron.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Iviana, Monster Matron.jpg"
 		}
 	},
 	{
@@ -2744,7 +2743,7 @@
 		"mana_cost": "{2}{B}{G}",
 		"type": "Legendary Planeswalker — Jack ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Jack, Monster Mentor.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Jack, Monster Mentor.jpg"
 		}
 	},
 	{
@@ -2755,7 +2754,7 @@
 		"mana_cost": "{1}{R}{W}",
 		"type": "Legendary Planeswalker — Karina ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Karina, Budding Diplomat.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Karina, Budding Diplomat.jpg"
 		}
 	},
 	{
@@ -2766,7 +2765,7 @@
 		"mana_cost": "{3}{G}{U}",
 		"type": "Legendary Planeswalker — Simul ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Simul, Genetic Artisan.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Simul, Genetic Artisan.jpg"
 		}
 	},
 	{
@@ -2777,7 +2776,7 @@
 		"mana_cost": "{1}{W}{B}",
 		"type": "Creature — Insect Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fragile Soul.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fragile Soul.jpg"
 		}
 	},
 	{
@@ -2788,17 +2787,17 @@
 		"mana_cost": "{2}{U}{R}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Iviana's Spellmaw.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Iviana's Spellmaw.jpg"
+		},
 		"printed names": {
 			"en": "Iviana's Spellmaw"
-		}
+		},
 		"back": {
 			"name": "Iviana's Splitmaw",
 			"mana_cost": "",
 			"type": "Creature — Dragon ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Iviana's Splitmaw.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Iviana's Splitmaw.jpg"
 			}
 		}
 	},
@@ -2810,7 +2809,7 @@
 		"mana_cost": "{1}{B}{G}",
 		"type": "Legendary Creature — Plant Scarecrow ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Spikey, Jack's Gravetiller.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Spikey, Jack's Gravetiller.jpg"
 		}
 	},
 	{
@@ -2821,7 +2820,7 @@
 		"mana_cost": "{R}{W}",
 		"type": "Legendary Creature — Weasel ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Amber, Nimble Companion.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Amber, Nimble Companion.jpg"
 		}
 	},
 	{
@@ -2832,7 +2831,7 @@
 		"mana_cost": "{2}{G}{U}",
 		"type": "Legendary Creature — Fox Werewolf ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Nocturne, Monstrous Krasis.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Nocturne, Monstrous Krasis.jpg"
 		}
 	},
 	{
@@ -2843,7 +2842,7 @@
 		"mana_cost": "{1}{W}{B}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Heartbreak.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Heartbreak.jpg"
 		}
 	},
 	{
@@ -2854,7 +2853,7 @@
 		"mana_cost": "{U}{R}{W}",
 		"type": "Creature — Human Performer ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Idolized Coordinator.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Idolized Coordinator.jpg"
 		}
 	},
 	{
@@ -2865,7 +2864,7 @@
 		"mana_cost": "{1}{B}{G}{U}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Turf Warfare.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Turf Warfare.jpg"
 		}
 	},
 	{
@@ -2876,7 +2875,7 @@
 		"mana_cost": "{1}{R}{W}{B}",
 		"type": "Creature — Elemental Turtle ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Suncaller Tortoise.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Suncaller Tortoise.jpg"
 		}
 	},
 	{
@@ -2887,7 +2886,7 @@
 		"mana_cost": "{1}{G}{U}{R}",
 		"type": "Legendary Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Higana, Dragon Tamer.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Higana, Dragon Tamer.jpg"
 		}
 	},
 	{
@@ -2898,7 +2897,7 @@
 		"mana_cost": "{1}{W}{U}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Weaver of Fates.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Weaver of Fates.jpg"
 		}
 	},
 	{
@@ -2909,7 +2908,7 @@
 		"mana_cost": "{3}{U}{U}{B}",
 		"type": "Legendary Creature — Leviathan Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Depths.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Depths.jpg"
 		}
 	},
 	{
@@ -2920,7 +2919,7 @@
 		"mana_cost": "{B}{R}",
 		"type": "Creature — Boar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Scattering Swine.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Scattering Swine.jpg"
 		}
 	},
 	{
@@ -2931,7 +2930,7 @@
 		"mana_cost": "{3}{R}{R}{G}",
 		"type": "Legendary Creature — Dinosaur Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Tremors.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Tremors.jpg"
 		}
 	},
 	{
@@ -2942,7 +2941,7 @@
 		"mana_cost": "{4}{G}{G}{W}",
 		"type": "Legendary Creature — Dragon Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Skies.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Skies.jpg"
 		}
 	},
 	{
@@ -2953,7 +2952,7 @@
 		"mana_cost": "{3}{W}{B}",
 		"type": "Legendary Creature — Faerie Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Wishes.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Wishes.jpg"
 		}
 	},
 	{
@@ -2964,7 +2963,7 @@
 		"mana_cost": "{1}{U}{R}",
 		"type": "Creature — Elemental Mouse ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Charged Party.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Charged Party.jpg"
 		}
 	},
 	{
@@ -2975,7 +2974,7 @@
 		"mana_cost": "{1}{B}{G}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Poisoned Rose.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Poisoned Rose.jpg"
 		}
 	},
 	{
@@ -2986,17 +2985,17 @@
 		"mana_cost": "{1}{R}{W}",
 		"type": "Creature — Dinosaur ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ironback Tyke.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ironback Tyke.jpg"
+		},
 		"printed names": {
 			"en": "Ironback Tyke"
-		}
+		},
 		"back": {
 			"name": "Ironback Sovereign",
 			"mana_cost": "",
 			"type": "Creature — Dinosaur ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ironback Sovereign.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ironback Sovereign.jpg"
 			}
 		}
 	},
@@ -3008,7 +3007,7 @@
 		"mana_cost": "{2}{G}{U}",
 		"type": "Creature — Plant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Carefree Kappa.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Carefree Kappa.jpg"
 		}
 	},
 	{
@@ -3019,17 +3018,17 @@
 		"mana_cost": "{2}{R}",
 		"type": "Creature — Bird ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tempermental Chick.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tempermental Chick.jpg"
+		},
 		"printed names": {
 			"en": "Tempermental Chick"
-		}
+		},
 		"back": {
 			"name": "Tempered Fowl",
 			"mana_cost": "",
 			"type": "Creature — Bird ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tempered Fowl.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tempered Fowl.jpg"
 			}
 		}
 	},
@@ -3041,7 +3040,7 @@
 		"mana_cost": "{3}{R}{R}",
 		"type": "Legendary Creature — Dragon Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Heart.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Heart.jpg"
 		}
 	},
 	{
@@ -3052,7 +3051,7 @@
 		"mana_cost": "{2}{R}{R}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Earthbreaker Dragon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Earthbreaker Dragon.jpg"
 		}
 	},
 	{
@@ -3063,7 +3062,7 @@
 		"mana_cost": "{R}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mimicry Elemental.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mimicry Elemental.jpg"
 		}
 	},
 	{
@@ -3074,7 +3073,7 @@
 		"mana_cost": "{3}{R}{R}{R}",
 		"type": "Legendary Creature — Alien Mutant ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/End of Mutations.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/End of Mutations.jpg"
 		}
 	},
 	{
@@ -3085,17 +3084,17 @@
 		"mana_cost": "{2}{R}{R}",
 		"type": "Creature — Camel Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Volcamel.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Volcamel.jpg"
+		},
 		"printed names": {
 			"en": "Volcamel"
-		}
+		},
 		"back": {
 			"name": "Erupting Volcamel",
 			"mana_cost": "",
 			"type": "Creature — Camel Elemental ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Erupting Volcamel.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Erupting Volcamel.jpg"
 			}
 		}
 	},
@@ -3107,7 +3106,7 @@
 		"mana_cost": "{3}{R}",
 		"type": "Creature — Elemental Dog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Generator Alpha.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Generator Alpha.jpg"
 		}
 	},
 	{
@@ -3118,7 +3117,7 @@
 		"mana_cost": "{3}{R}{R}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Desolate Lands.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Desolate Lands.jpg"
 		}
 	},
 	{
@@ -3129,17 +3128,17 @@
 		"mana_cost": "{2}{U}",
 		"type": "Creature — Salamander ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Splashing Mudskipper.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Splashing Mudskipper.jpg"
+		},
 		"printed names": {
 			"en": "Splashing Mudskipper"
-		}
+		},
 		"back": {
 			"name": "Surging Mudskipper",
 			"mana_cost": "",
 			"type": "Creature — Salamander ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Surging Mudskipper.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Surging Mudskipper.jpg"
 			}
 		}
 	},
@@ -3151,7 +3150,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Legendary Creature — Human Ranger ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tenki, Forecaster.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tenki, Forecaster.jpg"
 		}
 	},
 	{
@@ -3162,7 +3161,7 @@
 		"mana_cost": "{2}{U}{U}",
 		"type": "Legendary Creature — Dragon Avatar ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Warden of Soul.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Warden of Soul.jpg"
 		}
 	},
 	{
@@ -3173,7 +3172,7 @@
 		"mana_cost": "{2}{U}",
 		"type": "Artifact — Vehicle ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Aqua Crew Flagship.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Aqua Crew Flagship.jpg"
 		}
 	},
 	{
@@ -3184,7 +3183,7 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Golem ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Unspeaking Titan.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Unspeaking Titan.jpg"
 		}
 	},
 	{
@@ -3195,7 +3194,7 @@
 		"mana_cost": "{6}{U}{U}",
 		"type": "Creature — Whale ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Wrecking Whale.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Wrecking Whale.jpg"
 		}
 	},
 	{
@@ -3206,17 +3205,17 @@
 		"mana_cost": "{1}{U}",
 		"type": "Creature — Oyster ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Lucky Pearlbearer.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Lucky Pearlbearer.jpg"
+		},
 		"printed names": {
 			"en": "Lucky Pearlbearer"
-		}
+		},
 		"back": {
 			"name": "Fins of Misfortune",
 			"mana_cost": "",
 			"type": "Creature — Fish ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Fins of Misfortune.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Fins of Misfortune.jpg"
 			}
 		}
 	},
@@ -3228,7 +3227,7 @@
 		"mana_cost": "{4}{U}{U}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Primordial Seas.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Primordial Seas.jpg"
 		}
 	},
 	{
@@ -3239,7 +3238,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Creature — Panda ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Teetering Panda.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Teetering Panda.jpg"
 		}
 	},
 	{
@@ -3250,7 +3249,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Human ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Smart Shopper.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Smart Shopper.jpg"
 		}
 	},
 	{
@@ -3261,7 +3260,7 @@
 		"mana_cost": "{3}{W}{W}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Cirriform Dragon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Cirriform Dragon.jpg"
 		}
 	},
 	{
@@ -3272,17 +3271,17 @@
 		"mana_cost": "{3}{W}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Snoring Stone.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Snoring Stone.jpg"
+		},
 		"printed names": {
 			"en": "Snoring Stone"
-		}
+		},
 		"back": {
 			"name": "Seismic Brute",
 			"mana_cost": "",
 			"type": "Creature — Elemental ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Seismic Brute.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Seismic Brute.jpg"
 			}
 		}
 	},
@@ -3294,7 +3293,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dark Horse Victory.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dark Horse Victory.jpg"
 		}
 	},
 	{
@@ -3305,7 +3304,7 @@
 		"mana_cost": "{1}{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Catch Your Breath.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Catch Your Breath.jpg"
 		}
 	},
 	{
@@ -3316,7 +3315,7 @@
 		"mana_cost": "{2}{W}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Plush Collection.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Plush Collection.jpg"
 		}
 	},
 	{
@@ -3327,469 +3326,469 @@
 		"mana_cost": "{3}{W}{W}",
 		"type": "Enchantment — Weather ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Diamond Dust.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Diamond Dust.jpg"
 		}
 	},
 	{
 		"name": "Admonish",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "2",
 		"mana_cost": "{1}{W}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Admonish.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Admonish.jpg"
 		}
 	},
 	{
 		"name": "Underhanded Designs",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "20",
 		"mana_cost": "{1}{B}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Underhanded Designs.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Underhanded Designs.jpg"
 		}
 	},
 	{
 		"name": "Maven of Fear",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "17",
 		"mana_cost": "{1}{B}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Maven of Fear.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Maven of Fear.jpg"
 		}
 	},
 	{
 		"name": "Monkeyshines",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "12",
 		"mana_cost": "{U}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Monkeyshines.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Monkeyshines.jpg"
 		}
 	},
 	{
 		"name": "Plated Geopede",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "24",
 		"mana_cost": "{1}{R}",
 		"type": "Creature — Insect ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Plated Geopede.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Plated Geopede.jpg"
 		}
 	},
 	{
 		"name": "Tomb Hex",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "19",
 		"mana_cost": "{2}{B}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Tomb Hex.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Tomb Hex.jpg"
 		}
 	},
 	{
 		"name": "Risen Reef",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "37",
 		"mana_cost": "{1}{G}{U}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Risen Reef.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Risen Reef.jpg"
 		}
 	},
 	{
 		"name": "Glasswing Grace",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "39",
 		"mana_cost": "{3}{W/B}{W/B}",
 		"type": "Enchantment — Aura ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Glasswing Grace.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Glasswing Grace.jpg"
+		},
 		"printed names": {
 			"en": "Glasswing Grace"
-		}
+		},
 		"back": {
 			"name": "Age-Graced Chapel",
 			"mana_cost": "",
 			"type": "Land — ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Age-Graced Chapel.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Age-Graced Chapel.jpg"
 			}
 		}
 	},
 	{
 		"name": "Ruin Crab",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "13",
 		"mana_cost": "{U}",
 		"type": "Creature — Crab ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ruin Crab.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ruin Crab.jpg"
 		}
 	},
 	{
 		"name": "Make a Wish",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "29",
 		"mana_cost": "{3}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Make a Wish.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Make a Wish.jpg"
 		}
 	},
 	{
 		"name": "Cryptic Trilobite",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "1",
 		"mana_cost": "{X}{X}",
 		"type": "Creature — Trilobite ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Cryptic Trilobite.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Cryptic Trilobite.jpg"
 		}
 	},
 	{
 		"name": "Mountain Runt",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "23",
 		"mana_cost": "{2}{R}",
 		"type": "Creature — Dinosaur ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mountain Runt.jpg"
-		}
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mountain Runt.jpg"
+		},
 		"printed names": {
 			"en": "Mountain Runt"
-		}
+		},
 		"back": {
 			"name": "Mountain Tyrant",
 			"mana_cost": "",
 			"type": "Creature — Dinosaur ",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Mountain Tyrant.jpg"
+				"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Mountain Tyrant.jpg"
 			}
 		}
 	},
 	{
 		"name": "Spring-Leaf Avenger",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "32",
 		"mana_cost": "{3}{G}{G}",
 		"type": "Creature — Insect Ninja ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Spring-Leaf Avenger.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Spring-Leaf Avenger.jpg"
 		}
 	},
 	{
 		"name": "Steppe Lynx",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "8",
 		"mana_cost": "{W}",
 		"type": "Creature — Cat ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Steppe Lynx.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Steppe Lynx.jpg"
 		}
 	},
 	{
 		"name": "Ravenous Squirrel",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "40",
 		"mana_cost": "{B/G}",
 		"type": "Creature — Squirrel ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ravenous Squirrel.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ravenous Squirrel.jpg"
 		}
 	},
 	{
 		"name": "Military Intelligence",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "11",
 		"mana_cost": "{1}{U}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Military Intelligence.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Military Intelligence.jpg"
 		}
 	},
 	{
 		"name": "Swan Song",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "14",
 		"mana_cost": "{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Swan Song.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Swan Song.jpg"
 		}
 	},
 	{
 		"name": "Spider Spawning",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "30",
 		"mana_cost": "{4}{G}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Spider Spawning.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Spider Spawning.jpg"
 		}
 	},
 	{
 		"name": "Willow Geist",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "33",
 		"mana_cost": "{G}",
 		"type": "Creature — Treefolk Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Willow Geist.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Willow Geist.jpg"
 		}
 	},
 	{
 		"name": "Ruin Ghost",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "6",
 		"mana_cost": "{1}{W}",
 		"type": "Creature — Spirit ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ruin Ghost.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ruin Ghost.jpg"
 		}
 	},
 	{
 		"name": "Dreadhound",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "15",
 		"mana_cost": "{4}{B}{B}",
 		"type": "Creature — Demon Dog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dreadhound.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dreadhound.jpg"
 		}
 	},
 	{
 		"name": "Helping Hand",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "4",
 		"mana_cost": "{W}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Helping Hand.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Helping Hand.jpg"
 		}
 	},
 	{
 		"name": "Wurmscape",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "34",
 		"mana_cost": "{4}{G}{G}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Wurmscape.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Wurmscape.jpg"
 		}
 	},
 	{
 		"name": "Dragon Whelp",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "21",
 		"mana_cost": "{2}{R}{R}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Dragon Whelp.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Dragon Whelp.jpg"
 		}
 	},
 	{
 		"name": "Power of Love",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "5",
 		"mana_cost": "{3}{W}{W}",
 		"type": "Enchantment — Aura ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Power of Love.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Power of Love.jpg"
 		}
 	},
 	{
 		"name": "Displacer Kitten",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "9",
 		"mana_cost": "{3}{U}",
 		"type": "Creature — Cat Beast ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Displacer Kitten.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Displacer Kitten.jpg"
 		}
 	},
 	{
 		"name": "Earthquake Dragon",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "28",
 		"mana_cost": "{10}{G}",
 		"type": "Creature — Elemental Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Earthquake Dragon.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Earthquake Dragon.jpg"
 		}
 	},
 	{
 		"name": "Selfless Savior",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "7",
 		"mana_cost": "{W}",
 		"type": "Creature — Dog ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Selfless Savior.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Selfless Savior.jpg"
 		}
 	},
 	{
 		"name": "Wish",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "27",
 		"mana_cost": "{2}{R}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Wish.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Wish.jpg"
 		}
 	},
 	{
 		"name": "Prosperous Partnership",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "36",
 		"mana_cost": "{1}{R}{W}",
 		"type": "Enchantment — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Prosperous Partnership.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Prosperous Partnership.jpg"
 		}
 	},
 	{
 		"name": "Liquify",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "10",
 		"mana_cost": "{2}{U}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Liquify.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Liquify.jpg"
 		}
 	},
 	{
 		"name": "Sporemound",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "31",
 		"mana_cost": "{3}{G}{G}",
 		"type": "Creature — Fungus ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Sporemound.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Sporemound.jpg"
 		}
 	},
 	{
 		"name": "Trumpeting Carnosaur",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "26",
 		"mana_cost": "{4}{R}{R}",
 		"type": "Creature — Dinosaur ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Trumpeting Carnosaur.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Trumpeting Carnosaur.jpg"
 		}
 	},
 	{
 		"name": "Ghostfire Slice",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "22",
 		"mana_cost": "{2}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Ghostfire Slice.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Ghostfire Slice.jpg"
 		}
 	},
 	{
 		"name": "Luna, the Lost",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "16",
 		"mana_cost": "{1}{B}",
 		"type": "Legendary Creature — Fox ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Luna, the Lost.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Luna, the Lost.jpg"
 		}
 	},
 	{
 		"name": "Evil Twin",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "35",
 		"mana_cost": "{2}{U}{B}",
 		"type": "Creature — Shapeshifter ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Evil Twin.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Evil Twin.jpg"
 		}
 	},
 	{
 		"name": "Pay Up",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "18",
 		"mana_cost": "{B}",
 		"type": "Sorcery — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Pay Up.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Pay Up.jpg"
 		}
 	},
 	{
 		"name": "Terror of the Peaks",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "25",
 		"mana_cost": "{3}{R}{R}",
 		"type": "Creature — Dragon ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Terror of the Peaks.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Terror of the Peaks.jpg"
 		}
 	},
 	{
 		"name": "Run for Your Life",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "38",
 		"mana_cost": "{U}{R}",
 		"type": "Instant — ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Run for Your Life.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Run for Your Life.jpg"
 		}
 	},
 	{
 		"name": "Flickerwisp",
-		"rarity": "masterpiece",
+		"rarity": "special",
 		"set": "CCR",
 		"collector_number": "3",
 		"mana_cost": "{1}{W}{W}",
 		"type": "Creature — Elemental ",
 		"image_uris": {
-			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/data/pics/downloadedPics/CCR/Flickerwisp.jpg"
+			"en": "https://raw.githubusercontent.com/CajunAvenger/mse-playtesting/main/data/pics/downloadedPics/CCR/Flickerwisp.jpg"
 		}
 	}
 ]
