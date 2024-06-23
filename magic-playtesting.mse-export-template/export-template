@@ -1,0 +1,895 @@
+mse version: 2.0.0
+short name: Playtesting
+full name: Draftmancer+Cockatrice
+position hint: 009
+icon: icon.png
+version: 2018-01-11
+installer group: magic/Export/Name Check
+
+depends on:
+	package: magic.mse-game
+	version: 2008-08-08
+
+game: magic
+create directory: true
+file type: *.txt|*.txt|*.*|*.*
+
+####Split cards, DFC, and Image implementation by Fungustober
+
+option field:
+	type: choice
+	name: help
+	choice: For image host, use your repo's Username/mse-playtesting/tree slug (click me)
+	choice: For example, CajunAvenger/mse-playtesting/CCR
+	choice: Pack slots are a list of Name;Count; pairs
+	choice: Default is Common;10;Uncommon;3;Rare;1
+	choice: You can also use "Play Booster" for Common;7;Uncommon;3;Rare;1;Wildcard;1;Wildcard2;1
+	choice: Remove cards from rarity slots with !unslot in the card notes
+	choice: You can add cards to new slots with !addslot Name;Name2;etc
+	choice: Or combine them with !reslot, ex "!reslot Nonbasic" to move cards from any rarity to Nonbasic
+	choice: Use 2:1 mythic to make each mythic twice as rare as each rare, rather than using a fixed %
+	choice: You can redefine the rarity percentages for the two Wildcard slots
+	choice: These are ordered as Common;Uncommon;Rare;Mythic;Special;Masterpiece;Basic
+	choice: and default to 70;17;11;2 and 60;25;13;2
+option field:
+	type: text
+	name: set code
+	description: The set code for this file.
+option field:
+	type: text
+	name: image host
+	description: main part of the link where images are hosted
+option field:
+	type: choice
+	name: images
+	choice: .png
+	choice: .jpg
+	choice: .png, don't export
+	choice: .jpg, don't export
+option field:
+	type: text
+	name: pack slots
+	description: List of "Slot;Count;" arguments. Default "Common;10;Uncommon;3;Rare;1" Also accepts Wildcard, Wildcard2, and custom slots
+#option field:
+#	type: choice
+#	name: link character processing
+#	description: Choose how characters in names for link processing are handled
+#	choice: none
+#	choice: spaces are dashes and all other prohibited characters are removed
+#	choice: standard link encoding (Spaces are %20)
+#	choice: spaces are underscores and all other prohibited characters are removed
+option field:
+	type: choice
+	name: mythic odds
+	choice: 2:1 weight
+	choice: 14.3% (play boosters)
+	choice: 13.5% (new mythics)
+	choice: 12.5% (old mythics)
+	choice: 0% (no mythics)
+option field:
+	type: text
+	name: wildcard rates
+	description: Listed as "Common;Uncommon;Rare;Mythic;Special;Masterpiece;Basic"
+option field:
+	type: text
+	name: wildcard rates 2
+	description: Listed as "Common;Uncommon;Rare;Mythic;Special;Masterpiece;Basic"
+option field:
+	type: choice
+	name: tagging logic
+	choice: tag special as _PRO
+	choice: don't tag special
+	choice: tag set, tag special as _PRO
+	choice: tag set, don't tag special
+option field:
+	type: multiple choice
+	name: rarities to export
+	choice: common
+	choice: uncommon
+	choice: rare
+	choice: mythic rare
+	choice: basic land
+	choice: special
+	choice: token
+	choice: masterpiece
+	initial: common, uncommon, rare, mythic rare, basic land, special, token, masterpiece
+option style:
+	rarities to export:
+		render style: checklist
+		direction: vertical
+	images:
+		render style: both
+		choice images:
+			.png: {built_in_image("bool_yes")}
+			.jpg: {built_in_image("bool_yes")}
+			.png, don't export: {built_in_image("bool_no")}
+			.jpg, don't export: {built_in_image("bool_no")}
+
+#### General Scripts
+script:
+	fix_tm := replace@(match:"™", replace:"TM")
+	fixed_set_code := {
+		replace(
+			xml_escape(fix_tm(options.set_code)),
+			match:"^(CON|PRN|AUX|NUL|COM[0-9]|LPT[0-9])$",
+			replace:{_1+"_"}
+		)
+	}
+	split_semicolon := split_text@(match: " *; *")
+	is_token := {contains(card.shape, match:"token") or contains(card.shape, match:"emblem") or contains(card.shape, match:"rulestip") }
+	is_double := { contains(card.shape, match:"double") }
+	is_two_part := { contains(card.shape, match:"split") or contains(card.shape, match:"flip") }
+	array_trace := {trace("[" + join(input, sep:", ") + "]")}
+	map_trace := {
+		str := for each k:v in input do "{k}:\"{v}\" "
+		trace("[{str}]")
+	}
+
+	#### Data cleaning
+	apos_fix := replace@(match:"’", replace:"'")
+	trail_fix := replace@(match:" +$", replace:"")
+	break_cleaner := replace@(match:"\n", replace:"")
+	illegal_characters := replace@(match:"[?@<>\\/:*|\"]", replace:"")
+	clean_names :=    remove_tags
+					+ trail_fix
+					+ apos_fix
+					+ illegal_characters
+
+	corrected_card_number := {
+		if card.custom_card_number != ""
+			then trim_zeroes(card.custom_card_number)
+		else card_number()
+	}
+	#### escape special xml characters
+	xml_escape := remove_tags
+		+ replace@(match:"&",replace:"&amp;") #escape ampersands
+		+ replace@(match:"\"",replace:"\\&quot;") #escape double quote
+		+ replace@(match:"\'",replace:"\\&apos;") #escape single quote
+		+ replace@(match:"<",replace:"\\&lt;") #escape less than sign
+		+ replace@(match:">",replace:"\\&gt;") #escape greater than sign
+
+	#### Draftmancer images
+	export_images := not contains(options.images, match:"don't export")
+	img_ext := replace(options.images, match:", don't export", replace:"")
+	included := {
+		if contains(card.notes, match:"!noexport")
+			then false
+		else if is_token()
+			then chosen(options.rarities_to_export, choice: "token")
+		else if contains(card.type, match:"Basic")
+			then chosen(options.rarities_to_export, choice:"basic land")
+		else chosen(options.rarities_to_export, choice:card.rarity)
+	}
+	splitter_name := {true}
+	img_host := {
+		host := options.image_host
+		if not match(host, match:"/$") then
+			host := host + "/"
+		if contains(options.image_host, match:"http")
+			then options.image_host
+		else
+			  "https://raw.githubusercontent.com/"
+			+ options.image_host
+			+ "Cockatrice/data/pics/downloadedPics/"
+			+ fixed_set_code()
+			+ "/"
+	}
+	img_link := {
+		img_host()
+		+ input ### + process_name_for_links(input)
+		+ img_ext
+	}
+	
+	dash_spaces := 			replace@(match:" ", replace:"-")+
+							replace@(match:"[’',&—]", replace:"")
+	
+	score_spaces := 		replace@(match:" ", replace:"_")+
+							replace@(match:"[’',&—]", replace:"")
+	
+	standard_encoding := 	replace@(match:" ", replace:"%20")+
+							replace@(match:"’", replace:"%E2%80%99")+
+							replace@(match:"'", replace:"%27")+
+							replace@(match:",", replace:"%2c")+
+							replace@(match:"&", replace:"%26")+
+							replace@(match:"—", replace:"%E2%80%94")
+	
+	process_name_for_links :={
+		if options.link_character_processing == "standard link encoding (Spaces are %20)"
+			then standard_encoding(input)
+		else if options.link_character_processing == "spaces are dashes and all other prohibited characters are removed"
+			then dash_spaces(input)
+		else if options.link_character_processing == "spaces are underscores and all other prohibited characters are removed"
+			then score_spaces(input)
+		else input
+	}
+	
+
+	#### Formatting
+	draftmancer_mana := 	replace@(
+								match:"(2|H|W|U|B|R|G|S|C|F)/(W|U|B|R|G|S|C|F)",
+								replace:{"\{"+_1+"/"+_2+"\}"}
+							) +
+							replace@(
+								match:"(X|Y|Z|W|U|B|R|G|S|C|F)",
+								in_context:"(?<!\{)(?<!/)<match>",
+								replace:{"\{"+_1+"\}"}
+							) +
+							replace@(
+								match:"([1-9][0-9])",
+								in_context:"(?<!\{)(?<!/)<match>",
+								replace:{"\{"+_1+"\}"}
+							) +
+							replace@(
+								match:"([0-9])",
+								in_context:"(?<!\{)(?<!/)<match>(?!})",
+								replace:{"\{"+_1+"\}"}
+							)
+	card_rarity := {
+		if card.rarity == "mythic rare"
+			then "mythic"
+		else if card.rarity == "basic land"
+			then "common"
+		else if card.rarity == "masterpiece"
+			then "special"
+		else card.rarity
+	}
+
+	format_mana := replace@(match:"(CHAOS|[1-9][0-9]+(?:\\/.)?|.\\/.\\/.|.\\/.|[+-]?[^.,: ])", replace:{"\{"+_1+"}"}, in_context:"<sym(-auto)?><match></sym")
+	card_rules_text := { remove_tags(format_mana(if card.special_text != "" then card.special_text else card.rule_text)) }
+	card_rules_text_2 := { remove_tags(format_mana(if card.special_text_2 != "" then card.special_text_2 else card.rule_text_2)) }
+
+	#### Tags
+	#### !exportname to use an alternate name
+	exporter_name_filter := filter_text@(match:"!exporte?r?name [^\n]+")
+	exporter_name_grabber := replace@(match:"!exporte?r?name ", replace:"")
+	card_name := { 
+		test := exporter_name_grabber(exporter_name_filter(card.notes))
+		clean_names(if test != "" then test else card.name)
+	}
+	#### !backname to use an alternate name for the back face
+	exporter_backname_filter := filter_text@(match:"!back(face)?name [^!\n]+")
+	exporter_backname_grabber := replace@(match:"!back(face)?name " replace:"")
+	back_name := {
+		test := exporter_backname_grabber(exporter_backname_filter(card.notes))
+		clean_names(if test != "" then test else card.name_2)
+	}
+	#### !hidetag to add a following tag to the image
+	exporter_tag_filter := filter_text@(match:"!hidetag [^\n]+")
+	exporter_tag_grabber := replace@(match:"!hidetag ", replace:"")
+	card_tag := {
+		test := exporter_tag_grabber(exporter_tag_filter(card.notes))
+		tag_set := contains(options.tagging_logic, match:"tag set")
+		tag_pro := contains(options.tagging_logic, match:"_PRO") and card.rarity == "special"
+		if test != test
+			then test
+		else if tag_set and tag_pro
+			then "_PRO_" + fixed_set_code()
+		else if tag_pro
+			then "_PRO"
+		else if tag_set
+			then "_" + fixed_set_code()
+		else ""
+	}
+	#### !reslot / !addslot for custom slots
+	reslotting_filter := filter_text@(match:"!(re|add)slots? [^!\n]+")
+	reslotting_grabber := replace@(match:"!(re|add)slots? " replace:"")
+	additional_slots := { split_semicolon(reslotting_grabber(reslotting_filter(card.notes))) }
+	
+	#### Cockatrice tokens
+	#helpers to find the correct count for this token relation, and generate the requisite XML
+	token_count_regex := "<([0-9]+|x)>"
+	filter_count := filter_text@(match: token_count_regex)
+	generate_count_XML := replace@(match:token_count_regex, replace:{" count=\"" + _1 + "\""})
+	add_related_count := {if filter_count(input) != "" then generate_count_XML(filter_count(input)) else ""}
+
+	#helpers to find if a auto-attachment is desired for this token relation, and generate the requisite XML
+	add_attachment := {if filter_text(match: "<attach>", input) != "" then " attach=\"attach\"" else ""}
+	
+	#helpers to find if persistent is desired for this token relation, and generate the requisite XML
+	add_persistent := {if filter_text(match:"<(conjure|persistent)>", input) != "" then " persistent=\"persistent\"" else ""}
+
+	#helper functions for converted_related later
+	related_entry_regex := "(.+?[^[:space:]])(?:;|\n|$)"
+
+	#convert the !related command field to <reverse-related> XML blocks
+	convert_related :=
+		replace@(match: "!related ?\n?", replace:"")+ #blank out the related command itself
+		replace@(match: "\<",replace:"<") + #replace junk Start of Header characters with proper "less than sign"s
+		replace@(match: "’",replace:"'") + #replace bad apostrophe with good apostrophe
+		replace@(match: "<X>",replace:"<x>") + #replace accidentily capital X with lowercase X
+		replace@(match:"!",replace: "") + #blank out the command ender
+
+		#for every other card name, surround it with reverse-related tags and put in relevant attributes
+		{for each entry in (break_text(match:related_entry_regex, input)) do ("\n      <reverse-related" + add_related_count(entry)  + add_attachment(entry) + add_persistent(entry) + ">" + replace(clean_names(entry), match:";", replace:"") + "</reverse-related>")}
+
+	#remove accidentily created empty <reverse-related> XML blocks
+	remove_empty := replace@(match:"        <(reverse-)?related></(reverse-)?related>", replace:"")
+
+	#convert the !token command field to <related> XML blocks
+	convert_token :=
+		replace@(match: "!tokens? ?\n?", replace:"")+ #blank out the related command itself
+		replace@(match: "\<",replace:"<") + #replace junk Start of Header characters with proper "less than sign"s
+		replace@(match: "’",replace:"'") + #replace bad apostrophe with good apostrophe
+		replace@(match: "<X>",replace:"<x>") + #replace accidentily capital X with lowercase X
+		replace@(match:"!",replace: "") + #blank out the command ender
+
+		#for every other card name, surround it with reverse-related tags and put in relevant attributes
+		{for each entry in (break_text(match:related_entry_regex, input)) do ("\n      <related" + add_related_count(entry)  + add_attachment(entry) + add_persistent(entry) + ">" + replace(clean_names(entry), match:";", replace:"") + "</related>")}
+
+
+	filter_related := filter_text@(match:"!relate ?[^!]+!?")
+	filter_token := filter_text@(match:"!tokens? ?[^!]+!?")
+
+	#### Cockatrice formatting
+	#functions for the !tapped command
+	contains_tapped := contains@(match:"!tapped")
+
+	CIPT := {if contains_tapped(card.notes) then "\n      "+"<cipt>" + "1" + "</cipt>" else ""}
+
+	# maintype, used in cockatrice's card type sorting,
+	# no longer automatically determined in v4 xml,
+	# first use the same heuristic used in "oracle" else do the same thing v3 xml did
+	# !maintype [type]! in the card notes overwrites this
+	filter_maintype := filter_text@(match:"!maintype ?[^!]+!?")
+	maintype :=
+	{
+		"\n        "+"<maintype>"
+		+(
+			if filter_maintype(card.notes) != "" then xml_escape(replace(match:"!$", replace:"", replace(match:"^!maintype ?", replace:"", filter_maintype(card.notes))))
+			else if contains(card.type, match:"Planeswalker") then "Planeswalker"
+			else if contains(card.type, match:"Creature") then "Creature"
+			else if contains(card.type, match:"Land") then "Land"
+			else if contains(card.type, match:"Sorcery") then "Sorcery"
+			else if contains(card.type, match:"Instant") then "Instant"
+			else if contains(card.type, match:"Artifact") then "Artifact"
+			else if contains(card.type, match:"Enchantment") then "Enchantment"
+			else xml_escape(replace(match:"^.* ", replace:"", replace(match:"(<sep-soft>)? —.*$", replace:"", card.type)))
+		)
+		+"</maintype>"
+	}
+
+	card_color :=
+	{
+		if contains(card.type, match:"land") or contains(card.rule_text, match:"Devoid") then "" else
+		(
+			 (if contains(card.card_color, match:"white") or contains(card.casting_cost, match:"W") then "W" else "")
+			+(if contains(card.card_color, match:"blue") or contains(card.casting_cost, match:"U") then "U" else "")
+			+(if contains(card.card_color, match:"black") or contains(card.casting_cost, match:"B") then "B" else "")
+			+(if contains(card.card_color, match:"red") or contains(card.casting_cost, match:"R") then "R" else "")
+			+(if contains(card.card_color, match:"green") or contains(card.casting_cost, match:"G") then "G" else "")
+		)
+	}
+
+	card_color_2 :=
+	{
+		if contains(card.type, match:"land") or contains(card.rule_text_2, match:"Devoid") then "" else
+		(
+			 (if contains(card.card_color_2, match:"white") or contains(card.casting_cost_2, match:"W") then "W" else "")
+			+(if contains(card.card_color_2, match:"blue") or contains(card.casting_cost_2, match:"U") then "U" else "")
+			+(if contains(card.card_color_2, match:"black") or contains(card.casting_cost_2, match:"B") then "B" else "")
+			+(if contains(card.card_color_2, match:"red") or contains(card.casting_cost_2, match:"R") then "R" else "")
+			+(if contains(card.card_color_2, match:"green") or contains(card.casting_cost_2, match:"G") then "G" else "")
+		)
+	}
+
+	write_token := {
+		"\n    "+"<card>"
+		# Name
+		+"\n      "+"<name>"+xml_escape(card_name()+" " + fixed_set_code())+"</name>"
+		# Set
+		+"\n      "+"<set>"+fixed_set_code()+"</set>"
+		+"\n      "+"<prop>"
+		# Color
+		+"\n        "+"<colors>"
+		+ card_color()
+			+"</colors>"
+		# Type
+		+"\n        "+"<type>"+xml_escape(replace(remove_tags(card.type), match:"—", replace:"-"))+"</type>"
+		+maintype()
+		# P/T
+		+(if contains(card.type, match:"Creature") then "\n        "+"<pt>"+xml_escape(card.pt)+"</pt>")
+		+"\n      "+"</prop>"
+		# Tablerow
+		+"\n      "+"<tablerow>"
+			+(if contains(card.type, match:"Instant") or contains(card.type, match:"Sorcery") then "3"
+			 else if contains(card.type, match:"Creature") then "2"
+			 else if contains(card.type, match:"Land") then "0"
+			 else "1")
+			+"</tablerow>"
+		#CIPT
+		+ CIPT()
+		# Rules Text
+		+"\n      "+"<text>"+xml_escape(card_rules_text())+"</text>"
+		# Token
+		+ "\n      "+"<token>1</token>"
+		# Reverse Related
+		#if there is a !related block in the cards notes, set up the reverse-related XML elements
+		+ (if filter_related(card.notes) != "" then remove_empty(convert_related(filter_related(card.notes))))
+		+"\n    "+"</card>"
+	}
+	#write a normal card's XML text
+	write_normal := {
+		"\n    "+"<card>"
+		#### Name
+		+ "\n      "+"<name>"
+			+ xml_escape(card_name()+card_tag())
+			+ (if is_two_part() then " // " + xml_escape(back_name()+card_tag()) else "")
+		+ "</name>"
+		#### Set
+		+ "\n      "+"<set rarity="
+			+(if contains(card.rarity,match:"uncommon") then "\"uncommon\""
+				else if contains(card.rarity,match:"common") then "\"common\""
+				else if contains(card.rarity,match:"mythic") then "\"mythic\""
+				else if contains(card.rarity,match:"rare") then "\"rare\""
+				else "\"\"")
+			+ ">"+fixed_set_code()
+		+ "</set>"
+		#### Properties
+		+ "\n      "+"<prop>"
+		#### Color
+		+ "\n        "+"<colors>"
+			+ card_color()
+		+"</colors>"
+		#### Mana Cost
+		+ "\n        "+"<manacost>"
+			+ card.casting_cost
+			+ (if is_two_part() and card.casting_cost_2 != "" then " // " + card.casting_cost_2 else "")
+		+ "</manacost>"
+		#### Converted Mana Cost
+		+ "\n        "+"<cmc>"
+			+ card.cmc
+		+ "</cmc>"
+		#### Type
+		+ "\n        "+"<type>"
+			+ xml_escape(replace(remove_tags(card.type), match:"—", replace:"-"))
+			+ (if is_two_part() and card.type_2 != card.type then " // " + xml_escape(replace(remove_tags(card.type_2), match:"—", replace:"-")) else "")
+		+"</type>"
+		#### Maintype
+		+ maintype()
+		#### P/T
+		+ (if contains(card.type, match:"Creature") then "\n        "+"<pt>"+xml_escape(card.pt)+"</pt>")
+		+ "\n      "+"</prop>"
+		#### Tablerow
+		+ "\n      "+"<tablerow>"
+			+ (if contains(card.type, match:"Instant") or contains(card.type, match:"Sorcery") then "3"
+				 else if contains(card.type, match:"Creature") then "2"
+				 else if contains(card.type, match:"Land") then "0"
+				 else "1"
+			  )
+		+ "</tablerow>"
+		#### CIPT
+		+ CIPT()
+		# Rules Text
+		+ "\n      "+"<text>"
+			+ xml_escape(card_rules_text())
+			+ (if is_two_part() then "\n--- \n" + xml_escape(card_rules_text_2()) else "")
+			+ (if is_double() then "\n---\n(Back): " + back_name()+card_tag() else "")
+		+ "</text>"
+		+ (if filter_token(card.notes) != "" then remove_empty(convert_token(filter_token(card.notes))))
+		+"\n    "+"</card>"
+		+ (if is_double() then write_double() else "")
+	}
+	
+	write_double := {
+		"\n    "+"<card>"
+		#### Name II
+		+ "\n      "+"<name>"
+			+ xml_escape(back_name()+card_tag())
+		+ "</name>"
+		#### Set II
+		+ "\n      "+"<set rarity="
+			+(if contains(card.rarity,match:"uncommon") then "\"uncommon\""
+				else if contains(card.rarity,match:"common") then "\"common\""
+				else if contains(card.rarity,match:"mythic") then "\"mythic\""
+				else if contains(card.rarity,match:"rare") then "\"rare\""
+				else "\"\"")
+			+ ">"+fixed_set_code()
+		+ "</set>"
+		#### Properties II
+		+ "\n      "+"<prop>"
+		#### Color II
+		+ "\n        "+"<colors>"
+			+ card_color_2()
+		+"</colors>"
+		#### Mana Cost II
+		+ "\n        "+"<manacost>"
+			+ card.casting_cost_2
+		+ "</manacost>"
+		#### Converted Mana Cost II
+		+ "\n        "+"<cmc>"
+			+ card.cmc
+		+ "</cmc>"
+		#### Type II
+			+ xml_escape(replace(remove_tags(card.type_2), match:"—", replace:"-"))
+		+ "\n        "+"<type>"
+		+"</type>"
+		#### Maintype II
+		+ maintype()
+		#### P/T II
+		+ (if contains(card.type_2, match:"Creature") then "\n        "+"<pt>"+xml_escape(card.pt_2)+"</pt>")
+		+ "\n      "+"</prop>"
+		#### Tablerow II
+		+ "\n      "+"<tablerow>"
+			+ (if contains(card.type_2, match:"Instant") or contains(card.type, match:"Sorcery") then "3"
+				 else if contains(card.type_2, match:"Creature") then "2"
+				 else if contains(card.type_2, match:"Land") then "0"
+				 else "1"
+			  )
+		+ "</tablerow>"
+		# Rules Text II
+		+ "\n      "+"<text>"
+			+ xml_escape(card_rules_text_2())
+			+ ("\n---\n(Front): " + card_name()+card_tag())
+		+ "</text>"
+		+ (if filter_token(card.notes) != "" then remove_empty(convert_token(filter_token(card.notes))))
+		+"\n    "+"</card>"
+	}
+	
+	cockatrice_card := {
+		if not included()
+			then ""
+		else if is_token()
+			then write_token()
+		else write_normal()
+	}
+
+	#### Draftmancer file builder
+	file_processor := {
+		settings := ""
+		custom_cards := ""
+		cube_slots := ""
+		slot_cache := ""
+		
+		# open settings
+		settings := "[Settings]\n"
+		settings := settings + "\{\n"
+		settings := settings + "\t\"name\": \"{set.title}\",\n"
+		# build pack layout
+		layout := ""
+		
+		slot_string := "Common;10;Uncommon;3;Rare;1"
+		if options.pack_slots != "" then slot_string := options.pack_slots
+		if match(slot_string, match:"\"?Play ?Boosters?\"?") then
+			slot_string := "Common;7;Uncommon;3;Rare;1;Wildcard;1;Wildcard2;1"
+		if match(slot_string, match:";$") then slot_string := replace(slot_string, match:";+$", replace:"")
+		slots_array := split_semicolon(slot_string)
+		wildcards_array := []
+		for x from 0 to (length(slots_array)/2)-1 do (
+			slot_cache := slot_cache + "[" + slots_array[2*x] + "(" + slots_array[(2*x)+1] + ")]\n"
+			cube_slots := cube_slots + "[" + slots_array[2*x] + "]\n"
+			layout := layout + "\t\t\t\t\"{slots_array[2*x]}\": {slots_array[(2*x)+1]},\n"
+			if contains(slots_array[2*x], match:"Wildcard") then wildcards_array := wildcards_array + [slots_array[2*x]]
+		)
+		layout := replace(layout, match:",\n$", replace:"\n")
+		
+		mythic_weight :=  if options.mythic_odds == "2:1 weight" or options.mythic_odds == "0% (no mythics)"
+							then 0
+						else if options.mythic_odds == "14.3% (play boosters)"
+							then 143
+						else if options.mythic_odds == "13.5% (new mythics)"
+							then 135
+						else if options.mythic_odds == "12.5% (old mythics)"
+							then 125
+						else 0
+		rare_weight := 1000 - mythic_weight
+		
+		# rare slot
+		settings := settings + "\t\"layouts\": \{\n"
+		settings := settings + "\t\t\"rareRoll\": \{\n"
+		settings := settings + "\t\t\t\"weight\":{rare_weight},\n\t\t\t\"slots\": \{\n"
+		settings := settings + layout
+		settings := settings + "\t\t\t}\n\t\t}"
+		# mythic slot
+		if mythic_weight != 0 then (
+			settings := settings + ",\n\t\t\"mythicRoll\": \{\n"
+			settings := settings + "\t\t\t\"weight\":{mythic_weight},\n\t\t\t\"slots\": \{\n"
+			settings := settings + replace(layout, match:"Rare", replace:"Mythic")
+			settings := settings + "\t\t\t}\n\t\t}"
+		)
+		# close layout
+		settings := settings + "\n\t}\n"
+		
+		# close settings
+		settings := settings + "}"
+		
+		# build card slots
+		for each card in cards do (
+			if included() and not is_token() then (
+				face_name := card_name()
+				card_entry := if contains(card.shape, match:"double")
+									then draftmancer_double()
+								else if contains(card.shape, match:"split")
+									then draftmancer_split()
+								else if not is_token()
+									then draftmancer_card()
+								else ""
+				
+				if card_entry != "" then (
+					if custom_cards == ""
+						then custom_cards := "[CustomCards]\n[\n" + card_entry
+					else custom_cards := custom_cards + ",\n" + card_entry
+					
+					rarity_slot :=  if card.rarity == "basic land" or contains(card.type, match:"Basic")
+										then "Basic"
+									else if card.rarity == "common"
+										then "Common"
+									else if card.rarity == "uncommon"
+										then "Uncommon"
+									else if (card.rarity == "mythic rare" and mythic_weight != 0)
+										then "Mythic"
+									else if card.rarity == "rare" or card.rarity == "mythic rare"
+										then "Rare"
+									else if card.rarity == "masterpiece"
+										then "Masterpiece"
+									else if card.rarity == "special"
+										then "Special"
+									else ""
+					
+					rarity_count := if card.rarity == "common"
+										then 22
+									else if card.rarity == "uncommon"
+										then 8
+									else if card.rarity == "rare"
+										then 4
+									else if card.rarity == "mythic rare"
+										then 2
+									else 50
+					
+					if contains(card.notes, match:"!unslot") or contains(card.notes, match:"!reslot")
+						then rarity_slot := ""
+					
+					## if we have a rarity slot, add that
+					if rarity_slot != "" and contains(slot_cache, match:rarity_slot)
+						then cube_slots := stitch_in(cube_slots, name:face_name, count:rarity_count, slot:rarity_slot)
+					
+					## if we have additional slots, add those
+					add_slots := additional_slots()
+					if not contains(card.notes, match:"!nowild")
+						then add_slots := add_slots + wildcards_array
+					add_slots := sort_list(add_slots, remove_duplicates:true)
+					len := length(add_slots)
+					if len > 0 then (
+						for i from 0 to len-1 do (
+							slot_name := add_slots[i];
+							slot_count := get_slot_count(name:slot_name, default:rarity_count);
+							cube_slots := stitch_in(
+								cube_slots,
+								name: face_name,
+								count: slot_count,
+								slot: slot_name
+							)
+						)
+					)
+				)
+			)
+		)
+		if custom_cards != "" then custom_cards := custom_cards + "\n]"
+		
+		
+		settings + "\n" + custom_cards + "\n" + replace(cube_slots, match:" <halved>", replace:"")
+		
+	}
+	stitch_in := {
+		if count == 0 or count == "0" or count == ""
+			then input 
+		else(
+			## check if this card exists already; if it does we want to halve the rate
+			showcase := match(input, match:"\\[{slot}][^\\[]*\n[0-9]+ {name}")
+			showcased := false
+			if showcase then
+				showcased := match(input, match:"(\\[{slot}][^\\[]*\n)([0-9]+) {name} ([(]{fixed_set_code()}[)] [0-9]+ <halved>\n)")
+			if showcased then (
+				## already halved the other one, just halve this one
+				showcase := false
+				count := round_near(to_number(count)/2)
+			)
+			if not showcase then
+				replace(
+					input,
+					match: "\\[{slot}]\n",
+					replace: "[{slot}]\n{count} {name} ({fixed_set_code()}) {corrected_card_number()}\n"
+				)
+			else halve_in(input, slot:slot, count:count, name:name)
+		)
+	}
+	halve_in := {
+		## halve the initial
+		input := replace(
+			input,
+			match: "(\\[{slot}][^\\[]*\n)([0-9]+)( {name} [(]{fixed_set_code()}[)] [0-9]+)\n",
+			replace: {_1 + round_near(to_number(_2/2)) + _3 + " <halved>\n"}
+		)
+		## return with half stitched in
+		count := round_near(to_number(count)/2)
+		replace(
+			input,
+			match: "\\[{slot}]\n",
+			replace: "[{slot}]\n{count} {name} ({fixed_set_code()}) {corrected_card_number()} <halved>\n"
+		)
+	}
+
+	#### Adjust custom wildcard percentages
+	count_common := 0
+	count_uncommon := 0
+	count_rare := 0
+	count_mythic := 0
+	count_special := 0
+	count_masterpiece := 0
+	count_basic := 0
+	
+	if options.wildcard_rates != "" or options.wildcard_rates_2 != "" then (
+		for each c in cards do (
+			if contains(c.notes, match:"!noexport")
+				then ""
+			else if c.rarity == "basic land" or contains(c.type, match:"Basic")
+				then count_basic := count_basic + 1
+			else if c.rarity == "common"
+				then count_common := count_common + 1
+			else if c.rarity == "uncommon"
+				then count_uncommon := count_uncommon + 1
+			else if c.rarity == "rare"
+				then count_rare := count_rare + 1
+			else if c.rarity == "mythic rare"
+				then count_mythic := count_mythic + 1
+			else if c.rarity == "special"
+				then count_special := count_special + 1
+			else if c.rarity == "masterpiece"
+				then count_masterpiece := count_masterpiece + 1
+			else ""
+		)
+	)
+
+	resolve_wild_1 := {
+		ar := split_semicolon(options.wildcard_rates)
+		if options.wildcard_rates != "" then
+			ar := adjust_percentages(ar)
+		
+		[
+			"common": ar.0 or else 78,
+			"uncommon": ar.1 or else 20,
+			"rare": ar.2 or else 12,
+			"mythic rare": ar.3 or else 2,
+			"special": ar.4 or else 0,
+			"masterpiece": ar.5 or else 0,
+			"basic land": ar.6 or else 0
+		]
+	}
+	
+	resolve_wild_2 := {
+		ar := split_semicolon(options.wildcard_rates_2)
+		if options.wildcard_rates_2 != "" then
+			ar := adjust_percentages(ar)
+		
+		[
+			"common": ar.0 or else 56,
+			"uncommon": ar.1 or else 23,
+			"rare": ar.2 or else 12,
+			"mythic rare": ar.3 or else 2,
+			"special": ar.4 or else 0,
+			"masterpiece": ar.5 or else 0,
+			"basic land": ar.6 or else 0
+		]
+	}
+	adjust_percentages := {
+		## want to weigh the rarest card to 4
+		## adjust the rest to fit
+		## 4 gives us the best bet for halving showcase
+		com := input.0 or else "0"
+		unc := input.1 or else "0"
+		rar := input.2 or else "0"
+		myt := input.3 or else "0"
+		spe := input.4 or else "0"
+		mas := input.5 or else "0"
+		bas := input.6 or else "0"
+		
+		com := if com == "0" or com == "" or count_common == 0 then 0 else com / count_common
+		unc := if unc == "0" or unc == "" or count_uncommon == 0 then 0 else unc / count_uncommon
+		rar := if rar == "0" or rar == "" or count_rare == 0 then 0 else rar / count_rare
+		myt := if myt == "0" or myt == "" or count_mythic == 0 then 0 else myt / count_mythic
+		spe := if spe == "0" or spe == "" or count_special == 0 then 0 else spe / count_special
+		mas := if mas == "0" or mas == "" or count_masterpiece == 0 then 0 else mas / count_masterpiece
+		bas := if bas == "0" or bas == "" or count_basic == 0 then 0 else bas / count_basic
+
+		min_scale := 1
+		if com != 0 and com < min_scale then min_scale := com
+		if unc != 0 and unc < min_scale then min_scale := unc
+		if rar != 0 and rar < min_scale then min_scale := rar
+		if myt != 0 and myt < min_scale then min_scale := myt
+		if spe != 0 and spe < min_scale then min_scale := spe
+		if mas != 0 and mas < min_scale then min_scale := mas
+		if bas != 0 and bas < min_scale then min_scale := bas
+		
+		scaler := 4/min_scale
+		
+		com := round_near(scaler * com)
+		unc := round_near(scaler * unc)
+		rar := round_near(scaler * rar)
+		myt := round_near(scaler * myt)
+		spe := round_near(scaler * spe)
+		mas := round_near(scaler * mas)
+		bas := round_near(scaler * bas)
+
+		[com, unc, rar, myt, spe, mas, bas]
+	}
+	wildcard_breaks_1 := resolve_wild_1()
+	wildcard_breaks_2 := resolve_wild_2()
+	
+	get_slot_count := {
+		use_rarity := if contains(card.type, match:"Basic") then "basic land" else card.rarity
+		if name == "Wildcard" then
+			wildcard_breaks_1[use_rarity or else "uncommon"]
+		else if name == "Wildcard2" then
+			wildcard_breaks_2[use_rarity or else "uncommon"]
+		else default
+	}
+
+
+	draftmancer_double := {
+		  "\t\{\n"
+		+ "\t\t\"name\": \""+card_name()+"\",\n"
+		+ "\t\t\"rarity\": \""+card_rarity()+"\",\n"
+		+ "\t\t\"set\": \""+fixed_set_code()+"\",\n"
+		+ "\t\t\"collector_number\": \""+corrected_card_number()+"\",\n"
+		+ "\t\t\"mana_cost\": \""+ draftmancer_mana(card.casting_cost) +"\",\n"
+		+ "\t\t\"type\": \""+ remove_tags(card.type) +"\",\n"
+		+ "\t\t\"image_uris\": \{\n"
+		+ "\t\t\t\"en\": \""+img_link(card_name())+"\"\n"
+		+ "\t\t\},\n"
+		+ "\t\t\"printed names\": \{\n"
+		+ "\t\t\t\"en\": \""+card_name()+"\"\n"
+		+ "\t\t\},\n"
+
+		+ "\t\t\"back\": \{\n"
+		+ "\t\t\t\"name\": \""+back_name()+"\",\n"
+		+ "\t\t\t\"mana_cost\": \""+ draftmancer_mana(card.casting_cost_2) +"\",\n"
+		+ "\t\t\t\"type\": \""+ remove_tags(card.type_2) +"\",\n"
+		+ "\t\t\t\"image_uris\": \{\n"
+		+ "\t\t\t\t\"en\": \""+img_link(back_name())+"\"\n"
+		+ "\t\t\t\}\n"
+
+		+ "\t\t\}\n"
+		+ "\t\}"
+	}
+	
+	draftmancer_split := {
+		  "\t\{\n"
+		+ "\t\t\"name\": \""+card_name()+" // "+back_name()+"\",\n"
+		+ "\t\t\"rarity\": \""+card_rarity()+"\",\n"
+		+ "\t\t\"set\": \""+fixed_set_code()+"\",\n"
+		+ "\t\t\"collector_number\": \""+corrected_card_number()+"\",\n"
+		+ "\t\t\"layout\": \"split\",\n"
+		+ "\t\t\"mana_cost\": \""+ draftmancer_mana(card.casting_cost)+" // "+draftmancer_mana(card.casting_cost_2) +"\",\n"
+		+ "\t\t\"type\": \""+ remove_tags(card.type) +"\",\n"
+		+ "\t\t\"image_uris\": \{\n"
+		+ "\t\t\t\"en\": \""+img_link(card_name())+"\"\n"
+		+ "\t\t\}\n"
+		+ "\t\}"
+	}
+
+	draftmancer_card := {
+		  "\t\{\n"
+		+ "\t\t\"name\": \""+card_name()+"\",\n"
+		+ "\t\t\"rarity\": \""+card_rarity()+"\",\n"
+		+ "\t\t\"set\": \""+fixed_set_code()+"\",\n"
+		+ "\t\t\"collector_number\": \""+corrected_card_number()+"\",\n"
+		+ "\t\t\"mana_cost\": \""+ draftmancer_mana(card.casting_cost) +"\",\n"
+		+ "\t\t\"type\": \""+ remove_tags(card.type) +"\",\n"
+		+ "\t\t\"image_uris\": \{\n"
+		+ "\t\t\t\"en\": \""+img_link(card_name())+"\"\n"
+		+ "\t\t\}\n"
+		+ "\t\}"
+	}
+
+	write_trice_cards := for each card in cards do cockatrice_card()
+	trice_cards := 	"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+					+ "<cockatrice_carddatabase version=\"4\">\n"
+					+ "  <sets>\n    <set>\n      <name>"+fixed_set_code()+"</name>\n"
+					+ "      <longname>"+xml_escape(set.title)+"</longname>\n"
+					+ "      <settype>Custom</settype>\n"
+					+ "    </set>\n  </sets>\n"
+					+ "  <cards>\n"+write_trice_cards+"\n\n  </cards>\n"
+					+ "</cockatrice_carddatabase>"
+
+	write_images := if not export_images then "" else for each card in cards do if not included() then "" else write_image_file(card, file:card_name()+(if splitter_name() and back_name() != "" then "__" + back_name())+card_tag()+img_ext)
+	write_text_file(file:fixed_set_code() + ".xml", to_string(trice_cards))
+	to_string(file_processor())
