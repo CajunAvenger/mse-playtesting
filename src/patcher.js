@@ -12,10 +12,12 @@ function checkIbbPatch(fn) {
 		return;
 	}
 
+	// read the draftmancer export
 	fs.readFile(draftmancerFile, "utf8", (err, data) => {
 		if(err) {
 			console.log(`Can't read ${draftmancerFile}`);
-		}else{
+		}else
+			// read the ibb patch file
 			fs.readFile(ibbFile, "utf8", (err2, data2) => {
 				if(err2) {
 					console.log(`Can't read ${ibbFile}`);

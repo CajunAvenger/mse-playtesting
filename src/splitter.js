@@ -81,6 +81,23 @@ function splitImage(fn, dir, names, b2, extension) {
 		}
 	})
 }
+function forkImage(fn, dir, names) {
+	Jimp.read(fn, (err, img) => {
+		if(err) {
+			console.log(err);
+		}else{
+			for(let n = 1; n < names.length; n++) {
+				img.clone().write(dir+windex(names[n])+">"+FILE_TYPE);
+			}
+			fs.rename(fn, dir+windex(names[0])+">"+FILE_TYPE, (er) => {
+				if(er)
+					console.log(er);
+			})
+		}
+	})
+}
 
 exports.splitImage = splitImage;
+exports.forkImage = forkImage;
+
 

@@ -8,6 +8,7 @@ fs.readdir("./", (err, fns) => {
 		let fileName = fns[f];
 		if(!fileName.match(/-files$/))
 			continue;
+		// found SET-files
 		// here we don't move the images, just split them in place
 		let folderName = fileName.replace(/-files/, "");
 		fs.readdir("./" + fileName + "/", (err2, fns2) => {
@@ -15,7 +16,7 @@ fs.readdir("./", (err, fns) => {
 				let fileName2 = fns2[f2];
 				let imgext = fileName2.match(/.(png|jpe?g)/);
 				if(!imgext) {
-					// moving the xml is fine
+					// moving the xml into Cockatrice folder
 					if(fileName2.match(/.xml/)) {
 						fs.rename(newdir + "/" + fileName2, "./Cockatrice/data/cards.xml", (err) => {
 							if(err) {
@@ -27,6 +28,7 @@ fs.readdir("./", (err, fns) => {
 					}
 					continue;
 				}
+				// split the DFC images
 				let names = fileName2.replace(/.png|.jpe?g/, "").split("__");
 				if(names.length < 2)
 					continue;
@@ -34,6 +36,7 @@ fs.readdir("./", (err, fns) => {
 				split.splitImage("./" + fileName + "/" + fileName2, "./" + fileName + "/", names, false, imgext[1])
 			}
 		})
+		
 		patcher.checkIbbPatch(folderName);
 	}
 })
