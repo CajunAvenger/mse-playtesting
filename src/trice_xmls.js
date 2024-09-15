@@ -1075,6 +1075,8 @@ function writeCardBlock(library, key, flags) {
 		}
 		flags.tracker[token_name] = key;
 		cardNames = [token_name];
+		if(flags.saveImgNames)
+			card.imgName = cardNames[0];
 	}
 	else{
 		cardNames = determinePrintingNames(library, card, flags);
@@ -1381,6 +1383,12 @@ function determinePrintingNames(library, card, flags, split) {
 				cardNames[1] += " " + card.cardID;
 		}
 	}
+	if(flags.saveImgNames) {
+		card.imgName = cardNames[0];
+		if(cardNames[1]) {
+			card.imgName2 = cardNames[1];
+		}
+	}
 	
 	/* TAG EXEMPT DUPLICATE
 		In rotating formats, you may have a case where the main card rotates out without a tag_exempt rotating in
@@ -1390,7 +1398,7 @@ function determinePrintingNames(library, card, flags, split) {
 		but we would still like a card named simply Negate
 		therefore we make a duplicate of Negate_MON named Negate
 	*/
-	if(tag_set && library.legal.rotation && library.legal.rotation.includes(card.setID)) {
+	if(tag_set && library.legal && library.legal.rotation && library.legal.rotation.includes(card.setID)) {
 		// this card is tagged due to being a reprint
 		let fp = card.firstPrint;
 		if(!library.legal.rotation.includes(library.cards[fp].setID)) {

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="3">
+<cards>
+<card>
+ <name>Treasure</name>
+ <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+ <colors></colors>
+ <type>Token Artifact — Treasure</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Scruffy Rascal</reverse-related>
+ <reverse-related>Gold Berry</reverse-related>
+ <reverse-related count="2">Iviana, Dragon Tamer</reverse-related>
+ <set num="CCR199" rarity="token">tokens</set>
+</card>
+<card>
+ <name>green Plant 11CCR</name>
+ <text></text>
+ <colors>G</colors>
+ <type>Token Creature — Plant</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Generous Farmer</reverse-related>
+ <reverse-related count="2">Magical Leaves</reverse-related>
+ <reverse-related count="3">Kappa Colony</reverse-related>
+ <reverse-related>Bumbling Pollinator</reverse-related>
+ <reverse-related count="2">Prickly Dunes</reverse-related>
+ <reverse-related>Pollen Warning</reverse-related>
+ <set num="CCR207" rarity="token">tokens</set>
+</card>
+<card>
+ <name>white Golem 11CCR</name>
+ <text></text>
+ <colors>W</colors>
+ <type>Token Creature — Golem</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related count="2">The Ruins Awaken</reverse-related>
+ <reverse-related>The Ruins Awaken</reverse-related>
+ <reverse-related>Unyielding Titan</reverse-related>
+ <reverse-related>Sky Pillar</reverse-related>
+ <reverse-related>Unflinching Titan</reverse-related>
+ <reverse-related>Unspeaking Titan</reverse-related>
+ <set num="CCR200" rarity="token">tokens</set>
+</card>
+<card>
+ <name>blue Fish 11CCR</name>
+ <text>Haste</text>
+ <colors>U</colors>
+ <type>Token Creature — Fish</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Prolific Fisher</reverse-related>
+ <set num="CCR201" rarity="token">tokens</set>
+</card>
+<card>
+ <name>white and blue Seal Orb 22CCR</name>
+ <text></text>
+ <colors>WU</colors>
+ <type>Token Creature — Seal Orb</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Seal Shoals</reverse-related>
+ <set num="CCR209" rarity="token">tokens</set>
+</card>
+<card>
+ <name>red Bird Warrior 24CCR</name>
+ <text>Double strike, vigilance, haste</text>
+ <colors>R</colors>
+ <type>Token Creature — Bird Warrior</type>
+ <pt>2/4</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Hoenn Champion</reverse-related>
+ <set num="CCR212" rarity="token">tokens</set>
+</card>
+<card>
+ <name>white and black Bird 33CCR</name>
+ <text>Flying, vigilance, haste</text>
+ <colors>WB</colors>
+ <type>Token Creature — Bird</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Hoenn Champion</reverse-related>
+ <set num="CCR211" rarity="token">tokens</set>
+</card>
+<card>
+ <name>colorless Toy 22CCR</name>
+ <text>Defender</text>
+ <colors></colors>
+ <type>Token Artifact Creature — Toy</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Stitches, Adopted</reverse-related>
+ <reverse-related>Stitches, Orphaned</reverse-related>
+ <set num="CCR293" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Goodra CCR</name>
+ <text></text>
+ <colors></colors>
+ <type>Token Creature — Dragon</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Higana, Dragon Tamer</reverse-related>
+ <set num="CCR213" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Altaria CCR</name>
+ <text>Flying</text>
+ <colors></colors>
+ <type>Token Creature — Dragon</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Higana, Dragon Tamer</reverse-related>
+ <set num="CCR210" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Noivern CCR</name>
+ <text>Flying, vigilance</text>
+ <colors></colors>
+ <type>Token Creature — Dragon</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Higana, Dragon Tamer</reverse-related>
+ <set num="CCR215" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Salamence CCR</name>
+ <text>Flying, double strike, vigilance</text>
+ <colors></colors>
+ <type>Token Creature — Dragon</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Higana, Dragon Tamer</reverse-related>
+ <set num="CCR291" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Shigana CCR</name>
+ <text></text>
+ <colors>W</colors>
+ <type>Token Legendary Creature — Beast</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Higana, Dragon Tamer</reverse-related>
+ <set num="CCR292" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Looks Like Rain CCR</name>
+ <text>Looks Like Rain is all colors.
+Whenever you attack, you gain 1 life.</text>
+ <colors></colors>
+ <type>Token Enchantment — Weather</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Carefree Kappa</reverse-related>
+ <set num="CCR295" rarity="token">tokens</set>
+</card>
+<card>
+ <name>blue Human Pirate 21CCR</name>
+ <text></text>
+ <colors>U</colors>
+ <type>Token Creature — Human Pirate</type>
+ <pt>2/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Aqua Crew Flagship</reverse-related>
+ <set num="CCR214" rarity="token">tokens</set>
+</card>
+<card>
+ <name>colorless Berry Equipment CCR</name>
+ <text>Before equipped creature would assign, deal, or be dealt damage, sacrifice this. If you do, equipped creature gets +1/+1 until end of turn.
+Equip {1}</text>
+ <colors></colors>
+ <type>Token Artifact — Berry Equipment</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <set num="CCR181" rarity="token">tokens</set>
+</card>
+</cards>
+</cockatrice_carddatabase>

@@ -1,0 +1,4089 @@
+[Settings]
+{
+	"name": "Chikyu: Chaos Rains"
+}
+[Custom Cards]
+[
+	{
+		"name": "Sunny Day",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "0",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sunny Day.jpg"
+		}
+	},
+	{
+		"name": "Hail",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "1",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hail.jpg"
+		}
+	},
+	{
+		"name": "Sandstorm",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "2",
+		"mana_cost": "{2}{B}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sandstorm.jpg"
+		}
+	},
+	{
+		"name": "Clear Skies",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "3",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Clear Skies.jpg"
+		}
+	},
+	{
+		"name": "Scruffy Rascal",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "4",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Raccoon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Scruffy Rascal.jpg"
+		}
+	},
+	{
+		"name": "Padpole",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "5",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Plant Frog ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Padpole.jpg"
+		}
+	},
+	{
+		"name": "Pitfall Pincher",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "6",
+		"mana_cost": "{1}{B}{R}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Pitfall Pincher.jpg"
+		}
+	},
+	{
+		"name": "Beloved Poppet",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "7",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Toy Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Beloved Poppet.jpg"
+		},
+		"back": {
+			"name": "Abandoned Poppet",
+			"mana_cost": "",
+			"type": "Creature — Toy Spirit ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Abandoned Poppet.jpg"
+			}
+		}
+	},
+	{
+		"name": "Omenhorn",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "8",
+		"mana_cost": "{R}{W}{B}",
+		"type": "Creature — Elk ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Omenhorn.jpg"
+		},
+		"back": {
+			"name": "Omenhalo",
+			"mana_cost": "",
+			"type": "Creature — Elk Angel ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Omenhalo.jpg"
+			}
+		}
+	},
+	{
+		"name": "Maw Imposter",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "9",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Ouphe ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Maw Imposter.jpg"
+		},
+		"back": {
+			"name": "Imposing Maw",
+			"mana_cost": "",
+			"type": "Creature — Ouphe Horror ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Imposing Maw.jpg"
+			}
+		}
+	},
+	{
+		"name": "Seafloor Treasures",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "10",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Seafloor Treasures.jpg"
+		}
+	},
+	{
+		"name": "Shining Angler",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "11",
+		"mana_cost": "{2}{B}{G}{U}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Shining Angler.jpg"
+		}
+	},
+	{
+		"name": "Buried Geode",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "12",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Buried Geode.jpg"
+		}
+	},
+	{
+		"name": "Enspirited Ore",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "13",
+		"mana_cost": "{4}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Enspirited Ore.jpg"
+		}
+	},
+	{
+		"name": "Magnetic Mystery",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "14",
+		"mana_cost": "{3}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magnetic Mystery.jpg"
+		}
+	},
+	{
+		"name": "Feeble Fish",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "15",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Feeble Fish.jpg"
+		},
+		"back": {
+			"name": "Fabulous Serpent",
+			"mana_cost": "",
+			"type": "Creature — Serpent ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fabulous Serpent.jpg"
+			}
+		}
+	},
+	{
+		"name": "Calamity Cat",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "16",
+		"mana_cost": "{R}",
+		"type": "Creature — Cat ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Calamity Cat.jpg"
+		}
+	},
+	{
+		"name": "Delivery Gull",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "17",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Delivery Gull.jpg"
+		}
+	},
+	{
+		"name": "Charismatic Chameleon",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "18",
+		"mana_cost": "{U}{R}{W}",
+		"type": "Creature — Lizard ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Charismatic Chameleon.jpg"
+		}
+	},
+	{
+		"name": "Bloom Brute",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "19",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bloom Brute.jpg"
+		}
+	},
+	{
+		"name": "Tempermental Growth",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "20",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tempermental Growth.jpg"
+		}
+	},
+	{
+		"name": "Crumbling Tower",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "21",
+		"mana_cost": "{2}{R}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Crumbling Tower.jpg"
+		}
+	},
+	{
+		"name": "Gleaming Hot Springs",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "22",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Gleaming Hot Springs.jpg"
+		}
+	},
+	{
+		"name": "Deeplife Cavern",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "23",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Deeplife Cavern.jpg"
+		}
+	},
+	{
+		"name": "Calmed Battleground",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "24",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Calmed Battleground.jpg"
+		}
+	},
+	{
+		"name": "Frigid Highlands",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "25",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Frigid Highlands.jpg"
+		}
+	},
+	{
+		"name": "Sunlit Ruins",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "26",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sunlit Ruins.jpg"
+		}
+	},
+	{
+		"name": "A Journey Begins",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "27",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/A Journey Begins CCR.jpg"
+		}
+	},
+	{
+		"name": "Starved Piranha",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "28",
+		"mana_cost": "{3}{B}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Starved Piranha.jpg"
+		}
+	},
+	{
+		"name": "Chum Chaser",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "29",
+		"mana_cost": "{3}{B}",
+		"type": "Creature — Shark ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Chum Chaser.jpg"
+		},
+		"back": {
+			"name": "Ship Shredder",
+			"mana_cost": "",
+			"type": "Creature — Shark ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ship Shredder.jpg"
+			}
+		}
+	},
+	{
+		"name": "Riverbed Snapper",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "30",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Crab ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Riverbed Snapper.jpg"
+		},
+		"back": {
+			"name": "Daunting Snapper",
+			"mana_cost": "",
+			"type": "Creature — Crab ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Daunting Snapper.jpg"
+			}
+		}
+	},
+	{
+		"name": "Blooming Sauropod",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "31",
+		"mana_cost": "{2}{W}{B}{G}",
+		"type": "Creature — Plant Dinosaur ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Blooming Sauropod.jpg"
+		}
+	},
+	{
+		"name": "Unnerving Moth",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "32",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Unnerving Moth.jpg"
+		}
+	},
+	{
+		"name": "Burning Celestial",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "33",
+		"mana_cost": "{3}{R}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Burning Celestial.jpg"
+		}
+	},
+	{
+		"name": "Calming Celestial",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "34",
+		"mana_cost": "{3}{U}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Calming Celestial.jpg"
+		}
+	},
+	{
+		"name": "Floe Master",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "35",
+		"mana_cost": "{4}{U}",
+		"type": "Creature — Walrus ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Floe Master.jpg"
+		}
+	},
+	{
+		"name": "Sifting Through Soot",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "36",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sifting Through Soot.jpg"
+		}
+	},
+	{
+		"name": "Eager Scavenger",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "37",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Hyena ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Eager Scavenger.jpg"
+		}
+	},
+	{
+		"name": "Dustwing Butterfly",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "38",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dustwing Butterfly.jpg"
+		}
+	},
+	{
+		"name": "Dustwing Moth",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "39",
+		"mana_cost": "{3}{R}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dustwing Moth.jpg"
+		}
+	},
+	{
+		"name": "Root Fossil",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "40",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Root Fossil.jpg"
+		},
+		"back": {
+			"name": "Reborn Lily",
+			"mana_cost": "",
+			"type": "Creature — Plant ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Reborn Lily.jpg"
+			}
+		}
+	},
+	{
+		"name": "Rain Dance",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "41",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Rain Dance.jpg"
+		}
+	},
+	{
+		"name": "Claw Fossil",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "42",
+		"mana_cost": "{1}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Claw Fossil.jpg"
+		},
+		"back": {
+			"name": "Reborn Scuttler",
+			"mana_cost": "",
+			"type": "Creature — Dinosaur Insect ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Reborn Scuttler.jpg"
+			}
+		}
+	},
+	{
+		"name": "Sandstorm Dancer",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "43",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sandstorm Dancer.jpg"
+		}
+	},
+	{
+		"name": "Scuttling Cicada",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "44",
+		"mana_cost": "{U}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Scuttling Cicada.jpg"
+		},
+		"back": {
+			"name": "Buzzing Metamorph",
+			"mana_cost": "",
+			"type": "Creature — Insect ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Buzzing Metamorph.jpg"
+			}
+		}
+	},
+	{
+		"name": "Herald of Drizzles",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "45",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Herald of Drizzles.jpg"
+		}
+	},
+	{
+		"name": "Dormant Camel",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "46",
+		"mana_cost": "{R}{W}",
+		"type": "Creature — Camel ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dormant Camel.jpg"
+		}
+	},
+	{
+		"name": "Lum Berry",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "47",
+		"mana_cost": "{1}",
+		"type": "Artifact — Berry Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Lum Berry.jpg"
+		}
+	},
+	{
+		"name": "Whipping Winds",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "48",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Whipping Winds.jpg"
+		}
+	},
+	{
+		"name": "Walk Among the Dead",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "49",
+		"mana_cost": "{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Walk Among the Dead.jpg"
+		}
+	},
+	{
+		"name": "King of Gluttons",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "50",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Creature — Ooze ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/King of Gluttons.jpg"
+		}
+	},
+	{
+		"name": "Berry Harvester",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "51",
+		"mana_cost": "{2}{G}{W}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Berry Harvester.jpg"
+		}
+	},
+	{
+		"name": "Jade Temple",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "52",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Jade Temple.jpg"
+		}
+	},
+	{
+		"name": "Rooting Raccoon",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "53",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Creature — Raccoon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Rooting Raccoon.jpg"
+		}
+	},
+	{
+		"name": "Twinned Beak",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "54",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Twinned Beak.jpg"
+		}
+	},
+	{
+		"name": "Magma Grunt",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "55",
+		"mana_cost": "{R}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magma Grunt.jpg"
+		}
+	},
+	{
+		"name": "Contest Judge",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "56",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Human Performer  ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Contest Judge.jpg"
+		}
+	},
+	{
+		"name": "Lavaborn Slug",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "57",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Elemental Slug ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Lavaborn Slug.jpg"
+		}
+	},
+	{
+		"name": "Empty Shell",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "58",
+		"mana_cost": "{1}{B}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Empty Shell.jpg"
+		}
+	},
+	{
+		"name": "Generous Farmer",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "59",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Generous Farmer.jpg"
+		}
+	},
+	{
+		"name": "Plucky Trainer",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "60",
+		"mana_cost": "{R}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Plucky Trainer.jpg"
+		}
+	},
+	{
+		"name": "Canopy Creeper",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "61",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Canopy Creeper.jpg"
+		}
+	},
+	{
+		"name": "Magma Flow",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "62",
+		"mana_cost": "{R}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magma Flow.jpg"
+		}
+	},
+	{
+		"name": "Aroma Spinner",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "63",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Aroma Spinner.jpg"
+		}
+	},
+	{
+		"name": "Archaeovolcanologist",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "64",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Human Advisor ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Archaeovolcanologist.jpg"
+		}
+	},
+	{
+		"name": "Cloud Nine",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "65",
+		"mana_cost": "{W}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Cloud Nine.jpg"
+		}
+	},
+	{
+		"name": "Bulk Up",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "66",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bulk Up.jpg"
+		}
+	},
+	{
+		"name": "Bubbling Firesnail",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "67",
+		"mana_cost": "{3}{R}",
+		"type": "Creature — Elemental Snail ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bubbling Firesnail.jpg"
+		}
+	},
+	{
+		"name": "Contest Spectators",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "68",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Performer  ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Contest Spectators.jpg"
+		}
+	},
+	{
+		"name": "Tough Nut",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "69",
+		"mana_cost": "{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tough Nut.jpg"
+		}
+	},
+	{
+		"name": "Magical Leaves",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "70",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magical Leaves.jpg"
+		}
+	},
+	{
+		"name": "Iron Defense",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "71",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Iron Defense.jpg"
+		}
+	},
+	{
+		"name": "Bind",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "72",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bind.jpg"
+		}
+	},
+	{
+		"name": "Hungry Blob",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "73",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Ooze ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hungry Blob.jpg"
+		}
+	},
+	{
+		"name": "Echocrafter",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "74",
+		"mana_cost": "{2}{U}{R}{W}",
+		"type": "Creature — Beast ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Echocrafter.jpg"
+		}
+	},
+	{
+		"name": "The Ruins Awaken",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "75",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/The Ruins Awaken.jpg"
+		}
+	},
+	{
+		"name": "Hungry Songbird",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "76",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hungry Songbird.jpg"
+		}
+	},
+	{
+		"name": "Chiming Soul",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "77",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Chiming Soul.jpg"
+		}
+	},
+	{
+		"name": "Swooping Hunter",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "78",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Swooping Hunter.jpg"
+		}
+	},
+	{
+		"name": "Restless Sloth",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "79",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Sloth ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Restless Sloth.jpg"
+		}
+	},
+	{
+		"name": "Armored Raptor",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "80",
+		"mana_cost": "{4}{W}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Armored Raptor.jpg"
+		}
+	},
+	{
+		"name": "Capricious Cat",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "81",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Cat ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Capricious Cat.jpg"
+		}
+	},
+	{
+		"name": "Gone Pickin'",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "82",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Gone Pickin'.jpg"
+		}
+	},
+	{
+		"name": "To the Last Breath",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "83",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/To the Last Breath.jpg"
+		}
+	},
+	{
+		"name": "Pick Up",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "84",
+		"mana_cost": "{1}{W}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Pick Up.jpg"
+		}
+	},
+	{
+		"name": "Tough It Out",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "85",
+		"mana_cost": "{3}{W}",
+		"type": "Enchantment — Aura ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tough It Out.jpg"
+		}
+	},
+	{
+		"name": "Pathetic Cocoon",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "86",
+		"mana_cost": "{B}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Pathetic Cocoon.jpg"
+		}
+	},
+	{
+		"name": "Feasting Sloth",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "87",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Sloth ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Feasting Sloth.jpg"
+		}
+	},
+	{
+		"name": "Urban Explorer",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "88",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Urban Explorer.jpg"
+		}
+	},
+	{
+		"name": "Muddy Water",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "89",
+		"mana_cost": "{1}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Muddy Water.jpg"
+		}
+	},
+	{
+		"name": "Reaper of the Deep",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "90",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Creature — Jellyfish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Reaper of the Deep.jpg"
+		}
+	},
+	{
+		"name": "Lady of the Mists",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "91",
+		"mana_cost": "{4}{B}",
+		"type": "Creature — Elemental Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Lady of the Mists.jpg"
+		}
+	},
+	{
+		"name": "Hoard",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "92",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hoard.jpg"
+		}
+	},
+	{
+		"name": "Homesick",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "93",
+		"mana_cost": "{2}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Homesick.jpg"
+		}
+	},
+	{
+		"name": "Ace Tamer",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "94",
+		"mana_cost": "{4}{G}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ace Tamer.jpg"
+		}
+	},
+	{
+		"name": "Rejuvenating Kappa",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "95",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Plant Frog ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Rejuvenating Kappa.jpg"
+		}
+	},
+	{
+		"name": "Meteor Lobber",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "96",
+		"mana_cost": "{4}{G}{G}",
+		"type": "Creature — Rhino Beast ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Meteor Lobber.jpg"
+		}
+	},
+	{
+		"name": "Cheer On",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "97",
+		"mana_cost": "{1}{G}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Cheer On.jpg"
+		}
+	},
+	{
+		"name": "Harvest Time",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "98",
+		"mana_cost": "{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Harvest Time.jpg"
+		}
+	},
+	{
+		"name": "Nowhere To Run",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "99",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Nowhere To Run.jpg"
+		}
+	},
+	{
+		"name": "Poised Flame",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "100",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Poised Flame.jpg"
+		}
+	},
+	{
+		"name": "Charge Beam",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "101",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Charge Beam.jpg"
+		}
+	},
+	{
+		"name": "Dragon Dance",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "102",
+		"mana_cost": "{1}{R}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dragon Dance.jpg"
+		}
+	},
+	{
+		"name": "Hone Claws",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "103",
+		"mana_cost": "{R}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hone Claws.jpg"
+		}
+	},
+	{
+		"name": "Eerie Sculpture",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "104",
+		"mana_cost": "{3}{R}",
+		"type": "Creature — Golem ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Eerie Sculpture.jpg"
+		}
+	},
+	{
+		"name": "Zipping Lightningbug",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "105",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Zipping Lightningbug.jpg"
+		}
+	},
+	{
+		"name": "Floating Familiar",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "106",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Elemental Mouse ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Floating Familiar.jpg"
+		}
+	},
+	{
+		"name": "King of Currents",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "107",
+		"mana_cost": "{4}{U}{U}",
+		"type": "Creature — Seahorse Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/King of Currents.jpg"
+		}
+	},
+	{
+		"name": "Illuminate",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "108",
+		"mana_cost": "{2}{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Illuminate.jpg"
+		}
+	},
+	{
+		"name": "Kinesis",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "109",
+		"mana_cost": "{1}{U}{U}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Kinesis.jpg"
+		}
+	},
+	{
+		"name": "Out of Sight",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "110",
+		"mana_cost": "{1}{U}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Out of Sight.jpg"
+		}
+	},
+	{
+		"name": "Amnesia",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "111",
+		"mana_cost": "{U}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Amnesia.jpg"
+		}
+	},
+	{
+		"name": "Aqua Jet",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "112",
+		"mana_cost": "{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Aqua Jet.jpg"
+		}
+	},
+	{
+		"name": "Collector's Item",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "113",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment — Aura ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Collector's Item.jpg"
+		}
+	},
+	{
+		"name": "Shiver Elemental",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "114",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Shiver Elemental.jpg"
+		}
+	},
+	{
+		"name": "Foraging Grub",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "115",
+		"mana_cost": "{G}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Foraging Grub.jpg"
+		}
+	},
+	{
+		"name": "Creature Catalog",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "116",
+		"mana_cost": "{3}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Creature Catalog.jpg"
+		}
+	},
+	{
+		"name": "Life Orb",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "117",
+		"mana_cost": "{2}",
+		"type": "Artifact — Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Life Orb.jpg"
+		}
+	},
+	{
+		"name": "Glassblower's Forge",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "118",
+		"mana_cost": "{2}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Glassblower's Forge.jpg"
+		}
+	},
+	{
+		"name": "Aqua Gang Diver",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "119",
+		"mana_cost": "{1}{U}{B}",
+		"type": "Creature — Human Pirate ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Aqua Gang Diver.jpg"
+		}
+	},
+	{
+		"name": "Dazzling Performer",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "120",
+		"mana_cost": "{1}{G}{U}{R}",
+		"type": "Creature — Ouphe Performer ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dazzling Performer.jpg"
+		}
+	},
+	{
+		"name": "Feasting Predator",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "121",
+		"mana_cost": "{W}{B}{G}",
+		"type": "Creature — Snake ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Feasting Predator.jpg"
+		}
+	},
+	{
+		"name": "Talon Triplets",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "122",
+		"mana_cost": "{1}{R}{G}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Talon Triplets.jpg"
+		}
+	},
+	{
+		"name": "Practicing Guru",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "123",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Ape ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Practicing Guru.jpg"
+		}
+	},
+	{
+		"name": "Spore Collector",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "124",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Fungus ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Spore Collector.jpg"
+		}
+	},
+	{
+		"name": "Fight as One",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "125",
+		"mana_cost": "{W}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fight as One.jpg"
+		}
+	},
+	{
+		"name": "Center of Attention",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "126",
+		"mana_cost": "{4}{W}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Center of Attention.jpg"
+		}
+	},
+	{
+		"name": "Past Unresolved",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "127",
+		"mana_cost": "{B}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Past Unresolved.jpg"
+		}
+	},
+	{
+		"name": "Waterway Distraction",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "128",
+		"mana_cost": "{B}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Waterway Distraction.jpg"
+		}
+	},
+	{
+		"name": "Smiling Sludge",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "129",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Ooze ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Smiling Sludge.jpg"
+		}
+	},
+	{
+		"name": "Soul's Sunset",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "130",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Soul's Sunset.jpg"
+		}
+	},
+	{
+		"name": "Territory Dispute",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "131",
+		"mana_cost": "{2}{B}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Territory Dispute.jpg"
+		}
+	},
+	{
+		"name": "Kicking Fowl",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "132",
+		"mana_cost": "{4}{R}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Kicking Fowl.jpg"
+		}
+	},
+	{
+		"name": "Psych Up",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "133",
+		"mana_cost": "{R}{R}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Psych Up.jpg"
+		}
+	},
+	{
+		"name": "Rollephant",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "134",
+		"mana_cost": "{G}",
+		"type": "Creature — Elephant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Rollephant.jpg"
+		}
+	},
+	{
+		"name": "Sunsoaker",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "135",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Plant Lizard ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sunsoaker.jpg"
+		}
+	},
+	{
+		"name": "Bottom Feeder",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "136",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bottom Feeder.jpg"
+		}
+	},
+	{
+		"name": "Blustering Storm",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "137",
+		"mana_cost": "{2}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Blustering Storm.jpg"
+		}
+	},
+	{
+		"name": "Exotic Transformer",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "138",
+		"mana_cost": "{4}{R}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Exotic Transformer.jpg"
+		}
+	},
+	{
+		"name": "Plated Tunneler",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "139",
+		"mana_cost": "{1}{R}{W}{B}",
+		"type": "Creature — Dinosaur ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Plated Tunneler.jpg"
+		}
+	},
+	{
+		"name": "Leaping Hatchling",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "140",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Leaping Hatchling.jpg"
+		}
+	},
+	{
+		"name": "Fluttering Firefly",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "141",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Insect ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fluttering Firefly.jpg"
+		}
+	},
+	{
+		"name": "Puddle Crasher",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "142",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature — Elemental Rabbit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Puddle Crasher.jpg"
+		}
+	},
+	{
+		"name": "Nimbus Dragon",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "143",
+		"mana_cost": "{3}{U}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Nimbus Dragon.jpg"
+		}
+	},
+	{
+		"name": "Psychohopper",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "144",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Psychohopper.jpg"
+		}
+	},
+	{
+		"name": "Amateur Tamer",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "145",
+		"mana_cost": "{1}{G}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Amateur Tamer.jpg"
+		}
+	},
+	{
+		"name": "Thornfist Bruiser",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "146",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Thornfist Bruiser.jpg"
+		}
+	},
+	{
+		"name": "Harbor Mail",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "147",
+		"mana_cost": "{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Harbor Mail.jpg"
+		}
+	},
+	{
+		"name": "Lustrous Starfish",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "148",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Starfish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Lustrous Starfish.jpg"
+		}
+	},
+	{
+		"name": "Outlands Prowler",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "149",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Mongoose ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Outlands Prowler.jpg"
+		}
+	},
+	{
+		"name": "Moonlight Adventurer",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "150",
+		"mana_cost": "{3}{B}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Moonlight Adventurer.jpg"
+		}
+	},
+	{
+		"name": "Brick Breaker",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "151",
+		"mana_cost": "{4}{R}{R}",
+		"type": "Creature — Giant Warrior ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Brick Breaker.jpg"
+		}
+	},
+	{
+		"name": "Living Compass",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "152",
+		"mana_cost": "{2}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Living Compass.jpg"
+		}
+	},
+	{
+		"name": "Elegant Hunter",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "153",
+		"mana_cost": "{G}{U}{R}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Elegant Hunter.jpg"
+		}
+	},
+	{
+		"name": "Sandstorm Devil",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "154",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Insect Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sandstorm Devil.jpg"
+		}
+	},
+	{
+		"name": "Searing Grace",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "155",
+		"mana_cost": "{2}{R}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Searing Grace.jpg"
+		}
+	},
+	{
+		"name": "Relentless Bats",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "156",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Bat ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Relentless Bats.jpg"
+		}
+	},
+	{
+		"name": "Crunch",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "157",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Crunch.jpg"
+		}
+	},
+	{
+		"name": "Forest",
+		"rarity": "basic land",
+		"set": "CCR",
+		"collector_number": "158",
+		"mana_cost": "",
+		"type": "Basic Land — Forest ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Forest.jpg"
+		}
+	},
+	{
+		"name": "Burn Up",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "159",
+		"mana_cost": "{X}{R}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Burn Up.jpg"
+		}
+	},
+	{
+		"name": "Island",
+		"rarity": "basic land",
+		"set": "CCR",
+		"collector_number": "160",
+		"mana_cost": "",
+		"type": "Basic Land — Island ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Island.jpg"
+		}
+	},
+	{
+		"name": "Stratus Fledgling",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "161",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Stratus Fledgling.jpg"
+		}
+	},
+	{
+		"name": "Brewing Storm",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "162",
+		"mana_cost": "{X}{U}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Brewing Storm.jpg"
+		}
+	},
+	{
+		"name": "Contest Star",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "163",
+		"mana_cost": "{3}{U}",
+		"type": "Creature — Human Performer ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Contest Star.jpg"
+		}
+	},
+	{
+		"name": "Whispering Runt",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "164",
+		"mana_cost": "{W}",
+		"type": "Creature — Beast ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Whispering Runt.jpg"
+		},
+		"back": {
+			"name": "Bellowing Beast",
+			"mana_cost": "",
+			"type": "Creature — Beast ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bellowing Beast.jpg"
+			}
+		}
+	},
+	{
+		"name": "Solid Smog",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "165",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Solid Smog.jpg"
+		},
+		"back": {
+			"name": "Splitting Smog",
+			"mana_cost": "",
+			"type": "Creature — Elemental ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Splitting Smog.jpg"
+			}
+		}
+	},
+	{
+		"name": "Prolific Fisher",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "166",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Prolific Fisher.jpg"
+		}
+	},
+	{
+		"name": "Imminent Disaster",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "167",
+		"mana_cost": "{3}{B}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Imminent Disaster.jpg"
+		}
+	},
+	{
+		"name": "Brief Stop",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "168",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Brief Stop.jpg"
+		}
+	},
+	{
+		"name": "Figy Berry",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "169",
+		"mana_cost": "{1}",
+		"type": "Artifact — Berry Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Figy Berry.jpg"
+		}
+	},
+	{
+		"name": "Gold Berry",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "170",
+		"mana_cost": "{2}",
+		"type": "Artifact — Berry Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Gold Berry.jpg"
+		}
+	},
+	{
+		"name": "Static Scamp",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "171",
+		"mana_cost": "{2}{W}",
+		"type": "Creature — Elemental Dog ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Static Scamp.jpg"
+		}
+	},
+	{
+		"name": "Contest Coordinator",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "172",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Performer ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Contest Coordinator.jpg"
+		}
+	},
+	{
+		"name": "Soothing Singer",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "173",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Ouphe Performer ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Soothing Singer.jpg"
+		}
+	},
+	{
+		"name": "Explore Wreckage",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "174",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Explore Wreckage.jpg"
+		}
+	},
+	{
+		"name": "Kappa Colony",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "175",
+		"mana_cost": "{3}{U}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Kappa Colony.jpg"
+		}
+	},
+	{
+		"name": "Teeter Dance",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "176",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment — Aura ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Teeter Dance.jpg"
+		}
+	},
+	{
+		"name": "Under the Collar",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "177",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Under the Collar.jpg"
+		}
+	},
+	{
+		"name": "Boiling Storm",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "178",
+		"mana_cost": "{2}{R}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Boiling Storm.jpg"
+		}
+	},
+	{
+		"name": "Bumbling Pollinator",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "179",
+		"mana_cost": "{3}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Bumbling Pollinator.jpg"
+		}
+	},
+	{
+		"name": "Seafloor Scavenger",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "180",
+		"mana_cost": "{B}{G}{U}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Seafloor Scavenger.jpg"
+		}
+	},
+	{
+		"name": "Forgotten Doorway",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "182",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Forgotten Doorway.jpg"
+		}
+	},
+	{
+		"name": "Prickly Dunes",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "183",
+		"mana_cost": "",
+		"type": "Land — Desert ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Prickly Dunes.jpg"
+		}
+	},
+	{
+		"name": "Ominous Quag",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "184",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ominous Quag.jpg"
+		}
+	},
+	{
+		"name": "Stunning Cascade",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "185",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Stunning Cascade.jpg"
+		}
+	},
+	{
+		"name": "Serpentine Woods",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "186",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Serpentine Woods.jpg"
+		}
+	},
+	{
+		"name": "Fortress Arena",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "187",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fortress Arena.jpg"
+		}
+	},
+	{
+		"name": "Cryptic Reef",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "188",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Cryptic Reef.jpg"
+		}
+	},
+	{
+		"name": "Evolving Wilds",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "189",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Evolving Wilds.jpg"
+		}
+	},
+	{
+		"name": "Plains",
+		"rarity": "basic land",
+		"set": "CCR",
+		"collector_number": "190",
+		"mana_cost": "",
+		"type": "Basic Land — Plains ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Plains.jpg"
+		}
+	},
+	{
+		"name": "Mountain",
+		"rarity": "basic land",
+		"set": "CCR",
+		"collector_number": "191",
+		"mana_cost": "",
+		"type": "Basic Land — Mountain ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Mountain.jpg"
+		}
+	},
+	{
+		"name": "Swamp",
+		"rarity": "basic land",
+		"set": "CCR",
+		"collector_number": "192",
+		"mana_cost": "",
+		"type": "Basic Land — Swamp ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Swamp.jpg"
+		}
+	},
+	{
+		"name": "Karina's Substitute",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "193",
+		"mana_cost": "{3}",
+		"type": "Artifact Creature — Toy ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Karina's Substitute.jpg"
+		}
+	},
+	{
+		"name": "Magnetic Snuffler",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "194",
+		"mana_cost": "{5}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magnetic Snuffler.jpg"
+		}
+	},
+	{
+		"name": "King's Rock",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "195",
+		"mana_cost": "{1}",
+		"type": "Artifact — Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/King's Rock.jpg"
+		}
+	},
+	{
+		"name": "Snazzy Scarf",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "196",
+		"mana_cost": "{2}",
+		"type": "Artifact — Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Snazzy Scarf.jpg"
+		}
+	},
+	{
+		"name": "Hard Stone",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "197",
+		"mana_cost": "{3}",
+		"type": "Artifact — Equipment ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hard Stone.jpg"
+		}
+	},
+	{
+		"name": "Meteorite",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "198",
+		"mana_cost": "{5}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Meteorite.jpg"
+		}
+	},
+	{
+		"name": "Heavy Snowfall",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "202",
+		"mana_cost": "{W}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Heavy Snowfall.jpg"
+		}
+	},
+	{
+		"name": "Sea Breeze",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "203",
+		"mana_cost": "{1}{U}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sea Breeze.jpg"
+		}
+	},
+	{
+		"name": "Falling Ashes",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "204",
+		"mana_cost": "{B}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Falling Ashes.jpg"
+		}
+	},
+	{
+		"name": "Streaking Sunrise",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "205",
+		"mana_cost": "{1}{R}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Streaking Sunrise.jpg"
+		}
+	},
+	{
+		"name": "Pollen Warning",
+		"rarity": "common",
+		"set": "CCR",
+		"collector_number": "206",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Pollen Warning.jpg"
+		}
+	},
+	{
+		"name": "Seal Shoals",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "208",
+		"mana_cost": "{W}{U}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Seal Shoals.jpg"
+		}
+	},
+	{
+		"name": "Singularity",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "216",
+		"mana_cost": "{B}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Singularity.jpg"
+		}
+	},
+	{
+		"name": "Pressuring Ghoul",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "217",
+		"mana_cost": "{1}{B}",
+		"type": "Creature — Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Pressuring Ghoul.jpg"
+		}
+	},
+	{
+		"name": "Serrated Fossil",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "218",
+		"mana_cost": "{B}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Serrated Fossil.jpg"
+		},
+		"back": {
+			"name": "Reborn Fisher",
+			"mana_cost": "",
+			"type": "Creature — Dinosaur Insect ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Reborn Fisher.jpg"
+			}
+		}
+	},
+	{
+		"name": "Hostage Situation",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "219",
+		"mana_cost": "{1}{B}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hostage Situation.jpg"
+		}
+	},
+	{
+		"name": "Unyielding Titan",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "220",
+		"mana_cost": "{3}{B}",
+		"type": "Creature — Golem ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Unyielding Titan.jpg"
+		}
+	},
+	{
+		"name": "Depths Ancient",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "221",
+		"mana_cost": "{3}{B}{B}",
+		"type": "Creature — Fish ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Depths Ancient.jpg"
+		}
+	},
+	{
+		"name": "Gloomy Meteorologist",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "222",
+		"mana_cost": "{2}{B}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Gloomy Meteorologist.jpg"
+		}
+	},
+	{
+		"name": "Shadow Sky",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "223",
+		"mana_cost": "{4}{B}{B}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Shadow Sky.jpg"
+		}
+	},
+	{
+		"name": "Weather Elemental",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "224",
+		"mana_cost": "{4}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Weather Elemental.jpg"
+		}
+	},
+	{
+		"name": "Magnetling",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "225",
+		"mana_cost": "{6}",
+		"type": "Artifact Creature — Construct ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Magnetling.jpg"
+		}
+	},
+	{
+		"name": "Sky Pillar",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "226",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sky Pillar.jpg"
+		}
+	},
+	{
+		"name": "Mirage Island",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "227",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Mirage Island.jpg"
+		}
+	},
+	{
+		"name": "Hoenn Champion",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "228",
+		"mana_cost": "{4}{R}{G}",
+		"type": "Legendary Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Hoenn Champion.jpg"
+		}
+	},
+	{
+		"name": "Growing Gecko",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "229",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Plant Lizard ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Growing Gecko.jpg"
+		},
+		"back": {
+			"name": "Old-Growth Gecko",
+			"mana_cost": "",
+			"type": "Creature — Plant Lizard ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Old-Growth Gecko.jpg"
+			}
+		}
+	},
+	{
+		"name": "Mystery Egg",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "230",
+		"mana_cost": "{G}",
+		"type": "Creature — Egg ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Mystery Egg.jpg"
+		}
+	},
+	{
+		"name": "Berry Fermenter",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "231",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Turtle ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Berry Fermenter.jpg"
+		}
+	},
+	{
+		"name": "Parental Pair",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "232",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Creature — Beast ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Parental Pair.jpg"
+		}
+	},
+	{
+		"name": "Unflinching Titan",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "233",
+		"mana_cost": "{2}{G}",
+		"type": "Creature — Golem ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Unflinching Titan.jpg"
+		}
+	},
+	{
+		"name": "Frenzy Plant",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "234",
+		"mana_cost": "{3}{G}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Frenzy Plant.jpg"
+		}
+	},
+	{
+		"name": "Entangled Fossil",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "235",
+		"mana_cost": "{G}",
+		"type": "Artifact",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Entangled Fossil.jpg"
+		},
+		"back": {
+			"name": "Reborn Reef",
+			"mana_cost": "",
+			"type": "Creature — Plant ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Reborn Reef.jpg"
+			}
+		}
+	},
+	{
+		"name": "Heavy Winds",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "236",
+		"mana_cost": "{1}{G}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Heavy Winds.jpg"
+		}
+	},
+	{
+		"name": "The Berry Master",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "237",
+		"mana_cost": "{1}{W}{B}{G}",
+		"type": "Legendary Creature — Human Druid ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/The Berry Master.jpg"
+		}
+	},
+	{
+		"name": "Ema, the Returned",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "238",
+		"mana_cost": "{2}{W}",
+		"type": "Legendary Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ema, the Returned.jpg"
+		}
+	},
+	{
+		"name": "The Aqua Crew",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "239",
+		"mana_cost": "{3}{B}{G}{U}",
+		"type": "Legendary Creature — Human Pirate ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/The Aqua Crew.jpg"
+		}
+	},
+	{
+		"name": "The Magma Council",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "240",
+		"mana_cost": "{2}{R}{W}{B}",
+		"type": "Legendary Creature — Human Advisor ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/The Magma Council.jpg"
+		}
+	},
+	{
+		"name": "Stitches, Adopted",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "241",
+		"mana_cost": "{2}{G}{U}{R}",
+		"type": "Legendary Creature — Toy Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Stitches, Adopted.jpg"
+		},
+		"back": {
+			"name": "Stitches, Orphaned",
+			"mana_cost": "",
+			"type": "Legendary Creature — Toy Spirit ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Stitches, Orphaned.jpg"
+			}
+		}
+	},
+	{
+		"name": "Sanaito, Voidsinger",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "242",
+		"mana_cost": "{2}{W}{B}",
+		"type": "Legendary Planeswalker — Sanaito ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Sanaito, Voidsinger.jpg"
+		}
+	},
+	{
+		"name": "Iviana, Dragon Tamer",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "243",
+		"mana_cost": "{3}{U}{R}",
+		"type": "Legendary Planeswalker — Iviana ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Iviana, Dragon Tamer.jpg"
+		}
+	},
+	{
+		"name": "Jack, Monster Mentor",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "244",
+		"mana_cost": "{2}{B}{G}",
+		"type": "Legendary Planeswalker — Jack ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Jack, Monster Mentor.jpg"
+		}
+	},
+	{
+		"name": "Karina, Budding Diplomat",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "245",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Legendary Planeswalker — Karina ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Karina, Budding Diplomat.jpg"
+		}
+	},
+	{
+		"name": "Simul, Genetic Artisan",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "246",
+		"mana_cost": "{3}{G}{U}",
+		"type": "Legendary Planeswalker — Simul ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Simul, Genetic Artisan.jpg"
+		}
+	},
+	{
+		"name": "Fragile Soul",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "247",
+		"mana_cost": "{1}{W}{B}",
+		"type": "Creature — Insect Spirit ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fragile Soul.jpg"
+		}
+	},
+	{
+		"name": "Iviana's Spellmaw",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "248",
+		"mana_cost": "{2}{U}{R}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Iviana's Spellmaw.jpg"
+		},
+		"back": {
+			"name": "Iviana's Splitmaw",
+			"mana_cost": "",
+			"type": "Creature — Dragon ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Iviana's Splitmaw.jpg"
+			}
+		}
+	},
+	{
+		"name": "Spikey, Jack's Gravetiller",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "249",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Legendary Creature — Plant Horror ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Spikey, Jack's Gravetiller.jpg"
+		}
+	},
+	{
+		"name": "Amber, Nimble Companion",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "250",
+		"mana_cost": "{R}{W}",
+		"type": "Legendary Creature — Weasel ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Amber, Nimble Companion.jpg"
+		}
+	},
+	{
+		"name": "Nocturne, Monstrous Krasis",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "251",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Legendary Creature — Fox Werewolf ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Nocturne, Monstrous Krasis.jpg"
+		}
+	},
+	{
+		"name": "Heartbreak",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "252",
+		"mana_cost": "{1}{W}{B}{G}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Heartbreak.jpg"
+		}
+	},
+	{
+		"name": "Idolized Coordinator",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "253",
+		"mana_cost": "{U}{R}{W}",
+		"type": "Creature — Human Performer ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Idolized Coordinator.jpg"
+		}
+	},
+	{
+		"name": "Turf Warfare",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "254",
+		"mana_cost": "{2}{B}{G}{U}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Turf Warfare.jpg"
+		}
+	},
+	{
+		"name": "Suncaller Tortoise",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "255",
+		"mana_cost": "{1}{R}{W}{B}",
+		"type": "Creature — Elemental Turtle ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Suncaller Tortoise.jpg"
+		}
+	},
+	{
+		"name": "Higana, Dragon Tamer",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "256",
+		"mana_cost": "{1}{G}{U}{R}",
+		"type": "Legendary Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Higana, Dragon Tamer.jpg"
+		}
+	},
+	{
+		"name": "Weaver of Fates",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "257",
+		"mana_cost": "{1}{W}{U}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Weaver of Fates.jpg"
+		}
+	},
+	{
+		"name": "Warden of Depths",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "258",
+		"mana_cost": "{3}{U}{U}{B}",
+		"type": "Legendary Creature — Leviathan Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Depths.jpg"
+		}
+	},
+	{
+		"name": "Scattering Swine",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "259",
+		"mana_cost": "{B}{R}",
+		"type": "Creature — Boar Wizard ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Scattering Swine.jpg"
+		}
+	},
+	{
+		"name": "Warden of Tremors",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "260",
+		"mana_cost": "{3}{R}{R}{G}",
+		"type": "Legendary Creature — Dinosaur Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Tremors.jpg"
+		}
+	},
+	{
+		"name": "Warden of Skies",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "261",
+		"mana_cost": "{4}{G}{G}{W}",
+		"type": "Legendary Creature — Dragon Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Skies.jpg"
+		}
+	},
+	{
+		"name": "Warden of Wishes",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "262",
+		"mana_cost": "{3}{W}{B}",
+		"type": "Legendary Creature — Faerie Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Wishes.jpg"
+		}
+	},
+	{
+		"name": "Charged Party",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "263",
+		"mana_cost": "{1}{U}{R}",
+		"type": "Creature — Elemental Mouse ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Charged Party.jpg"
+		}
+	},
+	{
+		"name": "Poisoned Rose",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "264",
+		"mana_cost": "{1}{B}{G}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Poisoned Rose.jpg"
+		}
+	},
+	{
+		"name": "Ironback Tyke",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "265",
+		"mana_cost": "{1}{R}{W}",
+		"type": "Creature — Dinosaur ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ironback Tyke.jpg"
+		},
+		"back": {
+			"name": "Ironback Sovereign",
+			"mana_cost": "",
+			"type": "Creature — Dinosaur ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Ironback Sovereign.jpg"
+			}
+		}
+	},
+	{
+		"name": "Carefree Kappa",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "266",
+		"mana_cost": "{2}{G}{U}",
+		"type": "Creature — Plant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Carefree Kappa.jpg"
+		}
+	},
+	{
+		"name": "Tempermental Chick",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "267",
+		"mana_cost": "{2}{R}",
+		"type": "Creature — Bird ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tempermental Chick.jpg"
+		},
+		"back": {
+			"name": "Tempered Fowl",
+			"mana_cost": "",
+			"type": "Creature — Bird ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tempered Fowl.jpg"
+			}
+		}
+	},
+	{
+		"name": "Warden of Heart",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "268",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Legendary Creature — Dragon Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Heart.jpg"
+		}
+	},
+	{
+		"name": "Earthbreaker Dragon",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "269",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Earthbreaker Dragon.jpg"
+		}
+	},
+	{
+		"name": "Mimicry Elemental",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "270",
+		"mana_cost": "{1}{R}",
+		"type": "Creature — Elemental ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Mimicry Elemental.jpg"
+		}
+	},
+	{
+		"name": "End of Mutations",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "271",
+		"mana_cost": "{3}{R}{R}{R}",
+		"type": "Legendary Creature — Alien Mutant ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/End of Mutations.jpg"
+		}
+	},
+	{
+		"name": "Rumbling Volcamel",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "272",
+		"mana_cost": "{2}{R}{R}",
+		"type": "Creature — Elemental Camel  ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Rumbling Volcamel.jpg"
+		},
+		"back": {
+			"name": "Erupting Volcamel",
+			"mana_cost": "",
+			"type": "Creature — Elemental Camel  ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Erupting Volcamel.jpg"
+			}
+		}
+	},
+	{
+		"name": "Generator Alpha",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "273",
+		"mana_cost": "{3}{R}",
+		"type": "Creature — Elemental Dog ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Generator Alpha.jpg"
+		}
+	},
+	{
+		"name": "Desolate Lands",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "274",
+		"mana_cost": "{3}{R}{R}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Desolate Lands.jpg"
+		}
+	},
+	{
+		"name": "Splashing Mudskipper",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "275",
+		"mana_cost": "{2}{U}",
+		"type": "Creature — Salamander ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Splashing Mudskipper.jpg"
+		},
+		"back": {
+			"name": "Surging Mudskipper",
+			"mana_cost": "",
+			"type": "Creature — Salamander ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Surging Mudskipper.jpg"
+			}
+		}
+	},
+	{
+		"name": "Tenki, Storm Chaser",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "276",
+		"mana_cost": "{1}{U}",
+		"type": "Legendary Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Tenki, Storm Chaser.jpg"
+		}
+	},
+	{
+		"name": "Warden of Soul",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "277",
+		"mana_cost": "{2}{U}{U}",
+		"type": "Legendary Creature — Dragon Avatar ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Warden of Soul.jpg"
+		}
+	},
+	{
+		"name": "Aqua Crew Flagship",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "278",
+		"mana_cost": "{2}{U}",
+		"type": "Artifact — Vehicle ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Aqua Crew Flagship.jpg"
+		}
+	},
+	{
+		"name": "Unspeaking Titan",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "279",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Golem ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Unspeaking Titan.jpg"
+		}
+	},
+	{
+		"name": "Wrecking Whale",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "280",
+		"mana_cost": "{6}{U}{U}",
+		"type": "Creature — Whale ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Wrecking Whale.jpg"
+		}
+	},
+	{
+		"name": "Fortune Bearer",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "281",
+		"mana_cost": "{1}{U}",
+		"type": "Creature — Oyster ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Fortune Bearer.jpg"
+		},
+		"back": {
+			"name": "Devourer of Fortunes",
+			"mana_cost": "",
+			"type": "Creature — Fish ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Devourer of Fortunes.jpg"
+			}
+		}
+	},
+	{
+		"name": "Primordial Seas",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "282",
+		"mana_cost": "{5}{U}{U}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Primordial Seas.jpg"
+		}
+	},
+	{
+		"name": "Teetering Panda",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "283",
+		"mana_cost": "{U}{R}{W}",
+		"type": "Creature — Panda ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Teetering Panda.jpg"
+		}
+	},
+	{
+		"name": "Smart Shopper",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "284",
+		"mana_cost": "{1}{W}",
+		"type": "Creature — Human Ranger ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Smart Shopper.jpg"
+		}
+	},
+	{
+		"name": "Cirriform Dragon",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "285",
+		"mana_cost": "{3}{W}{W}",
+		"type": "Creature — Dragon ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Cirriform Dragon.jpg"
+		}
+	},
+	{
+		"name": "Snoring Stone",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "286",
+		"mana_cost": "{3}{W}",
+		"type": "Creature — Elemental Golem ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Snoring Stone.jpg"
+		},
+		"back": {
+			"name": "Seismic Brute",
+			"mana_cost": "",
+			"type": "Creature — Elemental Golem ",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Seismic Brute.jpg"
+			}
+		}
+	},
+	{
+		"name": "Dark Horse Victory",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "287",
+		"mana_cost": "{3}{W}",
+		"type": "Sorcery",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Dark Horse Victory.jpg"
+		}
+	},
+	{
+		"name": "Catch Your Breath",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "288",
+		"mana_cost": "{1}{W}",
+		"type": "Instant",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Catch Your Breath.jpg"
+		}
+	},
+	{
+		"name": "Plush Collection",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "289",
+		"mana_cost": "{2}{W}",
+		"type": "Enchantment",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Plush Collection.jpg"
+		}
+	},
+	{
+		"name": "Diamond Dust",
+		"rarity": "rare",
+		"set": "CCR",
+		"collector_number": "290",
+		"mana_cost": "{5}{W}",
+		"type": "Enchantment — Weather ",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Diamond Dust.jpg"
+		}
+	},
+	{
+		"name": "Weather Research Station",
+		"rarity": "uncommon",
+		"set": "CCR",
+		"collector_number": "294",
+		"mana_cost": "",
+		"type": "Land",
+		"image_uris": {
+			"en": "https://raw.githubusercontent.com//mse-playtesting/CCR/Cockatrice/data/pics/downloadedPics/CCR/Weather Research Station.jpg"
+		}
+	}
+]
+[Common (7)]
+8 Scruffy Rascal (CCR) 4
+8 Padpole (CCR) 5
+8 Seafloor Treasures (CCR) 10
+8 Buried Geode (CCR) 12
+8 Magnetic Mystery (CCR) 14
+8 Tempermental Growth (CCR) 20
+8 A Journey Begins (CCR) 27
+8 Starved Piranha (CCR) 28
+8 Riverbed Snapper (CCR) 30
+8 Floe Master (CCR) 35
+8 Eager Scavenger (CCR) 37
+8 Root Fossil (CCR) 40
+8 Claw Fossil (CCR) 42
+8 Sandstorm Dancer (CCR) 43
+8 Herald of Drizzles (CCR) 45
+8 Whipping Winds (CCR) 48
+8 Empty Shell (CCR) 58
+8 Plucky Trainer (CCR) 60
+8 Canopy Creeper (CCR) 61
+8 Magma Flow (CCR) 62
+8 Cloud Nine (CCR) 65
+8 Bulk Up (CCR) 66
+8 Bubbling Firesnail (CCR) 67
+8 Contest Spectators (CCR) 68
+8 Iron Defense (CCR) 71
+8 The Ruins Awaken (CCR) 75
+8 Hungry Songbird (CCR) 76
+8 Chiming Soul (CCR) 77
+8 Swooping Hunter (CCR) 78
+8 Restless Sloth (CCR) 79
+8 Armored Raptor (CCR) 80
+8 Capricious Cat (CCR) 81
+8 Gone Pickin' (CCR) 82
+8 To the Last Breath (CCR) 83
+8 Tough It Out (CCR) 85
+8 Pathetic Cocoon (CCR) 86
+8 Reaper of the Deep (CCR) 90
+8 Lady of the Mists (CCR) 91
+8 Hoard (CCR) 92
+8 Homesick (CCR) 93
+8 Ace Tamer (CCR) 94
+8 Meteor Lobber (CCR) 96
+8 Cheer On (CCR) 97
+8 Nowhere To Run (CCR) 99
+8 Poised Flame (CCR) 100
+8 Charge Beam (CCR) 101
+8 Dragon Dance (CCR) 102
+8 Hone Claws (CCR) 103
+8 Eerie Sculpture (CCR) 104
+8 Zipping Lightningbug (CCR) 105
+8 Floating Familiar (CCR) 106
+8 King of Currents (CCR) 107
+8 Illuminate (CCR) 108
+8 Kinesis (CCR) 109
+8 Amnesia (CCR) 111
+8 Aqua Jet (CCR) 112
+8 Collector's Item (CCR) 113
+8 Foraging Grub (CCR) 115
+8 Creature Catalog (CCR) 116
+8 Life Orb (CCR) 117
+8 Kicking Fowl (CCR) 132
+8 Fluttering Firefly (CCR) 141
+8 Nimbus Dragon (CCR) 143
+8 Psychohopper (CCR) 144
+8 Amateur Tamer (CCR) 145
+8 Thornfist Bruiser (CCR) 146
+8 Lustrous Starfish (CCR) 148
+8 Outlands Prowler (CCR) 149
+8 Moonlight Adventurer (CCR) 150
+8 Brick Breaker (CCR) 151
+8 Living Compass (CCR) 152
+8 Sandstorm Devil (CCR) 154
+8 Relentless Bats (CCR) 156
+8 Crunch (CCR) 157
+8 Burn Up (CCR) 159
+8 Whispering Runt (CCR) 164
+8 Solid Smog (CCR) 165
+8 Imminent Disaster (CCR) 167
+8 Brief Stop (CCR) 168
+8 Figy Berry (CCR) 169
+8 Gold Berry (CCR) 170
+8 Heavy Snowfall (CCR) 202
+8 Sea Breeze (CCR) 203
+8 Falling Ashes (CCR) 204
+8 Streaking Sunrise (CCR) 205
+8 Pollen Warning (CCR) 206[Uncommon (3)]
+4 Sunny Day (CCR) 0
+4 Hail (CCR) 1
+4 Sandstorm (CCR) 2
+4 Clear Skies (CCR) 3
+4 Pitfall Pincher (CCR) 6
+4 Beloved Poppet (CCR) 7
+4 Omenhorn (CCR) 8
+4 Maw Imposter (CCR) 9
+4 Shining Angler (CCR) 11
+4 Enspirited Ore (CCR) 13
+4 Feeble Fish (CCR) 15
+4 Calamity Cat (CCR) 16
+4 Delivery Gull (CCR) 17
+4 Charismatic Chameleon (CCR) 18
+4 Bloom Brute (CCR) 19
+4 Crumbling Tower (CCR) 21
+4 Chum Chaser (CCR) 29
+4 Blooming Sauropod (CCR) 31
+4 Unnerving Moth (CCR) 32
+4 Burning Celestial (CCR) 33
+4 Calming Celestial (CCR) 34
+4 Sifting Through Soot (CCR) 36
+4 Dustwing Butterfly (CCR) 38
+4 Dustwing Moth (CCR) 39
+4 Rain Dance (CCR) 41
+4 Scuttling Cicada (CCR) 44
+4 Dormant Camel (CCR) 46
+4 Lum Berry (CCR) 47
+4 Walk Among the Dead (CCR) 49
+4 King of Gluttons (CCR) 50
+4 Berry Harvester (CCR) 51
+4 Jade Temple (CCR) 52
+4 Rooting Raccoon (CCR) 53
+4 Twinned Beak (CCR) 54
+4 Magma Grunt (CCR) 55
+4 Contest Judge (CCR) 56
+4 Lavaborn Slug (CCR) 57
+4 Generous Farmer (CCR) 59
+4 Aroma Spinner (CCR) 63
+4 Archaeovolcanologist (CCR) 64
+4 Tough Nut (CCR) 69
+4 Magical Leaves (CCR) 70
+4 Bind (CCR) 72
+4 Hungry Blob (CCR) 73
+4 Echocrafter (CCR) 74
+4 Pick Up (CCR) 84
+4 Feasting Sloth (CCR) 87
+4 Urban Explorer (CCR) 88
+4 Muddy Water (CCR) 89
+4 Rejuvenating Kappa (CCR) 95
+4 Harvest Time (CCR) 98
+4 Out of Sight (CCR) 110
+4 Shiver Elemental (CCR) 114
+4 Glassblower's Forge (CCR) 118
+4 Aqua Gang Diver (CCR) 119
+4 Dazzling Performer (CCR) 120
+4 Feasting Predator (CCR) 121
+4 Talon Triplets (CCR) 122
+4 Practicing Guru (CCR) 123
+4 Spore Collector (CCR) 124
+4 Fight as One (CCR) 125
+4 Center of Attention (CCR) 126
+4 Past Unresolved (CCR) 127
+4 Waterway Distraction (CCR) 128
+4 Smiling Sludge (CCR) 129
+4 Soul's Sunset (CCR) 130
+4 Territory Dispute (CCR) 131
+4 Psych Up (CCR) 133
+4 Rollephant (CCR) 134
+4 Sunsoaker (CCR) 135
+4 Bottom Feeder (CCR) 136
+4 Blustering Storm (CCR) 137
+4 Exotic Transformer (CCR) 138
+4 Plated Tunneler (CCR) 139
+4 Leaping Hatchling (CCR) 140
+4 Puddle Crasher (CCR) 142
+4 Harbor Mail (CCR) 147
+4 Elegant Hunter (CCR) 153
+4 Searing Grace (CCR) 155
+4 Stratus Fledgling (CCR) 161
+4 Brewing Storm (CCR) 162
+4 Contest Star (CCR) 163
+4 Prolific Fisher (CCR) 166
+4 Static Scamp (CCR) 171
+4 Contest Coordinator (CCR) 172
+4 Soothing Singer (CCR) 173
+4 Explore Wreckage (CCR) 174
+4 Kappa Colony (CCR) 175
+4 Teeter Dance (CCR) 176
+4 Under the Collar (CCR) 177
+4 Boiling Storm (CCR) 178
+4 Bumbling Pollinator (CCR) 179
+4 Seafloor Scavenger (CCR) 180
+4 Forgotten Doorway (CCR) 182
+4 Prickly Dunes (CCR) 183
+4 Karina's Substitute (CCR) 193
+4 Magnetic Snuffler (CCR) 194
+4 King's Rock (CCR) 195
+4 Snazzy Scarf (CCR) 196
+4 Hard Stone (CCR) 197
+4 Meteorite (CCR) 198
+4 Seal Shoals (CCR) 208
+4 Weather Research Station (CCR) 294[JustRare (1)]
+4 Singularity (CCR) 216
+4 Pressuring Ghoul (CCR) 217
+4 Serrated Fossil (CCR) 218
+4 Hostage Situation (CCR) 219
+4 Unyielding Titan (CCR) 220
+4 Depths Ancient (CCR) 221
+4 Gloomy Meteorologist (CCR) 222
+4 Shadow Sky (CCR) 223
+4 Weather Elemental (CCR) 224
+4 Magnetling (CCR) 225
+4 Sky Pillar (CCR) 226
+4 Hoenn Champion (CCR) 228
+4 Growing Gecko (CCR) 229
+4 Mystery Egg (CCR) 230
+4 Berry Fermenter (CCR) 231
+4 Parental Pair (CCR) 232
+4 Unflinching Titan (CCR) 233
+4 Frenzy Plant (CCR) 234
+4 Entangled Fossil (CCR) 235
+4 Heavy Winds (CCR) 236
+4 The Berry Master (CCR) 237
+4 Ema, the Returned (CCR) 238
+4 The Aqua Crew (CCR) 239
+4 The Magma Council (CCR) 240
+4 Stitches, Adopted (CCR) 241
+4 Sanaito, Voidsinger (CCR) 242
+4 Iviana, Dragon Tamer (CCR) 243
+4 Jack, Monster Mentor (CCR) 244
+4 Karina, Budding Diplomat (CCR) 245
+4 Simul, Genetic Artisan (CCR) 246
+4 Fragile Soul (CCR) 247
+4 Iviana's Spellmaw (CCR) 248
+4 Spikey, Jack's Gravetiller (CCR) 249
+4 Amber, Nimble Companion (CCR) 250
+4 Nocturne, Monstrous Krasis (CCR) 251
+4 Heartbreak (CCR) 252
+4 Idolized Coordinator (CCR) 253
+4 Turf Warfare (CCR) 254
+4 Suncaller Tortoise (CCR) 255
+4 Higana, Dragon Tamer (CCR) 256
+4 Weaver of Fates (CCR) 257
+4 Warden of Depths (CCR) 258
+4 Scattering Swine (CCR) 259
+4 Warden of Tremors (CCR) 260
+4 Warden of Skies (CCR) 261
+4 Warden of Wishes (CCR) 262
+4 Charged Party (CCR) 263
+4 Poisoned Rose (CCR) 264
+4 Ironback Tyke (CCR) 265
+4 Carefree Kappa (CCR) 266
+4 Tempermental Chick (CCR) 267
+4 Warden of Heart (CCR) 268
+4 Earthbreaker Dragon (CCR) 269
+4 Mimicry Elemental (CCR) 270
+4 End of Mutations (CCR) 271
+4 Rumbling Volcamel (CCR) 272
+4 Generator Alpha (CCR) 273
+4 Desolate Lands (CCR) 274
+4 Splashing Mudskipper (CCR) 275
+4 Tenki, Storm Chaser (CCR) 276
+4 Warden of Soul (CCR) 277
+4 Aqua Crew Flagship (CCR) 278
+4 Unspeaking Titan (CCR) 279
+4 Wrecking Whale (CCR) 280
+4 Fortune Bearer (CCR) 281
+4 Primordial Seas (CCR) 282
+4 Teetering Panda (CCR) 283
+4 Smart Shopper (CCR) 284
+4 Cirriform Dragon (CCR) 285
+4 Snoring Stone (CCR) 286
+4 Dark Horse Victory (CCR) 287
+4 Catch Your Breath (CCR) 288
+4 Plush Collection (CCR) 289
+4 Diamond Dust (CCR) 290[Nonbasic (1)]
+8 Gleaming Hot Springs (CCR) 22
+8 Deeplife Cavern (CCR) 23
+8 Calmed Battleground (CCR) 24
+8 Frigid Highlands (CCR) 25
+8 Sunlit Ruins (CCR) 26
+8 Ominous Quag (CCR) 184
+8 Stunning Cascade (CCR) 185
+8 Serpentine Woods (CCR) 186
+8 Fortress Arena (CCR) 187
+8 Cryptic Reef (CCR) 188
+8 Evolving Wilds (CCR) 189
+8 Mirage Island (CCR) 227[Wildcard (1)]
+4 Sunny Day (CCR) 0
+4 Hail (CCR) 1
+4 Sandstorm (CCR) 2
+4 Clear Skies (CCR) 3
+8 Scruffy Rascal (CCR) 4
+8 Padpole (CCR) 5
+4 Pitfall Pincher (CCR) 6
+4 Beloved Poppet (CCR) 7
+4 Omenhorn (CCR) 8
+4 Maw Imposter (CCR) 9
+8 Seafloor Treasures (CCR) 10
+4 Shining Angler (CCR) 11
+8 Buried Geode (CCR) 12
+4 Enspirited Ore (CCR) 13
+8 Magnetic Mystery (CCR) 14
+4 Feeble Fish (CCR) 15
+4 Calamity Cat (CCR) 16
+4 Delivery Gull (CCR) 17
+4 Charismatic Chameleon (CCR) 18
+4 Bloom Brute (CCR) 19
+8 Tempermental Growth (CCR) 20
+4 Crumbling Tower (CCR) 21
+8 Gleaming Hot Springs (CCR) 22
+8 Deeplife Cavern (CCR) 23
+8 Calmed Battleground (CCR) 24
+8 Frigid Highlands (CCR) 25
+8 Sunlit Ruins (CCR) 26
+8 A Journey Begins (CCR) 27
+8 Starved Piranha (CCR) 28
+4 Chum Chaser (CCR) 29
+8 Riverbed Snapper (CCR) 30
+4 Blooming Sauropod (CCR) 31
+4 Unnerving Moth (CCR) 32
+4 Burning Celestial (CCR) 33
+4 Calming Celestial (CCR) 34
+8 Floe Master (CCR) 35
+4 Sifting Through Soot (CCR) 36
+8 Eager Scavenger (CCR) 37
+4 Dustwing Butterfly (CCR) 38
+4 Dustwing Moth (CCR) 39
+8 Root Fossil (CCR) 40
+4 Rain Dance (CCR) 41
+8 Claw Fossil (CCR) 42
+8 Sandstorm Dancer (CCR) 43
+4 Scuttling Cicada (CCR) 44
+8 Herald of Drizzles (CCR) 45
+4 Dormant Camel (CCR) 46
+4 Lum Berry (CCR) 47
+8 Whipping Winds (CCR) 48
+4 Walk Among the Dead (CCR) 49
+4 King of Gluttons (CCR) 50
+4 Berry Harvester (CCR) 51
+4 Jade Temple (CCR) 52
+4 Rooting Raccoon (CCR) 53
+4 Twinned Beak (CCR) 54
+4 Magma Grunt (CCR) 55
+4 Contest Judge (CCR) 56
+4 Lavaborn Slug (CCR) 57
+8 Empty Shell (CCR) 58
+4 Generous Farmer (CCR) 59
+8 Plucky Trainer (CCR) 60
+8 Canopy Creeper (CCR) 61
+8 Magma Flow (CCR) 62
+4 Aroma Spinner (CCR) 63
+4 Archaeovolcanologist (CCR) 64
+8 Cloud Nine (CCR) 65
+8 Bulk Up (CCR) 66
+8 Bubbling Firesnail (CCR) 67
+8 Contest Spectators (CCR) 68
+4 Tough Nut (CCR) 69
+4 Magical Leaves (CCR) 70
+8 Iron Defense (CCR) 71
+4 Bind (CCR) 72
+4 Hungry Blob (CCR) 73
+4 Echocrafter (CCR) 74
+8 The Ruins Awaken (CCR) 75
+8 Hungry Songbird (CCR) 76
+8 Chiming Soul (CCR) 77
+8 Swooping Hunter (CCR) 78
+8 Restless Sloth (CCR) 79
+8 Armored Raptor (CCR) 80
+8 Capricious Cat (CCR) 81
+8 Gone Pickin' (CCR) 82
+8 To the Last Breath (CCR) 83
+4 Pick Up (CCR) 84
+8 Tough It Out (CCR) 85
+8 Pathetic Cocoon (CCR) 86
+4 Feasting Sloth (CCR) 87
+4 Urban Explorer (CCR) 88
+4 Muddy Water (CCR) 89
+8 Reaper of the Deep (CCR) 90
+8 Lady of the Mists (CCR) 91
+8 Hoard (CCR) 92
+8 Homesick (CCR) 93
+8 Ace Tamer (CCR) 94
+4 Rejuvenating Kappa (CCR) 95
+8 Meteor Lobber (CCR) 96
+8 Cheer On (CCR) 97
+4 Harvest Time (CCR) 98
+8 Nowhere To Run (CCR) 99
+8 Poised Flame (CCR) 100
+8 Charge Beam (CCR) 101
+8 Dragon Dance (CCR) 102
+8 Hone Claws (CCR) 103
+8 Eerie Sculpture (CCR) 104
+8 Zipping Lightningbug (CCR) 105
+8 Floating Familiar (CCR) 106
+8 King of Currents (CCR) 107
+8 Illuminate (CCR) 108
+8 Kinesis (CCR) 109
+4 Out of Sight (CCR) 110
+8 Amnesia (CCR) 111
+8 Aqua Jet (CCR) 112
+8 Collector's Item (CCR) 113
+4 Shiver Elemental (CCR) 114
+8 Foraging Grub (CCR) 115
+8 Creature Catalog (CCR) 116
+8 Life Orb (CCR) 117
+4 Glassblower's Forge (CCR) 118
+4 Aqua Gang Diver (CCR) 119
+4 Dazzling Performer (CCR) 120
+4 Feasting Predator (CCR) 121
+4 Talon Triplets (CCR) 122
+4 Practicing Guru (CCR) 123
+4 Spore Collector (CCR) 124
+4 Fight as One (CCR) 125
+4 Center of Attention (CCR) 126
+4 Past Unresolved (CCR) 127
+4 Waterway Distraction (CCR) 128
+4 Smiling Sludge (CCR) 129
+4 Soul's Sunset (CCR) 130
+4 Territory Dispute (CCR) 131
+8 Kicking Fowl (CCR) 132
+4 Psych Up (CCR) 133
+4 Rollephant (CCR) 134
+4 Sunsoaker (CCR) 135
+4 Bottom Feeder (CCR) 136
+4 Blustering Storm (CCR) 137
+4 Exotic Transformer (CCR) 138
+4 Plated Tunneler (CCR) 139
+4 Leaping Hatchling (CCR) 140
+8 Fluttering Firefly (CCR) 141
+4 Puddle Crasher (CCR) 142
+8 Nimbus Dragon (CCR) 143
+8 Psychohopper (CCR) 144
+8 Amateur Tamer (CCR) 145
+8 Thornfist Bruiser (CCR) 146
+4 Harbor Mail (CCR) 147
+8 Lustrous Starfish (CCR) 148
+8 Outlands Prowler (CCR) 149
+8 Moonlight Adventurer (CCR) 150
+8 Brick Breaker (CCR) 151
+8 Living Compass (CCR) 152
+4 Elegant Hunter (CCR) 153
+8 Sandstorm Devil (CCR) 154
+4 Searing Grace (CCR) 155
+8 Relentless Bats (CCR) 156
+8 Crunch (CCR) 157
+8 Burn Up (CCR) 159
+4 Stratus Fledgling (CCR) 161
+4 Brewing Storm (CCR) 162
+4 Contest Star (CCR) 163
+8 Whispering Runt (CCR) 164
+8 Solid Smog (CCR) 165
+4 Prolific Fisher (CCR) 166
+8 Imminent Disaster (CCR) 167
+8 Brief Stop (CCR) 168
+8 Figy Berry (CCR) 169
+8 Gold Berry (CCR) 170
+4 Static Scamp (CCR) 171
+4 Contest Coordinator (CCR) 172
+4 Soothing Singer (CCR) 173
+4 Explore Wreckage (CCR) 174
+4 Kappa Colony (CCR) 175
+4 Teeter Dance (CCR) 176
+4 Under the Collar (CCR) 177
+4 Boiling Storm (CCR) 178
+4 Bumbling Pollinator (CCR) 179
+4 Seafloor Scavenger (CCR) 180
+4 Forgotten Doorway (CCR) 182
+4 Prickly Dunes (CCR) 183
+8 Ominous Quag (CCR) 184
+8 Stunning Cascade (CCR) 185
+8 Serpentine Woods (CCR) 186
+8 Fortress Arena (CCR) 187
+8 Cryptic Reef (CCR) 188
+8 Evolving Wilds (CCR) 189
+4 Karina's Substitute (CCR) 193
+4 Magnetic Snuffler (CCR) 194
+4 King's Rock (CCR) 195
+4 Snazzy Scarf (CCR) 196
+4 Hard Stone (CCR) 197
+4 Meteorite (CCR) 198
+8 Heavy Snowfall (CCR) 202
+8 Sea Breeze (CCR) 203
+8 Falling Ashes (CCR) 204
+8 Streaking Sunrise (CCR) 205
+8 Pollen Warning (CCR) 206
+4 Seal Shoals (CCR) 208
+4 Singularity (CCR) 216
+4 Pressuring Ghoul (CCR) 217
+4 Serrated Fossil (CCR) 218
+4 Hostage Situation (CCR) 219
+4 Unyielding Titan (CCR) 220
+4 Depths Ancient (CCR) 221
+4 Gloomy Meteorologist (CCR) 222
+4 Shadow Sky (CCR) 223
+4 Weather Elemental (CCR) 224
+4 Magnetling (CCR) 225
+4 Sky Pillar (CCR) 226
+4 Mirage Island (CCR) 227
+4 Hoenn Champion (CCR) 228
+4 Growing Gecko (CCR) 229
+4 Mystery Egg (CCR) 230
+4 Berry Fermenter (CCR) 231
+4 Parental Pair (CCR) 232
+4 Unflinching Titan (CCR) 233
+4 Frenzy Plant (CCR) 234
+4 Entangled Fossil (CCR) 235
+4 Heavy Winds (CCR) 236
+4 The Berry Master (CCR) 237
+4 Ema, the Returned (CCR) 238
+4 The Aqua Crew (CCR) 239
+4 The Magma Council (CCR) 240
+4 Stitches, Adopted (CCR) 241
+4 Sanaito, Voidsinger (CCR) 242
+4 Iviana, Dragon Tamer (CCR) 243
+4 Jack, Monster Mentor (CCR) 244
+4 Karina, Budding Diplomat (CCR) 245
+4 Simul, Genetic Artisan (CCR) 246
+4 Fragile Soul (CCR) 247
+4 Iviana's Spellmaw (CCR) 248
+4 Spikey, Jack's Gravetiller (CCR) 249
+4 Amber, Nimble Companion (CCR) 250
+4 Nocturne, Monstrous Krasis (CCR) 251
+4 Heartbreak (CCR) 252
+4 Idolized Coordinator (CCR) 253
+4 Turf Warfare (CCR) 254
+4 Suncaller Tortoise (CCR) 255
+4 Higana, Dragon Tamer (CCR) 256
+4 Weaver of Fates (CCR) 257
+4 Warden of Depths (CCR) 258
+4 Scattering Swine (CCR) 259
+4 Warden of Tremors (CCR) 260
+4 Warden of Skies (CCR) 261
+4 Warden of Wishes (CCR) 262
+4 Charged Party (CCR) 263
+4 Poisoned Rose (CCR) 264
+4 Ironback Tyke (CCR) 265
+4 Carefree Kappa (CCR) 266
+4 Tempermental Chick (CCR) 267
+4 Warden of Heart (CCR) 268
+4 Earthbreaker Dragon (CCR) 269
+4 Mimicry Elemental (CCR) 270
+4 End of Mutations (CCR) 271
+4 Rumbling Volcamel (CCR) 272
+4 Generator Alpha (CCR) 273
+4 Desolate Lands (CCR) 274
+4 Splashing Mudskipper (CCR) 275
+4 Tenki, Storm Chaser (CCR) 276
+4 Warden of Soul (CCR) 277
+4 Aqua Crew Flagship (CCR) 278
+4 Unspeaking Titan (CCR) 279
+4 Wrecking Whale (CCR) 280
+4 Fortune Bearer (CCR) 281
+4 Primordial Seas (CCR) 282
+4 Teetering Panda (CCR) 283
+4 Smart Shopper (CCR) 284
+4 Cirriform Dragon (CCR) 285
+4 Snoring Stone (CCR) 286
+4 Dark Horse Victory (CCR) 287
+4 Catch Your Breath (CCR) 288
+4 Plush Collection (CCR) 289
+4 Diamond Dust (CCR) 290
+4 Weather Research Station (CCR) 294[Wildcard2 (1)]
+4 Sunny Day (CCR) 0
+4 Hail (CCR) 1
+4 Sandstorm (CCR) 2
+4 Clear Skies (CCR) 3
+8 Scruffy Rascal (CCR) 4
+8 Padpole (CCR) 5
+4 Pitfall Pincher (CCR) 6
+4 Beloved Poppet (CCR) 7
+4 Omenhorn (CCR) 8
+4 Maw Imposter (CCR) 9
+8 Seafloor Treasures (CCR) 10
+4 Shining Angler (CCR) 11
+8 Buried Geode (CCR) 12
+4 Enspirited Ore (CCR) 13
+8 Magnetic Mystery (CCR) 14
+4 Feeble Fish (CCR) 15
+4 Calamity Cat (CCR) 16
+4 Delivery Gull (CCR) 17
+4 Charismatic Chameleon (CCR) 18
+4 Bloom Brute (CCR) 19
+8 Tempermental Growth (CCR) 20
+4 Crumbling Tower (CCR) 21
+8 Gleaming Hot Springs (CCR) 22
+8 Deeplife Cavern (CCR) 23
+8 Calmed Battleground (CCR) 24
+8 Frigid Highlands (CCR) 25
+8 Sunlit Ruins (CCR) 26
+8 A Journey Begins (CCR) 27
+8 Starved Piranha (CCR) 28
+4 Chum Chaser (CCR) 29
+8 Riverbed Snapper (CCR) 30
+4 Blooming Sauropod (CCR) 31
+4 Unnerving Moth (CCR) 32
+4 Burning Celestial (CCR) 33
+4 Calming Celestial (CCR) 34
+8 Floe Master (CCR) 35
+4 Sifting Through Soot (CCR) 36
+8 Eager Scavenger (CCR) 37
+4 Dustwing Butterfly (CCR) 38
+4 Dustwing Moth (CCR) 39
+8 Root Fossil (CCR) 40
+4 Rain Dance (CCR) 41
+8 Claw Fossil (CCR) 42
+8 Sandstorm Dancer (CCR) 43
+4 Scuttling Cicada (CCR) 44
+8 Herald of Drizzles (CCR) 45
+4 Dormant Camel (CCR) 46
+4 Lum Berry (CCR) 47
+8 Whipping Winds (CCR) 48
+4 Walk Among the Dead (CCR) 49
+4 King of Gluttons (CCR) 50
+4 Berry Harvester (CCR) 51
+4 Jade Temple (CCR) 52
+4 Rooting Raccoon (CCR) 53
+4 Twinned Beak (CCR) 54
+4 Magma Grunt (CCR) 55
+4 Contest Judge (CCR) 56
+4 Lavaborn Slug (CCR) 57
+8 Empty Shell (CCR) 58
+4 Generous Farmer (CCR) 59
+8 Plucky Trainer (CCR) 60
+8 Canopy Creeper (CCR) 61
+8 Magma Flow (CCR) 62
+4 Aroma Spinner (CCR) 63
+4 Archaeovolcanologist (CCR) 64
+8 Cloud Nine (CCR) 65
+8 Bulk Up (CCR) 66
+8 Bubbling Firesnail (CCR) 67
+8 Contest Spectators (CCR) 68
+4 Tough Nut (CCR) 69
+4 Magical Leaves (CCR) 70
+8 Iron Defense (CCR) 71
+4 Bind (CCR) 72
+4 Hungry Blob (CCR) 73
+4 Echocrafter (CCR) 74
+8 The Ruins Awaken (CCR) 75
+8 Hungry Songbird (CCR) 76
+8 Chiming Soul (CCR) 77
+8 Swooping Hunter (CCR) 78
+8 Restless Sloth (CCR) 79
+8 Armored Raptor (CCR) 80
+8 Capricious Cat (CCR) 81
+8 Gone Pickin' (CCR) 82
+8 To the Last Breath (CCR) 83
+4 Pick Up (CCR) 84
+8 Tough It Out (CCR) 85
+8 Pathetic Cocoon (CCR) 86
+4 Feasting Sloth (CCR) 87
+4 Urban Explorer (CCR) 88
+4 Muddy Water (CCR) 89
+8 Reaper of the Deep (CCR) 90
+8 Lady of the Mists (CCR) 91
+8 Hoard (CCR) 92
+8 Homesick (CCR) 93
+8 Ace Tamer (CCR) 94
+4 Rejuvenating Kappa (CCR) 95
+8 Meteor Lobber (CCR) 96
+8 Cheer On (CCR) 97
+4 Harvest Time (CCR) 98
+8 Nowhere To Run (CCR) 99
+8 Poised Flame (CCR) 100
+8 Charge Beam (CCR) 101
+8 Dragon Dance (CCR) 102
+8 Hone Claws (CCR) 103
+8 Eerie Sculpture (CCR) 104
+8 Zipping Lightningbug (CCR) 105
+8 Floating Familiar (CCR) 106
+8 King of Currents (CCR) 107
+8 Illuminate (CCR) 108
+8 Kinesis (CCR) 109
+4 Out of Sight (CCR) 110
+8 Amnesia (CCR) 111
+8 Aqua Jet (CCR) 112
+8 Collector's Item (CCR) 113
+4 Shiver Elemental (CCR) 114
+8 Foraging Grub (CCR) 115
+8 Creature Catalog (CCR) 116
+8 Life Orb (CCR) 117
+4 Glassblower's Forge (CCR) 118
+4 Aqua Gang Diver (CCR) 119
+4 Dazzling Performer (CCR) 120
+4 Feasting Predator (CCR) 121
+4 Talon Triplets (CCR) 122
+4 Practicing Guru (CCR) 123
+4 Spore Collector (CCR) 124
+4 Fight as One (CCR) 125
+4 Center of Attention (CCR) 126
+4 Past Unresolved (CCR) 127
+4 Waterway Distraction (CCR) 128
+4 Smiling Sludge (CCR) 129
+4 Soul's Sunset (CCR) 130
+4 Territory Dispute (CCR) 131
+8 Kicking Fowl (CCR) 132
+4 Psych Up (CCR) 133
+4 Rollephant (CCR) 134
+4 Sunsoaker (CCR) 135
+4 Bottom Feeder (CCR) 136
+4 Blustering Storm (CCR) 137
+4 Exotic Transformer (CCR) 138
+4 Plated Tunneler (CCR) 139
+4 Leaping Hatchling (CCR) 140
+8 Fluttering Firefly (CCR) 141
+4 Puddle Crasher (CCR) 142
+8 Nimbus Dragon (CCR) 143
+8 Psychohopper (CCR) 144
+8 Amateur Tamer (CCR) 145
+8 Thornfist Bruiser (CCR) 146
+4 Harbor Mail (CCR) 147
+8 Lustrous Starfish (CCR) 148
+8 Outlands Prowler (CCR) 149
+8 Moonlight Adventurer (CCR) 150
+8 Brick Breaker (CCR) 151
+8 Living Compass (CCR) 152
+4 Elegant Hunter (CCR) 153
+8 Sandstorm Devil (CCR) 154
+4 Searing Grace (CCR) 155
+8 Relentless Bats (CCR) 156
+8 Crunch (CCR) 157
+8 Burn Up (CCR) 159
+4 Stratus Fledgling (CCR) 161
+4 Brewing Storm (CCR) 162
+4 Contest Star (CCR) 163
+8 Whispering Runt (CCR) 164
+8 Solid Smog (CCR) 165
+4 Prolific Fisher (CCR) 166
+8 Imminent Disaster (CCR) 167
+8 Brief Stop (CCR) 168
+8 Figy Berry (CCR) 169
+8 Gold Berry (CCR) 170
+4 Static Scamp (CCR) 171
+4 Contest Coordinator (CCR) 172
+4 Soothing Singer (CCR) 173
+4 Explore Wreckage (CCR) 174
+4 Kappa Colony (CCR) 175
+4 Teeter Dance (CCR) 176
+4 Under the Collar (CCR) 177
+4 Boiling Storm (CCR) 178
+4 Bumbling Pollinator (CCR) 179
+4 Seafloor Scavenger (CCR) 180
+4 Forgotten Doorway (CCR) 182
+4 Prickly Dunes (CCR) 183
+8 Ominous Quag (CCR) 184
+8 Stunning Cascade (CCR) 185
+8 Serpentine Woods (CCR) 186
+8 Fortress Arena (CCR) 187
+8 Cryptic Reef (CCR) 188
+8 Evolving Wilds (CCR) 189
+4 Karina's Substitute (CCR) 193
+4 Magnetic Snuffler (CCR) 194
+4 King's Rock (CCR) 195
+4 Snazzy Scarf (CCR) 196
+4 Hard Stone (CCR) 197
+4 Meteorite (CCR) 198
+8 Heavy Snowfall (CCR) 202
+8 Sea Breeze (CCR) 203
+8 Falling Ashes (CCR) 204
+8 Streaking Sunrise (CCR) 205
+8 Pollen Warning (CCR) 206
+4 Seal Shoals (CCR) 208
+4 Singularity (CCR) 216
+4 Pressuring Ghoul (CCR) 217
+4 Serrated Fossil (CCR) 218
+4 Hostage Situation (CCR) 219
+4 Unyielding Titan (CCR) 220
+4 Depths Ancient (CCR) 221
+4 Gloomy Meteorologist (CCR) 222
+4 Shadow Sky (CCR) 223
+4 Weather Elemental (CCR) 224
+4 Magnetling (CCR) 225
+4 Sky Pillar (CCR) 226
+4 Mirage Island (CCR) 227
+4 Hoenn Champion (CCR) 228
+4 Growing Gecko (CCR) 229
+4 Mystery Egg (CCR) 230
+4 Berry Fermenter (CCR) 231
+4 Parental Pair (CCR) 232
+4 Unflinching Titan (CCR) 233
+4 Frenzy Plant (CCR) 234
+4 Entangled Fossil (CCR) 235
+4 Heavy Winds (CCR) 236
+4 The Berry Master (CCR) 237
+4 Ema, the Returned (CCR) 238
+4 The Aqua Crew (CCR) 239
+4 The Magma Council (CCR) 240
+4 Stitches, Adopted (CCR) 241
+4 Sanaito, Voidsinger (CCR) 242
+4 Iviana, Dragon Tamer (CCR) 243
+4 Jack, Monster Mentor (CCR) 244
+4 Karina, Budding Diplomat (CCR) 245
+4 Simul, Genetic Artisan (CCR) 246
+4 Fragile Soul (CCR) 247
+4 Iviana's Spellmaw (CCR) 248
+4 Spikey, Jack's Gravetiller (CCR) 249
+4 Amber, Nimble Companion (CCR) 250
+4 Nocturne, Monstrous Krasis (CCR) 251
+4 Heartbreak (CCR) 252
+4 Idolized Coordinator (CCR) 253
+4 Turf Warfare (CCR) 254
+4 Suncaller Tortoise (CCR) 255
+4 Higana, Dragon Tamer (CCR) 256
+4 Weaver of Fates (CCR) 257
+4 Warden of Depths (CCR) 258
+4 Scattering Swine (CCR) 259
+4 Warden of Tremors (CCR) 260
+4 Warden of Skies (CCR) 261
+4 Warden of Wishes (CCR) 262
+4 Charged Party (CCR) 263
+4 Poisoned Rose (CCR) 264
+4 Ironback Tyke (CCR) 265
+4 Carefree Kappa (CCR) 266
+4 Tempermental Chick (CCR) 267
+4 Warden of Heart (CCR) 268
+4 Earthbreaker Dragon (CCR) 269
+4 Mimicry Elemental (CCR) 270
+4 End of Mutations (CCR) 271
+4 Rumbling Volcamel (CCR) 272
+4 Generator Alpha (CCR) 273
+4 Desolate Lands (CCR) 274
+4 Splashing Mudskipper (CCR) 275
+4 Tenki, Storm Chaser (CCR) 276
+4 Warden of Soul (CCR) 277
+4 Aqua Crew Flagship (CCR) 278
+4 Unspeaking Titan (CCR) 279
+4 Wrecking Whale (CCR) 280
+4 Fortune Bearer (CCR) 281
+4 Primordial Seas (CCR) 282
+4 Teetering Panda (CCR) 283
+4 Smart Shopper (CCR) 284
+4 Cirriform Dragon (CCR) 285
+4 Snoring Stone (CCR) 286
+4 Dark Horse Victory (CCR) 287
+4 Catch Your Breath (CCR) 288
+4 Plush Collection (CCR) 289
+4 Diamond Dust (CCR) 290
+4 Weather Research Station (CCR) 294

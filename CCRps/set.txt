@@ -1,0 +1,6811 @@
+Chikyu Testing
+1.0
+
+normal
+149
+3
+uncommon
+Sunny Day
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///Whenever you attack, Sunny Day deals X damage to target player or planeswalker, where X is the number of attacking creatures.
+<i>&#8220;Day 112: Sunset was an hour late. People are finally starting to believe. It&#39;s a start.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+&#30887;
+
+
+
+
+
+
+
+
+
+===========
+normal
+19
+3
+uncommon
+Hail
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///Whenever you attack, attacking creatures you control get +1/+1 until end of turn.
+<i>&#8220;I brought an umbrella. I should have brought a helmet.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+Leashe
+
+
+
+
+
+
+
+
+
+===========
+normal
+101
+3
+uncommon
+Sandstorm
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///Whenever you attack, defending player loses 2 life and you gain 2 life.
+<i>&#8220;The desert&#39;s nights are deathly cold and the flying sand cuts like razors. In other words &#8212; still normal.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+ArtsyShionai
+
+
+
+
+
+
+
+
+
+===========
+normal
+166
+2
+uncommon
+Clear Skies
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///Whenever you attack, put a +1/+1 counter on a creature you control.
+<i>&#8220;Calm days are a mixed omen. Maybe tomorrow will turn around. Probably it will turn worse.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+&#12399;&#12397;&#12435;&#12412;
+
+
+
+
+
+
+
+
+
+===========
+normal
+184
+3
+common
+Scruffy Rascal
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Raccoon 
+1
+2
+When Scruffy Rascal enters, mill three cards. You may put a permanent card from among the cards milled this way into your hand. If you don&#39;t, create a Treasure token.
+<i>Simul&#39;s newest monster was great at finding things others had left behind or unguarded.</i>
+&#12399;&#12397;&#12435;&#12412;
+
+
+
+
+
+2
+
+
+
+===========
+normal
+179
+2
+common
+Padpole
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant Frog 
+2
+2
+When Padpole enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Null_suke
+
+
+
+
+
+2
+
+
+
+===========
+normal
+218
+3
+uncommon
+Pitfall Pincher
+black, red, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Insect 
+2
+3
+Landfall &#8212; Whenever a land you control enters, Pitfall Pincher deals 1 damage to any target. If that target is a creature, it blocks this turn if able.
+<i>The greatest threats in the desert are the ones you can&#39;t see.</i>
+Null_suke
+
+
+
+
+
+3
+
+
+
+===========
+double
+78
+3
+uncommon
+Beloved Poppet
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Toy Spirit 
+2
+2
+Beloved Poppet can&#39;t be blocked by creatures with power 4 or greater.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>. This spell costs <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span> less to cast if Beloved Poppet died this turn. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+<i>The love of a child can instill life into even the most simplistic of toys...</i>
+kappanuki
+Abandoned Poppet
+black
+
+Creature — Toy Spirit 
+4
+2
+Abandoned Poppet can&#39;t be blocked by creatures with power 2 or less.<br>///br///Whenever a creature an opponent controls dies, they lose 2 life.
+<i>...and the abandonment of a child instills powerful grudges in them instead.</i>
+ForgeWorlds
+===========
+double
+217
+3
+uncommon
+Omenhorn
+
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Elk 
+3
+2
+First strike<br>///br///Landfall &#8212; Whenever a land you control enters, other creatures you control get +1/+1 until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>: Transform Omenhorn.
+<i>Its presence promises coming danger...</i>
+TAPI&#23713;&#65312;&#12362;&#20181;&#20107;&#21215;&#38598;&#20013;
+Omenhalo
+white, black, red, multicolor
+
+Creature — Elk Angel 
+4
+2
+Flying, first strike, lifelink<br>///br///Landfall &#8212; Whenever a land you control enters, other creatures you control get +2/+2 until end of turn.
+<i>...as it tries in vain to warn of it.</i>
+bluekomadori
+===========
+double
+93
+3
+uncommon
+Maw Imposter
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Ouphe 
+2
+3
+Menace<br>///br///<span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>: Transform Maw Imposter.
+<i>Under the guidance of a trainer, the best of a monster can be brought out...</i>
+CrystalCeo
+Imposing Maw
+black
+
+Creature — Ouphe Horror 
+4
+3
+Menace<br>///br///Whenever Imposing Maw deals combat damage to a player, that player loses 3 life unless they discard a card.
+<i>Under the guidance of Jack, the absolute worst was brought out instead.</i>
+Fmero345
+===========
+normal
+68
+2
+common
+Seafloor Treasures
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Instant
+
+
+Look at the top two cards of your library. Put one into your hand and the other into your graveyard.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Viant-T
+
+
+
+
+
+
+
+
+
+===========
+normal
+228
+5
+uncommon
+Shining Angler
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Fish 
+5
+4
+Whenever Shining Angler attacks, target creature an opponent controls blocks Shining Angler this turn if able and other creatures can&#39;t block Shining Angler.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+BoshyPastrana
+
+
+
+
+
+4
+
+
+
+===========
+normal
+163
+3
+common
+Buried Geode
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Elemental 
+3
+2
+Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i><br>///br///Buried Geode surfaces with a +1/+1 counter on it.
+
+Zeablast
+
+
+
+
+
+2
+
+
+
+===========
+normal
+243
+4
+uncommon
+Enspirited Ore
+
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'>
+Artifact Creature — Construct 
+2
+2
+Enspirited Ore gets +1/+1 for each other artifact you control.<br>///br///Tap three untapped artifacts you control: Enspirited Ore gains indestructible until end of turn.
+
+pokeno255
+
+
+
+
+
+2
+
+
+
+===========
+normal
+253
+3
+common
+Magnetic Mystery
+
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'>
+Artifact Creature — Construct 
+2
+1
+<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>: Magnetic Mystery gets +1/+0 until end of turn. Activate only as a sorcery.<br>///br///As long as you control another artifact, Magnetic Mystery has flying.
+
+high-tsubasa
+
+
+
+
+
+1
+
+
+
+===========
+double
+50
+2
+uncommon
+Feeble Fish
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Fish 
+0
+1
+Once each turn, when you activate a nonmana ability, you may put a +1/+1 counter on Feeble Fish. Then if there are three or more, remove them all and transform it.
+
+Kagemaru Himeno
+Fabulous Serpent
+blue
+
+Creature — Serpent 
+5
+1
+Ward <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span><br>///br///Spells and abilities you control that target Fabulous Serpent cost <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span> less.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>: Creatures you control get +0/+1 until end of turn.
+
+mofge
+===========
+normal
+121
+1
+uncommon
+Calamity Cat
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Cat 
+1
+1
+Haste<br>///br///<span class="symbol">{T}</span>, Discard a card: Put a +1/+1 counter on another target creature you control and untap it. It gains haste until end of turn.
+<i>&#8220;There&#39;s something unnerving about how happy those things are all the time.&#8221;<br>///br///&#8212;Ema</i>
+Sen
+
+
+
+
+
+1
+
+
+
+===========
+normal
+47
+2
+uncommon
+Delivery Gull
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Bird 
+1
+2
+Flying<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>: Draw a card, then discard a card.<br>///br///Whenever one or more creatures you control deal combat damage to a player, untap Delivery Gull.
+
+chuuco
+
+
+
+
+
+2
+
+
+
+===========
+normal
+198
+3
+uncommon
+Charismatic Chameleon
+
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Lizard 
+3
+3
+<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>: Charismatic Chameleon can&#39;t be blocked this turn.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Charismatic Chameleon gets +1/+1 until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Charismatic Chameleon gains lifelink until end of turn.
+
+Toyste Beach
+
+
+
+
+
+3
+
+
+
+===========
+normal
+158
+2
+uncommon
+Bloom Brute
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+2
+2
+Haste<br>///br///Whenever Bloom Brute deals combat damage to a player, create two Berry tokens. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+legna
+
+
+
+
+
+2
+
+
+
+===========
+normal
+186
+3
+common
+Tempermental Growth
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Search your library for a basic land card, put it onto the battlefield, then shuffle.<br>///br///Acclimate. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)</i>
+<i>The most potent berries resist cultivation, only thriving in the untamable Wilderness.</i>
+Namie
+
+
+
+
+
+
+
+
+
+===========
+normal
+123
+3
+uncommon
+Crumbling Tower
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Enchantment
+
+
+Landfall &#8212; Whenever a land you control enters, exile the top card of your library. You may play that card until the end of your next turn.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, Sacrifice Crumbling Tower: It deals damage equal to the number of cards exiled with it to target player.
+
+su
+
+
+
+
+
+
+
+
+
+===========
+normal
+267
+0
+common
+Gleaming Hot Springs
+
+
+Land
+
+
+Gleaming Hot Springs enters tapped unless you control a Mountain.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>.
+<i>Even in the shadow of a volcano, joy can be found by those looking for it.</i>
+Orig13
+
+
+
+
+
+
+
+
+
+===========
+normal
+261
+0
+common
+Deeplife Cavern
+
+
+Land
+
+
+Deeplife Cavern enters tapped unless you control a Forest.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>.
+
+courtdraws
+
+
+
+
+
+
+
+
+
+===========
+normal
+259
+0
+common
+Calmed Battleground
+
+
+Land
+
+
+Calmed Battleground enters tapped unless you control a Plains.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>.
+<i>&#8220;Truthfully, I never thought these orbs would do anything. But at the end of the world, what harm could it do?&#8221;</i>
+ satobitorotoku
+
+
+
+
+
+
+
+
+
+===========
+normal
+266
+0
+common
+Frigid Highlands
+
+
+Land
+
+
+Frigid Highlands enters tapped unless you control an Island.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>.
+
+YoruXIII
+
+
+
+
+
+
+
+
+
+===========
+normal
+278
+0
+common
+Sunlit Ruins
+
+
+Land
+
+
+Sunlit Ruins enters tapped unless you control a Swamp.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>.
+
+Bar-Huma
+
+
+
+
+
+
+
+
+
+===========
+normal
+174
+1
+common
+A Journey Begins CCR
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Look at the top five cards of your library. You may reveal a permanent card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+<i>Every journey starts with a small step.</i>
+bluekomadori
+
+
+
+
+
+
+
+
+
+===========
+normal
+109
+4
+common
+Starved Piranha
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Fish 
+3
+2
+Menace<br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+YU2MARU
+
+
+
+
+
+2
+
+
+
+===========
+double
+79
+4
+uncommon
+Chum Chaser
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Shark 
+3
+2
+Whenever you cast a spell from your graveyard, each opponent loses 1 life and you gain 1 life.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>. Chum Chaser surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Yumi
+Ship Shredder
+black
+
+Creature — Shark 
+5
+2
+Menace<br>///br///Whenever this creature enters or you cast a spell from your graveyard, each opponent loses 2 life and you gain 2 life.
+
+Siege Evans
+===========
+double
+65
+2
+common
+Riverbed Snapper
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Crab 
+2
+1
+Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>. Riverbed Snapper surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+WindieDragon
+Daunting Snapper
+blue, black, green, multicolor
+
+Creature — Crab 
+6
+1
+Ward <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span> <i>(Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>.)</i><br>///br///Daunting Snapper can&#39;t be blocked by creatures with power 2 or less.
+
+&#12525;&#12540;&#12489;&#12531;
+===========
+normal
+195
+5
+uncommon
+Blooming Sauropod
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant Dinosaur 
+3
+3
+Flying<br>///br///When Blooming Sauropod enters, create two Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, put a +1/+1 counter on another creature you control. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+&#12525;&#12540;&#12489;&#12531;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+72
+3
+uncommon
+Unnerving Moth
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Insect 
+2
+3
+Once each turn, when you activate a nonmana ability, you may have creatures your opponents control get -1/-0 until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>: Unnerving Moth gains flying until end of turn.
+
+&#12525;&#12540;&#12489;&#12531;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+120
+4
+uncommon
+Burning Celestial
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental 
+3
+3
+Amity &#8212; Whenever you attack with Burning Celestial and exactly one other creature, Burning Celestial acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///As long as you control a red Weather, Burning Celestial has trample.
+
+Rowdon_illust
+
+
+
+
+
+3
+
+
+
+===========
+normal
+44
+4
+uncommon
+Calming Celestial
+blue
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Elemental 
+3
+3
+Amity &#8212; Whenever you attack with Calming Celestial and exactly one other creature, Calming Celestial acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///As long as you control a blue Weather, Calming Celestial has flying.
+
+Rowdon_illust
+
+
+
+
+
+3
+
+
+
+===========
+normal
+52
+5
+common
+Floe Master
+blue
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Walrus 
+4
+4
+Whenever Floe Master or another creature you control surfaces, tap up to one target creature and put a stun counter on it.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Null_suke
+
+
+
+
+
+4
+
+
+
+===========
+normal
+105
+2
+uncommon
+Sifting Through Soot
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Enchantment
+
+
+Landfall &#8212; Whenever a land you control enters, you gain 2 life.<br>///br///Whenever a land an opponent controls enters, that player loses 2 life.<br>///br///At the beginning of your end step, sacrifice Sifting Through Soot unless a land entered the battlefield under your control this turn.
+
+su
+
+
+
+
+
+
+
+
+
+===========
+normal
+82
+2
+common
+Eager Scavenger
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Hyena 
+2
+2
+Landfall &#8212; Whenever a land you control enters, surveil 2. <i>(Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</i>
+<i>Despite still being young, its bite is worse than its bark.</i>
+ffxazq
+
+
+
+
+
+2
+
+
+
+===========
+normal
+48
+3
+uncommon
+Dustwing Butterfly
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Insect 
+2
+2
+Flying<br>///br///Amity &#8212; Whenever you attack with Dustwing Butterfly and exactly one other creature, create a tapped and attacking token that&#39;s a copy of target creature you control, except it&#39;s 1/1 and isn&#39;t legendary. Sacrifice it at the beginning of the next end step.
+
+hanenbo
+
+
+
+
+
+2
+
+
+
+===========
+normal
+126
+4
+uncommon
+Dustwing Moth
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Insect 
+2
+2
+Flying<br>///br///Amity &#8212; Whenever you attack with Dustwing Moth and exactly one other creature, Dustwing Moth deals 2 damage to any target.
+
+GameFreak
+
+
+
+
+
+2
+
+
+
+===========
+double
+257
+1
+common
+Root Fossil
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'>
+Artifact
+
+
+<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>, Sacrifice Root Fossil: Surveil 3. You may put a land card you surveilled this way onto the battlefield tapped.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>. Root Fossil surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+The Pok&#233;mon Company International
+Reborn Lily
+green
+
+Creature — Plant 
+2
+
+Whenever Reborn Lily attacks, surveil 3. You may put a land card you surveilled this way onto the battlefield tapped. <i>(Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</i>
+
+UltimateSassMaster
+===========
+normal
+64
+4
+uncommon
+Rain Dance
+blue
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///Whenever you attack, create a tapped and attacking token that&#39;s a copy of target attacking creature, except it isn&#39;t legendary. Sacrifice it at the beginning of the next end step.
+<i>&#8220;Kappa are overflowing early. Needs more research.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+DrManiacal
+
+
+
+
+
+
+
+
+
+===========
+double
+241
+1
+common
+Claw Fossil
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'>
+Artifact
+
+
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, Sacrifice Claw Fossil: Target creature has base toughness 1 until end of turn. Activate only as a sorcery.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>. Claw Fossil surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+SpiralMagus
+Reborn Scuttler
+black
+
+Creature — Dinosaur Insect 
+3
+
+Whenever Reborn Scuttler attacks, up to one target creature has base toughness 1 until end of turn.
+
+drawingpkmneveryday
+===========
+normal
+102
+3
+common
+Sandstorm Dancer
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Plant 
+2
+1
+Deathtouch<br>///br///Landfall &#8212; Whenever a land you control enters, Sandstorm Dancer acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i>
+
+AutobotTesla
+
+
+
+
+
+1
+
+
+
+===========
+double
+66
+1
+uncommon
+Scuttling Cicada
+blue
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Insect 
+1
+1
+Surface <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>. Scuttling Cicada surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+<i>&#8220;The little bugs hide underground for years at a time...&#8221;</i>
+AutobotTesla
+Buzzing Metamorph
+blue
+
+Creature — Insect 
+3
+1
+Flying
+<i>&#8220;...and every summer, a stream of them buzz up, having changed from their years away. It seems a trainer is able to make this same change happen without any hibernation at all.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+jukai-chan
+===========
+normal
+55
+3
+common
+Herald of Drizzles
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Bird 
+1
+2
+Flying<br>///br///When Herald of Drizzles enters, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i>
+<i>The birds spend days out at sea, only coming to land to bring rainstorms with them.</i>
+FellFromTheSky
+
+
+
+
+
+2
+
+
+
+===========
+normal
+200
+2
+uncommon
+Dormant Camel
+white, red, multicolor
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Camel 
+2
+2
+Vigilance<br>///br///Landfall &#8212; Whenever a land you control enters, you may discard a card. If you do, draw a card.<br>///br///<span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: You may play land cards from your graveyard this turn.
+
+cometwing
+
+
+
+
+
+2
+
+
+
+===========
+normal
+252
+1
+uncommon
+Lum Berry
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'>
+Artifact — Berry Equipment 
+
+
+Before equipped creature would assign, deal, or be dealt damage, sacrifice Lum Berry. If you do, equipped creature gets +1/+1 until end of turn.<br>///br///Sacrifice Lum Berry: Exile equipped creature. Return that card to the battlefield under its owner&#39;s control with a +1/+1 counter on it.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>
+
+kawaacy
+
+
+
+
+
+
+
+
+
+===========
+normal
+75
+3
+common
+Whipping Winds
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+You may cast this spell as though it had flash if you activated a nonmana ability this turn.<br>///br///Target artifact or creature&#39;s owner puts it on the top or bottom of their library.
+
+purplekecleon
+
+
+
+
+
+
+
+
+
+===========
+normal
+113
+1
+uncommon
+Walk Among the Dead
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+Mill two cards, then return a creature card from your graveyard to your hand.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+orange_mikan0u0
+
+
+
+
+
+
+
+
+
+===========
+normal
+214
+4
+uncommon
+King of Gluttons
+black, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Ooze 
+3
+3
+Trample<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, Sacrifice an artifact or creature: Put a +1/+1 counter on King of Gluttons.
+
+douzen
+
+
+
+
+
+3
+
+
+
+===========
+normal
+193
+4
+uncommon
+Berry Harvester
+white, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Ranger 
+3
+3
+Whenever Berry Harvester enters or attacks, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///The first time you create Berry tokens each turn, create an additional Berry token.
+
+miriyama
+
+
+
+
+
+3
+
+
+
+===========
+normal
+269
+0
+uncommon
+Jade Temple
+
+
+Land
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'><img src='magic-mana-small-C.png' alt='C' width='14' height='14'></span>. You can&#39;t spend this mana to cast spells or activate abilities of lands.
+<i>From every ending, a new beginning.<br>///br///&#8212;Shrine inscription</i>
+Ashith Mohan
+
+
+
+
+
+
+
+
+
+===========
+normal
+223
+3
+uncommon
+Rooting Raccoon
+white, black, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Raccoon 
+2
+3
+Lifelink<br>///br///Landfall &#8212; Whenever a land you control enters, create a Berry token and attach it to Rooting Raccoon. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+Syerii
+
+
+
+
+
+3
+
+
+
+===========
+normal
+38
+2
+uncommon
+Twinned Beak
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Bird 
+1
+1
+Double strike
+
+AutobotTesla
+
+
+
+
+
+1
+
+
+
+===========
+normal
+138
+1
+uncommon
+Magma Grunt
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Human Ranger 
+1
+1
+Amity &#8212; Whenever you attack with Magma Grunt and exactly one other creature, Magma Grunt deals 1 damage to each opponent.
+
+aoki (fumomo)
+
+
+
+
+
+1
+
+
+
+===========
+normal
+11
+4
+uncommon
+Contest Judge
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Performer  
+2
+4
+Once each turn, when you activate an ability of a creature you control, untap that creature and put a +1/+1 counter on it.
+<i>&#8220;Remarkable!&#8221;</i>
+KoriArredondo
+
+
+
+
+
+4
+
+
+
+===========
+normal
+135
+2
+uncommon
+Lavaborn Slug
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental Slug 
+1
+2
+<span class="symbol">{T}</span>: Lavaborn Slug deals 1 damage to target player.<br>///br///Landfall &#8212; Whenever a land you control enters, untap Lavaborn Slug.
+
+thumpleweed
+
+
+
+
+
+2
+
+
+
+===========
+normal
+83
+2
+common
+Empty Shell
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Instant
+
+
+As an additional cost to cast this spell, you may sacrifice an artifact.<br>///br///Target creature gets -3/-3 until end of turn. If you&#39;ve sacrificed a permanent this turn, that creature gets -5/-5 until end of turn instead.
+
+drawingpkmneveryday
+
+
+
+
+
+
+
+
+
+===========
+normal
+17
+4
+uncommon
+Generous Farmer
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Ranger 
+3
+2
+When Generous Farmer enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Whenever you sacrifice a Berry, create a 1/1 green Plant creature token.
+
+PixAI
+
+
+
+
+
+2
+
+
+
+===========
+normal
+140
+1
+common
+Plucky Trainer
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Human Ranger 
+0
+1
+Landfall &#8212; Whenever a land you control enters, Plucky Trainer gets +2/+2 until end of turn.
+<i>&#8220;Our greatest strength is our greatest weakness: Curiosity. It will get you killed. It will save us all.&#8221;</i>
+Terrible Burst
+
+
+
+
+
+1
+
+
+
+===========
+normal
+164
+4
+common
+Canopy Creeper
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+4
+3
+Trample<br>///br///When Canopy Creeper enters, create two Berry tokens. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+J&#233;r&#233;my Lignel
+
+
+
+
+
+3
+
+
+
+===========
+normal
+137
+1
+common
+Magma Flow
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Enchantment
+
+
+<span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, Sacrifice Magma Flow: It deals 3 damage to any target.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, Discard a card, Sacrifice Magma Flow: Draw two cards.
+<i>&#8220;The volcano&#39;s been restless lately. I hope it&#39;s not a sign of things to come.&#8221;</i>
+CuteSkitty
+
+
+
+
+
+
+
+
+
+===========
+normal
+155
+3
+uncommon
+Aroma Spinner
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+3
+2
+Reach<br>///br///At the beginning of your upkeep, create a Berry token and attach it to Aroma Spinner. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+MeluuArts
+
+
+
+
+
+2
+
+
+
+===========
+normal
+115
+3
+uncommon
+Archaeovolcanologist
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Human Advisor 
+3
+2
+Sacrifice Archaeovolcanologist: Choose an instant, sorcery, or land card in your graveyard. You may play that card this turn.
+<i>&#8220;You think too short term! We need more space, and there&#39;s only one to get it!&#8221;</i>
+meitei
+
+
+
+
+
+2
+
+
+
+===========
+normal
+9
+1
+common
+Cloud Nine
+white
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Sorcery
+
+
+Choose one &#8212;<br>///br///&#8226; Exile target enchantment.<br>///br///&#8226; You gain 4 life.<br>///br///&#8226; Acclimate. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on a creature you control.)</i>
+
+namiri
+
+
+
+
+
+
+
+
+
+===========
+normal
+161
+2
+common
+Bulk Up
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Create a Berry token, then sacrifice any number of Berry tokens. Target creature you control gets +1/+1 for each Berry sacrificed this way. Then it fights target creature you don&#39;t control. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+pokeno255
+
+
+
+
+
+
+
+
+
+===========
+normal
+118
+4
+common
+Bubbling Firesnail
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental Snail 
+0
+5
+Once each turn, when you activate a nonmana ability, you may have Bubbling Firesnail deal 1 damage to each opponent.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Bubbling Firesnail gets +2/-2 until end of turn.
+
+Null_suke
+
+
+
+
+
+5
+
+
+
+===========
+normal
+12
+2
+common
+Contest Spectators
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Performer  
+2
+2
+Once each turn, when you activate a nonmana ability, you gain 2 life.
+<i>&#8220;At least on the mainland, things are a lot safer here. Instead of fighting for survival, some people just fight for the best seats.&#8221;<br>///br///&#8212;Ema, the returned</i>
+GreyRadian
+
+
+
+
+
+2
+
+
+
+===========
+normal
+188
+1
+uncommon
+Tough Nut
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+0
+2
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>: Add one mana of any color.<br>///br///<span class="symbol">{T}</span>: Add one mana of any color. You can&#39;t spend this mana to cast spells from your hand.
+
+AutobotTesla
+
+
+
+
+
+2
+
+
+
+===========
+normal
+175
+3
+uncommon
+Magical Leaves
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Create two 1/1 green Plant creature tokens and two Berry tokens. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+MikotoAzure
+
+
+
+
+
+
+
+
+
+===========
+normal
+91
+1
+common
+Iron Defense
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Instant
+
+
+Target creature gains indestructible until end of turn. You gain life equal to its toughness.
+<i>&#8220;Some of the monsters around here have skin so hard it&#39;s practically metal. Maybe it even is metal.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+nnn
+
+
+
+
+
+
+
+
+
+===========
+normal
+157
+2
+uncommon
+Bind
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Instant
+
+
+Counter target activated ability. <i>(Mana abilities can&#39;t be targeted.)</i><br>///br///Draw a card.
+<i>Safety begins and ends with where you place your feet.<br>///br///&#8212;Ranger wisdom</i>
+&#33457;&#31881;&#30151;&#12398;&#34220;&#36023;&#12358;&#12398;&#24536;&#12428;&#12427;&#12394;
+
+
+
+
+
+
+
+
+
+===========
+normal
+173
+3
+uncommon
+Hungry Blob
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Ooze 
+2
+2
+When Hungry Blob enters, destroy up to three target artifacts and/or enchantments with total mana value 3 or less.
+<i>&#8220;While not directly threatening, the blobs can eat an entire week of rations in a single bite if you give them half a chance.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+Hajime Kusajima
+
+
+
+
+
+2
+
+
+
+===========
+normal
+201
+5
+uncommon
+Echocrafter
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Beast 
+4
+4
+Vigilance<br>///br///Once each turn, when you activate a nonmana ability, you may copy it. You may choose new targets for the copy.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>, <span class="symbol">{T}</span>: Tap target creature. Echocrafter deals 1 damage to that creature&#39;s controller.
+
+fusenryo2
+
+
+
+
+
+4
+
+
+
+===========
+normal
+27
+2
+common
+The Ruins Awaken
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Sorcery
+
+
+Create two 1/1 white Golem creature tokens.<br>///br///Landfall &#8212; <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>, Exile The Ruins Awaken from your graveyard: Create a 1/1 white Golem creature token. Activate only if a land entered the battlefield under your control this turn.
+
+mcgmark
+
+
+
+
+
+
+
+
+
+===========
+normal
+21
+2
+common
+Hungry Songbird
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Bird 
+1
+2
+Flying<br>///br///When Hungry Songbird enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+<i>Some of the birds have learned people will bribe them with food, and all they have to do in return is be cuter than all the others.</i>
+uairt
+
+
+
+
+
+2
+
+
+
+===========
+normal
+7
+3
+common
+Chiming Soul
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Spirit 
+1
+4
+Lifelink<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Put a stun counter on target creature that attacked this turn. Activate only once each turn.
+
+Witbik
+
+
+
+
+
+4
+
+
+
+===========
+normal
+35
+3
+common
+Swooping Hunter
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Bird 
+2
+2
+Flash<br>///br///Flying<br>///br///When Swooping Hunter enters, create a Berry token, then you may return another creature you control to its owner&#39;s hand. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+DAY_Walker_1117
+
+
+
+
+
+2
+
+
+
+===========
+normal
+26
+4
+common
+Restless Sloth
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Sloth 
+3
+3
+Vigilance<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Create a Berry token and attach it to Restless Sloth. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+<i>&#8220;It spends most of its life lying around and eating. The rest is spent fighting anything that gets too close.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+KirscheTea
+
+
+
+
+
+3
+
+
+
+===========
+normal
+2
+5
+common
+Armored Raptor
+white
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Bird 
+3
+3
+Flying<br>///br///When Armored Raptor enters, if you control an artifact, draw a card.
+<i>&#8220;The armored birds live around the area&#39;s volcanoes fearlessly, always on the hunt for shiny things people have dropped in the ashes.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+Midori Harada
+
+
+
+
+
+3
+
+
+
+===========
+normal
+4
+4
+common
+Capricious Cat
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Cat 
+2
+2
+When Capricious Cat enters, it acclimates twice. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i>
+<i>Even the temperamental nature of Hoenn&#39;s weather can&#39;t match that of a cat.</i>
+MidnightFedora
+
+
+
+
+
+2
+
+
+
+===========
+normal
+18
+3
+common
+Gone Pickin'
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment
+
+
+When Gone Pickin&#39; enters, exile up to one target artifact or creature until Gone Pickin&#39; leaves the battlefield. Then create a Berry token. You may attach it to a creature you control. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+&#12363;&#12418;&#12394;&#12409;
+
+
+
+
+
+
+
+
+
+===========
+normal
+36
+2
+common
+To the Last Breath
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Instant
+
+
+To the Last Breath deals 4 damage to target attacking or blocking creature.
+<i>&#8220;While the mainland monsters are safer, do not confuse that with safe. Many of them will still fight to the last breath, no matter whose breath that is.&#8221;<br>///br///&#8212;Ema, to Karina</i>
+PurpleKecleon
+
+
+
+
+
+
+
+
+
+===========
+normal
+23
+2
+uncommon
+Pick Up
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Sorcery
+
+
+Return up to one target artifact, enchantment, or land card from your graveyard to your hand.<br>///br///Create two Berry tokens. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+Riley Kitty
+
+
+
+
+
+
+
+
+
+===========
+normal
+37
+4
+common
+Tough It Out
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment — Aura 
+
+
+Flash<br>///br///Enchant creature<br>///br///Enchanted creature gets +2/+5.
+<i>&#8220;With these stones, we&#39;re able to temporarily make monsters stronger than ever thought possible. Its not without dangers, but we need every edge out here.&#8221;<br>///br///&#8212;Ema, to Karina</i>
+garmmon
+
+
+
+
+
+
+
+
+
+===========
+normal
+97
+1
+common
+Pathetic Cocoon
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Insect 
+0
+3
+When Pathetic Cocoon enters or dies, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+<i>It doesn&#39;t do much of anything, and nothing will deter it from that task.</i>
+high-tsuba
+
+
+
+
+
+3
+
+
+
+===========
+normal
+85
+2
+uncommon
+Feasting Sloth
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Sloth 
+3
+2
+Defender<br>///br///When Feasting Sloth enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Feasting Sloth can attack as though it didn&#39;t have defender if its enchanted, or equipped, or has a counter on it.
+
+AutobotTesla
+
+
+
+
+
+2
+
+
+
+===========
+normal
+112
+3
+uncommon
+Urban Explorer
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Human Ranger 
+2
+3
+When Urban Explorer enters, return a permanent card with mana value 1 or less from your graveyard to your hand.<br>///br///Landfall &#8212; Whenever a land you control enters, Urban Explorer gets +2/+1 until end of turn.
+<i>Not every settlement can survive in a world full of monsters.</i>
+Leos Ng
+
+
+
+
+
+3
+
+
+
+===========
+normal
+95
+2
+uncommon
+Muddy Water
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+Target creature gets -3/-3 until end of turn.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+kuroi susumu
+
+
+
+
+
+
+
+
+
+===========
+normal
+99
+6
+common
+Reaper of the Deep
+black
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Jellyfish 
+6
+4
+Menace<br>///br///When Reaper of the Deep enters, mill two cards. Repeat this process until there are seven or more cards in your graveyard.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+salanchu
+
+
+
+
+
+4
+
+
+
+===========
+normal
+92
+5
+common
+Lady of the Mists
+black
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Elemental Spirit 
+4
+3
+When Lady of the Mists enters, you may pay 2 life. If you do, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///As long as you control a Weather, Lady of the Mists gets +0/+2.
+
+&#12404;&#12387;&#12404;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+87
+3
+common
+Hoard
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+You draw two cards and you lose 2 life.<br>///br///Landfall &#8212; If a land entered the battlefield under your control this turn, each opponent loses 2 life.
+
+Null_suke
+
+
+
+
+
+
+
+
+
+===========
+normal
+88
+3
+common
+Homesick
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+Target player discards two cards. If that player discarded a land card, they lose 2 life.
+<i>Ema and Sanaito wanted nothing more than to be back home. When they got there, they wanted nothing more than to leave again.</i>
+_otumami_
+
+
+
+
+
+
+
+
+
+===========
+normal
+153
+5
+common
+Ace Tamer
+green
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Human Ranger 
+3
+4
+When Ace Tamer enters, look at the top six cards of your library. You may reveal a non-Human creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+
+Hailey Suits
+
+
+
+
+
+4
+
+
+
+===========
+normal
+182
+4
+uncommon
+Rejuvenating Kappa
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant Frog 
+3
+3
+At the beginning of your end step, you gain 2 life if you cast a spell from your graveyard this turn, and you gain 2 life if a card was put into your graveyard from your library this turn. <br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+MeAreLegend
+
+
+
+
+
+3
+
+
+
+===========
+normal
+176
+6
+common
+Meteor Lobber
+green
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Rhino Beast 
+6
+5
+Reach<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+<i>&#8220;The scariest monsters in this area live in the seas, but there are still plenty to avoid on land.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+&#12473;&#12506;&#12450;&#12522;&#12502;
+
+
+
+
+
+5
+
+
+
+===========
+normal
+165
+2
+common
+Cheer On
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Instant
+
+
+Amity &#8212; When you cast this spell, copy it if you attacked with exactly two creatures this turn. You may choose new targets for the copy.<br>///br///Target creature you control gets +2/+2 until end of turn. Untap it.
+
+&#64;pokemon_hatena
+
+
+
+
+
+
+
+
+
+===========
+normal
+171
+1
+uncommon
+Harvest Time
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Hariiro_Pon
+
+
+
+
+
+
+
+
+
+===========
+normal
+178
+3
+common
+Nowhere To Run
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Target creature gets +2/+2 until end of turn and must be blocked this turn if able. Untap up to one target creature. It blocks this turn if able.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+sapphiregale
+
+
+
+
+
+
+
+
+
+===========
+normal
+141
+2
+common
+Poised Flame
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Instant
+
+
+Poised Flame deals 2 damage to any target.<br>///br///Add <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>. You can&#39;t spend this mana to cast spells.
+
+Null_suke
+
+
+
+
+
+
+
+
+
+===========
+normal
+122
+3
+common
+Charge Beam
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Sorcery
+
+
+Charge Beam deals 4 damage to target creature or planeswalker.<br>///br///Amity &#8212; If you attacked with exactly two creatures this turn, Charge Beam deals 2 damage to that permanent&#39;s controller.
+
+Null_Suke
+
+
+
+
+
+
+
+
+
+===========
+normal
+125
+2
+common
+Dragon Dance
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Instant
+
+
+Target creature gets +2/+0 and gains first strike until end of turn. If it&#39;s a Dragon, put a +1/+1 counter on it.
+
+torinoko
+
+
+
+
+
+
+
+
+
+===========
+normal
+133
+1
+common
+Hone Claws
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Sorcery
+
+
+As an additional cost to cast this spell, discard a card.<br>///br///Draw a card. Then choose a creature you control. Whenever that creature deals combat damage to a player this turn, draw a card.
+
+ATMOSGEAR
+
+
+
+
+
+
+
+
+
+===========
+normal
+128
+4
+common
+Eerie Sculpture
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Golem 
+4
+3
+Landfall &#8212; Whenever a land you control enters, it deals 1 damage to target player or planeswalker.
+<i>The sculpture floats unsettlingly still, yet it is still better than seeing it move.</i>
+&#12525;&#12540;&#12489;&#12531;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+77
+2
+common
+Zipping Lightningbug
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Insect 
+2
+1
+Flying<br>///br///Amity &#8212; Whenever you attack with Zipping Lightningbug and exactly one other creature, target creature you don&#39;t control gets -2/-0 until end of turn.
+
+Ingrid Woge
+
+
+
+
+
+1
+
+
+
+===========
+normal
+51
+3
+common
+Floating Familiar
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Elemental Mouse 
+2
+2
+Vigilance<br>///br///<span class="symbol">{T}</span>: Surveil 1. <i>(Look at the top card of your library. You may put that card into your graveyard.)</i><br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+pinkgermy
+
+
+
+
+
+2
+
+
+
+===========
+normal
+59
+6
+common
+King of Currents
+blue
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Seahorse Dragon 
+6
+6
+King of Currents can&#39;t attack unless there are six or more cards in your graveyard.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+<i>The depths do not take kindly to visitors.</i>
+&#12525;&#12540;&#12489;&#12531;
+
+
+
+
+
+6
+
+
+
+===========
+normal
+56
+3
+common
+Illuminate
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+Amity &#8212; This spell costs <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> less to cast if you attacked with exactly two creatures this turn.<br>///br///Draw two cards.
+
+&#33673;&#34030;
+
+
+
+
+
+
+
+
+
+===========
+normal
+58
+3
+common
+Kinesis
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Instant
+
+
+Counter target spell. Mill two cards.
+
+Argus Del Norte
+
+
+
+
+
+
+
+
+
+===========
+normal
+62
+2
+uncommon
+Out of Sight
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Instant
+
+
+Target creature you control gains hexproof until end of turn. When a nonmana ability of that creature is next activated or triggered this turn, copy it. You may choose new targets for the copy.
+<i>&#8220;One minute it was there, the next, it was gone! And so was my sandwich...&#8221;<br>///br///&#8212;Noriyuki, bug catcher</i>
+Rowdon_illust
+
+
+
+
+
+
+
+
+
+===========
+normal
+40
+1
+common
+Amnesia
+blue
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Instant
+
+
+Amity &#8212; When you cast this spell, copy it if you attacked with exactly two creatures this turn. You may choose new targets for the copy.<br>///br///Target creature gets +0/+2 and gains hexproof until end of turn.
+
+ErinPuppy
+
+
+
+
+
+
+
+
+
+===========
+normal
+42
+1
+common
+Aqua Jet
+blue
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+Choose one &#8212;<br>///br///&#8226; Tap target creature.<br>///br///&#8226; Target creature can&#39;t be blocked this turn.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Pat Manriquez
+
+
+
+
+
+
+
+
+
+===========
+normal
+45
+2
+common
+Collector's Item
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment — Aura 
+
+
+Enchant creature<br>///br///When Collector&#39;s Item enters, surveil 2. <i>(Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</i><br>///br///Enchanted creature loses all abilities and is a colorless Sculpture creature with base power and toughness 1/1.
+
+N&#26997; (Nkyoku)
+
+
+
+
+
+
+
+
+
+===========
+normal
+28
+3
+uncommon
+Shiver Elemental
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Elemental 
+2
+3
+Whenever you activate an ability that targets Shiver Elemental, you may copy that ability. You may choose new targets for the copy.
+<i>&#8220;It constantly shivers to stay warm, even far from its snowy home. With training, it can share that warmth with others.&#8221; <br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+Null_suke
+
+
+
+
+
+3
+
+
+
+===========
+normal
+168
+1
+common
+Foraging Grub
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Insect 
+1
+1
+Deathtouch<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>, <span class="symbol">{T}</span>: Create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>, Sacrifice a Berry: Put a +1/+1 counter on Foraging Grub.
+
+Null_suke
+
+
+
+
+
+1
+
+
+
+===========
+normal
+242
+3
+common
+Creature Catalog
+
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'>
+Artifact
+
+
+<span class="symbol">{T}</span>: Add one mana of any color.<br>///br///<span class="symbol">{T}</span>: Draw a card, then discard a card. Activate only if you&#39;ve cast a non-Human creature spell this turn.
+<i>Its pages hold descriptions of beasts beyond one&#39;s wildest imagination.</i>
+Sebastian Reid
+
+
+
+
+
+
+
+
+
+===========
+normal
+250
+2
+common
+Life Orb
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'>
+Artifact — Equipment 
+
+
+Equipped creature gets +2/-1.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>
+<i>&#8220;The strange stones can unleash power in certain monsters, but any monster can reach the same, at a price.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+Twirlytail
+
+
+
+
+
+
+
+
+
+===========
+normal
+245
+2
+uncommon
+Glassblower's Forge
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'>
+Artifact
+
+
+When Glassblower&#39;s Forge enters, draw a card.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Glassblower&#39;s Forge and another artifact or enchantment: Draw a card.
+<i>Mostly simply dust the volcanic ash off their boots, unaware of the potential it holds.</i>
+Lauren Covarrubias
+
+
+
+
+
+
+
+
+
+===========
+normal
+192
+3
+uncommon
+Aqua Gang Diver
+blue, black, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Human Pirate 
+3
+2
+When Aqua Gang Diver enters, surveil 3. <i>(Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</i><br>///br///Spells you cast from your graveyard cost <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> less to cast.
+
+Brandon Nguyen
+
+
+
+
+
+2
+
+
+
+===========
+normal
+199
+4
+uncommon
+Dazzling Performer
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Ouphe Performer 
+2
+3
+Amity &#8212; Whenever you attack with Dazzling Performer and exactly one other creature, put a +1/+1 counter on each of those creatures. Until end of turn, they gain trample and &#8220;Whenever this creature deals combat damage to a player, draw a card.&#8221;
+
+DAY_Walker1117
+
+
+
+
+
+3
+
+
+
+===========
+normal
+203
+3
+uncommon
+Feasting Predator
+
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Snake 
+3
+3
+Deathtouch<br>///br///Whenever a creature dies, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Sacrifice a Berry: Target creature gets -1/-0 until end of turn and blocks this combat if able. Activate only outside of combat.
+
+Butt-Berry
+
+
+
+
+
+3
+
+
+
+===========
+normal
+233
+3
+uncommon
+Talon Triplets
+red, green, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Bird 
+3
+3
+Haste<br>///br///Talon Triplets can&#39;t be blocked by creatures with power 2 or less.<br>///br///Amity &#8212; Whenever you attack with Talon Triplets and exactly one other creature, that creature can&#39;t be blocked by creatures with power 2 or less this turn.
+
+endless-whispers
+
+
+
+
+
+3
+
+
+
+===========
+normal
+25
+2
+uncommon
+Practicing Guru
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Ape 
+2
+2
+When Practicing Guru enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Whenever you sacrifice a Berry attached to Practicing Guru, it gets +1/+0 until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, Sacrifice a Berry: Practicing Guru gains indestructible until end of turn.
+
+manino (mofuritaionaka)
+
+
+
+
+
+2
+
+
+
+===========
+normal
+32
+2
+uncommon
+Spore Collector
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Fungus 
+1
+1
+Landfall &#8212; Whenever a land you control enters, put a +1/+1 counter on Spore Collector. It gains your choice of vigilance, first strike, or lifelink until end of turn.
+
+kawayoo
+
+
+
+
+
+1
+
+
+
+===========
+normal
+16
+1
+uncommon
+Fight as One
+white
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Instant
+
+
+Choose one or both &#8212;<br>///br///&#8226; Target Human creature you control gets +1/+1 and gains indestructible until end of turn.<br>///br///&#8226; Target non-Human creature you control gets +1/+1 and gains indestructible until end of turn.
+
+Orlek
+
+
+
+
+
+
+
+
+
+===========
+normal
+6
+5
+uncommon
+Center of Attention
+white
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Instant
+
+
+This spell costs <span class="symbol"><img src='magic-mana-small-X.png' alt='X' width='14' height='14'></span> less to cast, where X is the amount of mana you&#39;ve spent to activate abilities this turn.<br>///br///Exile target nonland permanent.
+<i>Traveling the planes had given Sanaito several tricks to blow away the judges.</i>
+Sissel&#12304;&#12471;&#12475;&#12523;&#12305;
+
+
+
+
+
+
+
+
+
+===========
+normal
+96
+2
+uncommon
+Past Unresolved
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+You draw two cards, lose 2 life, and mill two cards.
+<i>&#8220;Mount Pyre is a sacred place. A haunted place. Memories of the dead will resurface, unbidden. I won&#39;t blame you if you stay behind, but someone needs to reach the top.&#8221;<br>///br///&#8212;Ema, to Karina</i>
+copperlightsource
+
+
+
+
+
+
+
+
+
+===========
+normal
+114
+1
+uncommon
+Waterway Distraction
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Fish 
+0
+3
+Landfall &#8212; Whenever a land you control enters, each opponent loses 1 life.
+<i>&#8220;Ships used to find their ways to the islands and back with lights along the way... until the monsters learned how to use that against us.&#8221;<br>///br///&#8212;Ema, to Karina</i>
+AutobotTesla
+
+
+
+
+
+3
+
+
+
+===========
+normal
+107
+2
+uncommon
+Smiling Sludge
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Ooze 
+1
+3
+When Smiling Sludge enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Whenever you sacrifice a nonland permanent, target opponent loses 1 life and you gain 1 life.
+
+Ryota Murayama
+
+
+
+
+
+3
+
+
+
+===========
+normal
+108
+3
+uncommon
+Soul's Sunset
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Spirit 
+2
+2
+Flying<br>///br///When Soul&#39;s Sunset enters, exile up to two target cards from graveyards. You gain 2 life.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+ry-spirit
+
+
+
+
+
+2
+
+
+
+===========
+normal
+110
+3
+uncommon
+Territory Dispute
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Instant
+
+
+Destroy target non-Human creature. If it has Berries attached to it, gain control of them. Otherwise, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+Andri Evaris
+
+
+
+
+
+
+
+
+
+===========
+normal
+134
+5
+common
+Kicking Fowl
+red
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Bird 
+3
+4
+Whenever Kicking Fowl attacks, add <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>. You can&#39;t spend this mana to cast spells.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Kicking Fowl gets +1/+0 until end of turn.
+
+kaosu0905
+
+
+
+
+
+4
+
+
+
+===========
+normal
+142
+2
+uncommon
+Psych Up
+red
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Instant
+
+
+Amity &#8212; This spell costs <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span> less to cast if you attacked with exactly two creatures this turn.<br>///br///When you cast your next instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+
+higa-tsuba
+
+
+
+
+
+
+
+
+
+===========
+normal
+183
+1
+uncommon
+Rollephant
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Elephant 
+1
+1
+Amity &#8212; Whenever you attack with Rollephant and exactly one other creature, Rollephant gets +2/+2 until end of turn.
+
+Sorocabano
+
+
+
+
+
+1
+
+
+
+===========
+normal
+185
+2
+uncommon
+Sunsoaker
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant Lizard 
+1
+2
+<span class="symbol">{T}</span>: Add one mana of any color.<br>///br///Amity &#8212; Whenever you attack with Sunsoaker and exactly one other creature, put a +1/+1 counter on Sunsoaker and add one mana of any color. Until end of turn, you don&#39;t lose that mana as steps and phases end.
+
+&#40165;&#30007;
+
+
+
+
+
+2
+
+
+
+===========
+normal
+160
+4
+uncommon
+Bottom Feeder
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Fish 
+2
+2
+Whenever a creature card is put into your graveyard from anywhere, put a +1/+1 counter on Bottom Feeder.
+<i>Offered to the bottom feeders<br>///br///&#8212;Sailor&#39;s expression meaning<br>///br///&#8220;dropped in the water&#8221;</i>
+&#27743;&#21475;&#30452;&#36637;
+
+
+
+
+
+2
+
+
+
+===========
+normal
+159
+3
+uncommon
+Blustering Storm
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Choose one. If you control a Weather, you may choose both instead.<br>///br///&#8226; Put a +1/+1 counter on target creature for each basic land type among lands you control.<br>///br///&#8226; Target creature you control deals damage equal to its power to target creature you don&#39;t control.
+
+wulie errr
+
+
+
+
+
+
+
+
+
+===========
+normal
+130
+5
+uncommon
+Exotic Transformer
+red, artifact
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Artifact Creature — Construct 
+4
+4
+<span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Exile the top card of your library. You may play that card until the end of your next turn.<br>///br///<span class="symbol"><img src='magic-mana-small-7.png' alt='7' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Exotic Transformer deals damage equal to its power to any target.
+<i>&#8220;The machine adapts to new environments. It might not belong anywhere anymore.&#8221;<br>///br///&#8212;Simul</i>
+Gooompy
+
+
+
+
+
+4
+
+
+
+===========
+normal
+219
+4
+uncommon
+Plated Tunneler
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Dinosaur 
+4
+5
+Return a land you control to its owner&#39;s hand: Plated Tunneler gets +1/+0 and gains menace until end of turn.
+
+8686island
+
+
+
+
+
+5
+
+
+
+===========
+normal
+136
+2
+uncommon
+Leaping Hatchling
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Dragon 
+2
+2
+Haste<br>///br///Landfall &#8212; Whenever a land you control enters, Leaping Hatchling gains flying and trample until end of turn.
+<i>The newborn dragon throws itself from high places in an attempt to fly, to the dismay of all who live beneath it.</i>
+Sa-Dui
+
+
+
+
+
+2
+
+
+
+===========
+normal
+131
+3
+common
+Fluttering Firefly
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Insect 
+2
+2
+Flying<br>///br///Amity &#8212; Whenever you attack with Fluttering Firefly and exactly one other creature, target creature you control gets +2/+0 until end of turn.
+
+&#12533;&#12483;&#12457;&#12457;&#12515;&#12483;&#12519;
+
+
+
+
+
+2
+
+
+
+===========
+normal
+222
+4
+uncommon
+Puddle Crasher
+blue, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Elemental Rabbit 
+4
+4
+Trample<br>///br///Amity &#8212; Whenever you attack with Puddle Crasher and exactly one other creature, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+
+DAY_Walker1117
+
+
+
+
+
+4
+
+
+
+===========
+normal
+61
+4
+common
+Nimbus Dragon
+blue
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Dragon 
+3
+3
+Flying<br>///br///Amity &#8212; Whenever you attack with Nimbus Dragon and exactly one other creature, tap target creature defending player controls.
+<i>&#8220;Back home we thought so small, only combining animals with other animals.&#8221;<br>///br///&#8212;Simul</i>
+Kunochai
+
+
+
+
+
+3
+
+
+
+===========
+normal
+143
+2
+common
+Psychohopper
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Bird 
+1
+2
+<span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>: Psychohopper gains flying until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>: Psychohopper gets +2/+2 until end of turn. Activate only once each turn.
+
+Zalcoti
+
+
+
+
+
+2
+
+
+
+===========
+normal
+154
+2
+common
+Amateur Tamer
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Human Ranger 
+2
+1
+Amity &#8212; Whenever you attack with Amateur Tamer and exactly one other creature, put a +1/+1 counter on target creature.
+
+Jeremy Ray
+
+
+
+
+
+1
+
+
+
+===========
+normal
+187
+4
+common
+Thornfist Bruiser
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+3
+3
+Reach<br>///br///Amity &#8212; Whenever you attack with Thornfist Bruiser and exactly one other creature, Thornfist Bruiser must be blocked this combat if able.
+
+All0402
+
+
+
+
+
+3
+
+
+
+===========
+normal
+54
+1
+uncommon
+Harbor Mail
+blue
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+Surveil 1. Draw a card. <i>(Look at the top card of your library. You may put that card into your graveyard.)</i><br>///br///When you cast a spell that has surface, you may cast Harbor Mail from your graveyard without paying its mana cost. Exile this spell instead of putting it anywhere else.
+
+su
+
+
+
+
+
+
+
+
+
+===========
+normal
+60
+2
+common
+Lustrous Starfish
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Starfish 
+1
+3
+<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>: Target creature gets +0/+3 until end of turn. Activate only as a sorcery and only once each turn.
+<i>Beachcombers must quickly learn the difference between beached treasures and beached monsters.</i>
+krithidraws
+
+
+
+
+
+3
+
+
+
+===========
+normal
+22
+3
+common
+Outlands Prowler
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Mongoose 
+2
+2
+Outlands Prowler has first strike as long as it&#39;s your turn.<br>///br///Landfall &#8212; Whenever a land you control enters, Outlands Prowler gets +2/+2 until end of turn.
+
+&#12459;&#12527;&#12488;&#12453;&#12540;
+
+
+
+
+
+2
+
+
+
+===========
+normal
+94
+4
+common
+Moonlight Adventurer
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Human Ranger 
+3
+4
+Landfall &#8212; Whenever a land you control enters, you gain 2 life. Then if you control a Mountain and a Plains, each opponent loses 2 life.
+
+Taiyo Tenebris
+
+
+
+
+
+4
+
+
+
+===========
+normal
+117
+6
+common
+Brick Breaker
+red
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Giant Warrior 
+6
+5
+Trample<br>///br///Landfall &#8212; Whenever a land you control enters, target creature blocks Brick Breaker this turn if able.
+<i>It takes all challengers.</i>
+Tokiya
+
+
+
+
+
+5
+
+
+
+===========
+normal
+251
+2
+common
+Living Compass
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'>
+Artifact Creature — Construct 
+1
+1
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>: Add one mana of any color.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>, Sacrifice Living Compass: Draw a card.
+<i>&#8220;They walk through the caves in a herd, accidentally pointing the way for travelers that can figure out where they&#39;re going.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+mago
+
+
+
+
+
+1
+
+
+
+===========
+normal
+202
+3
+uncommon
+Elegant Hunter
+
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Fish 
+2
+2
+Amity &#8212; Whenever you attack with Elegant Hunter and exactly one other creature, choose one &#8212;<br>///br///&#8226; Attacking creatures you control get +2/+0 until end of turn.<br>///br///&#8226; Attacking creatures you control can&#39;t be blocked this turn.
+
+TediousRamen
+
+
+
+
+
+2
+
+
+
+===========
+normal
+145
+3
+common
+Sandstorm Devil
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Insect Dragon 
+2
+2
+Reach<br>///br///When Sandstorm Devil enters, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///As long as you control a Weather or another Dragon, Sandstorm Devil has menace.
+
+Yuri Singer
+
+
+
+
+
+2
+
+
+
+===========
+normal
+146
+3
+uncommon
+Searing Grace
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Instant
+
+
+This spell costs <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span> less to cast if you activated a nonmana ability this turn.<br>///br///Searing Grace deals 3 damage to any target.
+
+mcgmark
+
+
+
+
+
+
+
+
+
+===========
+normal
+100
+2
+common
+Relentless Bats
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Bat 
+1
+1
+Flying<br>///br///Surface <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>. This spell costs <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> less if you control a creature named Relentless Bats. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i><br>///br///A deck may have any number of cards named Relentless Bats.
+
+spareribs
+
+
+
+
+
+1
+
+
+
+===========
+normal
+80
+5
+common
+Crunch
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+Destroy target creature. Create two Berry tokens. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+<i>&#8220;Hey, Smiley, I found something for you to eat.&#8221;<br>///br///&#8212;Jack, Monster Mentor</i>
+Akira Egawa
+
+
+
+
+
+
+
+
+
+===========
+normal
+263
+0
+basic land
+Forest
+
+
+Basic Land — Forest 
+
+
+
+
+hariiro_pon
+
+
+
+
+
+
+
+
+
+===========
+normal
+119
+1
+common
+Burn Up
+red
+<img src='magic-mana-small-X.png' alt='X' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Instant
+
+
+Choose one &#8212; <br>///br///&#8226; Destroy target noncreature artifact with mana value X.<br>///br///&#8226; Burn Up deals X damage to target creature or planeswalker.
+
+Manuel Veloz Aguilar
+
+
+
+
+
+
+
+
+
+===========
+normal
+268
+0
+basic land
+Island
+
+
+Basic Land — Island 
+
+
+
+
+hariiro_pon
+
+
+
+
+
+
+
+
+
+===========
+normal
+34
+3
+uncommon
+Stratus Fledgling
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Dragon 
+1
+2
+Flying<br>///br///When Stratus Fledgling enters, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///Weather spells you cast cost <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> less to cast.
+
+stardragonhorse
+
+
+
+
+
+2
+
+
+
+===========
+normal
+43
+1
+uncommon
+Brewing Storm
+blue
+<img src='magic-mana-small-X.png' alt='X' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Instant
+
+
+Choose one. If you control a Weather, you may choose both instead.<br>///br///&#8226; Counter target spell unless its controller pays <span class="symbol"><img src='magic-mana-small-X.png' alt='X' width='14' height='14'></span>.<br>///br///&#8226; Return target nonland permanent with mana value X or less to its owner&#39;s hand.
+
+Devin Elle Kurtz
+
+
+
+
+
+
+
+
+
+===========
+normal
+46
+4
+uncommon
+Contest Star
+blue
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Human Performer 
+2
+2
+<span class="symbol">{T}</span>, Tap another untapped creature you control: You may tap or untap another target creature.<br>///br///Whenever Contest Star becomes untapped, draw a card.
+
+Chibiterasuchan
+
+
+
+
+
+2
+
+
+
+===========
+double
+39
+1
+common
+Whispering Runt
+white
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Beast 
+1
+1
+<span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>: Whispering Runt gets +1/+1 until end of turn. If you spent <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span> to activate this ability, you may transform Whispering Runt.
+<i>&#8220;In the early stages of life, the creature tries to stay quiet and unseen...&#8221;</i>
+Kouki Saito
+Bellowing Beast
+white
+
+Creature — Beast 
+3
+1
+<span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Creatures you control get +1/+1 until end of turn.
+<i>&#8220;... but once full-grown, they make a big display to make sure everyone around knows where they are.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+TOKIYA
+===========
+double
+147
+2
+common
+Solid Smog
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental 
+2
+1
+Haste<br>///br///Amity &#8212; Whenever you attack with Solid Smog and exactly one other creature, you may pay <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>. If you do, transform Solid Smog.
+
+kaosu
+Splitting Smog
+red
+
+Creature — Elemental 
+3
+1
+Menace<br>///br///Amity &#8212; Whenever you attack with Splitting Smog and exactly one other creature, you may pay <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>. If you do, attacking creatures you control get +2/+0 until end of turn.
+
+guodon
+===========
+normal
+221
+3
+uncommon
+Prolific Fisher
+blue, red, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Human Ranger 
+1
+3
+<span class="symbol">{T}</span>: Create a 1/1 blue Fish creature token with haste. Exile it at the beginning of the next end step. Activate only as a sorcery.
+<i>&#8220;You want whales? Walruses? Sharks? I got carp.&#8221;</i>
+shirokanipe ranran
+
+
+
+
+
+3
+
+
+
+===========
+normal
+90
+4
+common
+Imminent Disaster
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Sorcery
+
+
+This spell costs <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> less to cast if there is a card named Imminent Disaster in your graveyard.<br>///br///Exile target creature or planeswalker.
+<i>&#8220;There are rumors of a monster that can stop your heart just by being too close. People still live here, so probably just rumors...&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+high-tsuba
+
+
+
+
+
+
+
+
+
+===========
+normal
+3
+2
+common
+Brief Stop
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Instant
+
+
+Exile target permanent you control, then return that card to the battlefield under your control.
+<i>An important skill for adventurers is knowing where to catch your breath.</i>
+pippi913
+
+
+
+
+
+
+
+
+
+===========
+normal
+244
+1
+common
+Figy Berry
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'>
+Artifact — Berry Equipment 
+
+
+Before equipped creature would assign, deal, or be dealt damage, sacrifice Figy Berry. If you do, equipped creature gets +2/+2 until end of turn.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><br>///br///<img src='magic-mana-small-7.png' alt='7' width='14' height='14'></span>, Sacrifice Figy Berry: Destroy target nonland permanent.
+<i>Its intensely spicy flavor is a joy to some, and excruciating to most.</i>
+minahamu
+
+
+
+
+
+
+
+
+
+===========
+normal
+246
+2
+common
+Gold Berry
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'>
+Artifact — Berry Equipment 
+
+
+Before equipped creature would assign, deal, or be dealt damage, sacrifice Gold Berry. If you do, equipped creature gets +2/+2 until end of turn.<br>///br///When you sacrifice Gold Berry, create a Berry token and a Treasure token.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>
+
+hakkentai pokemon
+
+
+
+
+
+
+
+
+
+===========
+normal
+33
+3
+uncommon
+Static Scamp
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Elemental Dog 
+2
+2
+First strike<br>///br///Landfall &#8212; Whenever a land you control enters, you may tap target creature.
+<i>Its spark is worse than its bite.</i>
+yassui
+
+
+
+
+
+2
+
+
+
+===========
+normal
+10
+2
+uncommon
+Contest Coordinator
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Performer 
+1
+3
+When Contest Coordinator enters, look at the top five cards of your library. You may reveal a Plains or a nonland card with an activated ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+
+&#40644;&#36523;&#12293;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+31
+4
+uncommon
+Soothing Singer
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Ouphe Performer 
+2
+1
+When Soothing Singer enters, exile target nonland permanent you don&#39;t control until Soothing Singer leaves the battlefield.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Soothing Singer gets +0/+2 until end of turn.
+
+&#12452;&#12490;&#12507; &#12454;&#12511;
+
+
+
+
+
+1
+
+
+
+===========
+normal
+49
+4
+uncommon
+Explore Wreckage
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+Draw three cards.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+su
+
+
+
+
+
+
+
+
+
+===========
+normal
+57
+4
+uncommon
+Kappa Colony
+blue
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment
+
+
+When Kappa Colony enters, create three 1/1 green Plant creature tokens.<br>///br///Whenever you cast a spell from your graveyard, put a +1/+1 counter on each Plant you control.
+
+ezrodraws
+
+
+
+
+
+
+
+
+
+===========
+normal
+70
+2
+uncommon
+Teeter Dance
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment — Aura 
+
+
+Enchant creature<br>///br///Once each turn, when enchanted creature becomes tapped, you may untap it or put a stun counter on it.
+<i>&#8220;The little panda always stumbles around, letting it accidentally dodge most attacks.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+Irischroma
+
+
+
+
+
+
+
+
+
+===========
+normal
+151
+3
+uncommon
+Under the Collar
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Sorcery
+
+
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You may spend mana of any type to activate its abilities this turn.
+
+&#51204;&#53804;&#48124;&#51313;
+
+
+
+
+
+
+
+
+
+===========
+normal
+116
+3
+uncommon
+Boiling Storm
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Sorcery
+
+
+Choose one. If you control a Weather, you may choose both instead.<br>///br///&#8226; Creatures you control get +2/+1 until end of turn.<br>///br///&#8226; Boiling Storm deals 2 damage to each creature.
+
+SAUCECAT
+
+
+
+
+
+
+
+
+
+===========
+normal
+162
+4
+uncommon
+Bumbling Pollinator
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+3
+4
+Amity &#8212; Whenever you attack with Bumbling Pollinator and exactly one other creature, create a 1/1 green Plant creature token.
+
+ame_Ivysaur
+
+
+
+
+
+4
+
+
+
+===========
+normal
+226
+3
+uncommon
+Seafloor Scavenger
+
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Human Ranger 
+2
+3
+When Seafloor Scavenger enters or deals combat damage to a player, you may return target exiled card with surface you own to your hand.
+
+ourisansan
+
+
+
+
+
+3
+
+
+
+===========
+normal
+264
+0
+uncommon
+Forgotten Doorway
+
+
+Land
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'><img src='magic-mana-small-C.png' alt='C' width='14' height='14'></span>. Spend this mana only to cast spells from your graveyard.
+<i>A design of glowing dots sits unblinking for centuries, waiting to be rediscovered.</i>
+Crayloa_eater
+
+
+
+
+
+
+
+
+
+===========
+normal
+274
+0
+uncommon
+Prickly Dunes
+
+
+Land — Desert 
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///<img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Prickly Dunes: Create two 1/1 green Plant creature tokens. Activate only as a sorcery.
+
+fjsmu
+
+
+
+
+
+
+
+
+
+===========
+normal
+272
+0
+common
+Ominous Quag
+
+
+Land
+
+
+Ominous Quag enters tapped.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>.<br>///br///<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Ominous Quag: Draw a card.
+
+&#12420;&#12387;&#12367;&#12435;
+
+
+
+
+
+
+
+
+
+===========
+normal
+277
+0
+common
+Stunning Cascade
+
+
+Land
+
+
+Stunning Cascade enters tapped.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>.<br>///br///<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Stunning Cascade: Draw a card.
+
+otsumami (bu-bu-heaven)
+
+
+
+
+
+
+
+
+
+===========
+normal
+275
+0
+common
+Serpentine Woods
+
+
+Land
+
+
+Serpentine Woods enters tapped.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>.<br>///br///<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Serpentine Woods: Draw a card.
+
+milkayart
+
+
+
+
+
+
+
+
+
+===========
+normal
+265
+0
+common
+Fortress Arena
+
+
+Land
+
+
+Fortress Arena enters tapped.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>.<br>///br///<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Fortress Arena: Draw a card.
+
+The Pokemon Company International
+
+
+
+
+
+
+
+
+
+===========
+normal
+260
+0
+common
+Cryptic Reef
+
+
+Land
+
+
+Cryptic Reef enters tapped.<br>///br///<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> or <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>.<br>///br///<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Cryptic Reef: Draw a card.
+
+The Pokemon Company International
+
+
+
+
+
+
+
+
+
+===========
+normal
+262
+0
+common
+Evolving Wilds
+
+
+Land
+
+
+<span class="symbol">{T}</span>, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+<i>&#8220;You&#39;ll find the mainland here is a lot safer than Tohjo. As long as you avoid the desert. And the volcano. Don&#39;t go too deep in the forest either now that I think about it. Also...&#8221;<br>///br///&#8212;Ema, to Karina</i>
+Kawaguchi Youhei
+
+
+
+
+
+
+
+
+
+===========
+normal
+273
+0
+basic land
+Plains
+
+
+Basic Land — Plains 
+
+
+
+
+hariiro_pon
+
+
+
+
+
+
+
+
+
+===========
+normal
+271
+0
+basic land
+Mountain
+
+
+Basic Land — Mountain 
+
+
+
+
+hariiro_pon
+
+
+
+
+
+
+
+
+
+===========
+normal
+279
+0
+basic land
+Swamp
+
+
+Basic Land — Swamp 
+
+
+
+
+tanbo-san
+
+
+
+
+
+
+
+
+
+===========
+normal
+248
+3
+uncommon
+Karina's Substitute
+
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'>
+Artifact Creature — Toy 
+1
+4
+You may have Karina&#39;s Substitute enter as a copy of a creature you control, except it&#39;s 1/4 and a Toy in addition to its other types.
+<i>A piece of cloth, a bit of ink, and a spell taught by a friend, and Karina could summon an extra set of eyes.</i>
+Jyru
+
+
+
+
+
+4
+
+
+
+===========
+normal
+254
+5
+uncommon
+Magnetic Snuffler
+
+<img src='magic-mana-small-5.png' alt='5' width='14' height='14'>
+Artifact Creature — Construct 
+4
+4
+When Magnetic Snuffler enters, return target Equipment card from your graveyard to the battlefield attached to Magnetic Snuffler.<br>///br///Whenever you sacrifice an artifact, put a +1/+1 counter on Magnetic Snuffler.
+
+Masakazu Fukuda
+
+
+
+
+
+4
+
+
+
+===========
+normal
+249
+1
+uncommon
+King's Rock
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'>
+Artifact — Equipment 
+
+
+Equipped creature gets +1/+0.<br>///br///Whenever equipped creature deals combat damage to a player, put a stun counter on target permanent they control. <i>(If a permanent with a stun counter would become untapped, remove one from it instead.)</i><br>///br///Equip <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>
+
+joelhustak
+
+
+
+
+
+
+
+
+
+===========
+normal
+258
+2
+uncommon
+Snazzy Scarf
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'>
+Artifact — Equipment 
+
+
+Equipped creature gets +1/+1.<br>///br///As long as equipped creature has been activated this turn, it gets an additional +2/+2 and can attack as though it were untapped.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>
+
+&#12500;&#12459;&#12511;
+
+
+
+
+
+
+
+
+
+===========
+normal
+247
+3
+uncommon
+Hard Stone
+
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'>
+Artifact — Equipment 
+
+
+Landfall &#8212; Whenever a land you control enters, you may attach Hard Stone to target creature.<br>///br///Equipped creature gets +3/+3.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>
+
+suchi_paint
+
+
+
+
+
+
+
+
+
+===========
+normal
+256
+5
+uncommon
+Meteorite
+
+<img src='magic-mana-small-5.png' alt='5' width='14' height='14'>
+Artifact
+
+
+When Meteorite enters, it deals 2 damage to any target.<br>///br///<span class="symbol">{T}</span>: Add one mana of any color.
+
+Ina Wong
+
+
+
+
+
+
+
+
+
+===========
+normal
+20
+1
+common
+Heavy Snowfall
+white
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Heavy Snowfall enters, target creature you control gets +1/+1 and gains indestructible until end of turn.
+<i>&#8220;It never snows this far from Tokusane...&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+DAY_Walker1117
+
+
+
+
+
+
+
+
+
+===========
+normal
+67
+2
+common
+Sea Breeze
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Sea Breeze enters, surveil 1, then return up to one target creature to its owner&#39;s hand.
+<i>&#8220;This calm is how you know there&#39;s a storm.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+Hanenbo
+
+
+
+
+
+
+
+
+
+===========
+normal
+84
+1
+common
+Falling Ashes
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Falling Ashes enters, exile up to two target cards from graveyards, then you gain 2 life.
+<i>&#8220;It&#39;s like the air&#39;s grown tired of being breathed.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+Su
+
+
+
+
+
+
+
+
+
+===========
+normal
+148
+2
+common
+Streaking Sunrise
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Streaking Sunrise enters, scry 1, then exile the top card of your library. You may play it until the end of your next turn.
+<i>&#8220;Day 37: Sunrise was twelve minutes early today. It&#39;s getting worse.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+hakkentai
+
+
+
+
+
+
+
+
+
+===========
+normal
+181
+2
+common
+Pollen Warning
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Pollen Warning enters, create a 1/1 green Plant creature token, then put a +1/+1 counter on a creature you control.
+<i>&#8220;At least someone enjoys this weird spring.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+riberu
+
+
+
+
+
+
+
+
+
+===========
+normal
+227
+2
+uncommon
+Seal Shoals
+white, blue, multicolor
+<img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment
+
+
+At the beginning of each end step, if you activated two or more nonmana abilities this turn, create a 2/2 white and blue Seal Orb creature token.<br>///br///<span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>: Scry 1. You gain 1 life.
+
+7_be_08
+
+
+
+
+
+
+
+
+
+===========
+normal
+106
+1
+rare
+Singularity
+black
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Instant
+
+
+Exile target creature or enchantment if its mana value is less than or equal to the number of spells named Singularity you&#39;ve cast this game <i>(including this one)</i>.
+<i>&#8220;The spell is truly monstrous, yet I find it easier and easier to justify each time.&#8221;<br>///br///&#8212;Sanaito</i>
+TOKIYA
+
+
+
+
+
+
+
+
+
+===========
+normal
+98
+2
+rare
+Pressuring Ghoul
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Spirit 
+1
+1
+Flying, haste<br>///br///Landfall &#8212; Whenever a land you control enters, put a +1/+1 counter on Pressuring Ghoul unless any opponent discards a card.
+<i>&#8220;Ghosts feed mostly on fear. But only mostly.&#8221;<br>///br///&#8212;Ema, to Karina</i>
+DAY_Walker1117
+
+
+
+
+
+1
+
+
+
+===========
+double
+103
+1
+rare
+Serrated Fossil
+black, artifact
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Artifact
+
+
+<span class="symbol"><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>, Sacrifice Serrated Fossil: Choose a card name. Target player reveals their hand and discards a card with that name if able. Activate only as a sorcery.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>. Serrated Fossil surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Diego Pastrana
+Reborn Fisher
+black
+
+Creature — Dinosaur Insect 
+4
+
+Ward&#8212;Discard a card.<br>///br///Whenever Reborn Fisher attacks, choose a card name, then defending player reveals their hand and discards a card with that name if able.
+
+000SanS000
+===========
+normal
+89
+2
+rare
+Hostage Situation
+black
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Enchantment
+
+
+When Hostage Situation enters, target opponent reveals their hand. Exile a nonland card from it and up to one creature card from your graveyard. When Hostage Situation is no longer on the battlefield, return the exiled cards to their owner&#39;s hands.
+
+&#12358;&#12365;&#12414;
+
+
+
+
+
+
+
+
+
+===========
+normal
+111
+4
+rare
+Unyielding Titan
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Golem 
+6
+3
+Indestructible<br>///br///Unyielding Titan can&#39;t attack or block unless you control three or more Golems.<br>///br///Whenever Unyielding Titan enters or attacks, target player loses 3 life unless they discard a card or sacrifice a nonland permanent.<br>///br///<span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>, <span class="symbol">{T}</span>: Create a 1/1 white Golem creature token.
+
+Astero
+
+
+
+
+
+3
+
+
+
+===========
+normal
+81
+5
+rare
+Depths Ancient
+black
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Fish 
+★
+★
+Depths Ancient&#39;s power and toughness are each equal to the number of cards in your graveyard.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+PurpleKecleon
+
+
+
+
+
+★
+
+
+
+===========
+normal
+86
+3
+rare
+Gloomy Meteorologist
+black
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Human Ranger 
+2
+2
+Lifelink<br>///br///When Gloomy Meteorologist enters, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///Whenever an ability of a Weather you control triggers, Gloomy Meteorologist deals 1 damage to any target.
+
+Astero .
+
+
+
+
+
+2
+
+
+
+===========
+normal
+104
+6
+rare
+Shadow Sky
+black
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Shadow Sky enters and whenever you cast a spell, creatures target player controls get -1/-1 until end of turn.
+<i>&#8220;A great gale of darkness has choked out the heavens, and now it seeks to choke the land.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+Kozsen
+
+
+
+
+
+
+
+
+
+===========
+normal
+1
+4
+rare
+Weather Elemental
+
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'>
+Creature — Elemental 
+2
+2
+Flying<br>///br///Whenever Weather Elemental enters or attacks, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///If a triggered ability of a Weather you control would trigger, it triggers an additional time.
+
+Urwah Arwed
+
+
+
+
+
+2
+
+
+
+===========
+normal
+255
+6
+rare
+Magnetling
+
+<img src='magic-mana-small-6.png' alt='6' width='14' height='14'>
+Artifact Creature — Construct 
+4
+4
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>: Untap Magnetling.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>: Magnetling can&#39;t be blocked by creatures with power 2 or less this turn.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>: Choose a card type. Magnetling loses that type until end of turn.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>: Magnetling gets +1/-1 or -1/+1 until end of turn.
+
+000SanS000
+
+
+
+
+
+4
+
+
+
+===========
+normal
+276
+0
+rare
+Sky Pillar
+
+
+Land
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///<img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>, <span class="symbol">{T}</span>: Create a 1/1 white Golem creature token. Spend mana of three different colors to activate this ability.<br>///br///<span class="symbol">{T}</span>:  Put a +1/+1 counter on target creature. It gains flying until end of turn. Activate only if you control ten or more permanents.
+
+su
+
+
+
+
+
+
+
+
+
+===========
+normal
+270
+0
+rare
+Mirage Island
+
+
+Land
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///{T}</span>: Surveil 1. Return Mirage Island to its owner&#39;s hand.
+<i>No matter how well the seas are charted, there will always be treasures hidden among the waves.</i>
+pippi
+
+
+
+
+
+
+
+
+
+===========
+normal
+207
+6
+rare
+Hoenn Champion
+red, green, multicolor
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Legendary Creature — Human Ranger 
+1
+1
+When Hoenn Champion enters, create a creature token for each of the following characteristics.<br>///br///&#8226; 3/3 white and black Bird with flying, vigilance, and haste.<br>///br///&#8226; 2/4 red Bird Warrior with double strike, vigilance, and haste.<br>///br///No more than two creatures can attack each combat. No more than two creatures can block each combat.
+
+Isao Nishihara
+
+
+
+
+
+1
+
+
+
+===========
+double
+170
+3
+rare
+Growing Gecko
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant Lizard 
+2
+2
+Amity &#8212; Whenever you attack with Growing Gecko and exactly one other creature, they both get +1/+1 until end of turn.<br>///br///Whenever Growing Gecko deals combat damage to a player, you may transform it.
+<i>Children are each given a tame monster...</i>
+karamimame
+Old-Growth Gecko
+green
+
+Creature — Plant Lizard 
+6
+2
+Trample<br>///br///Amity &#8212; Whenever Old-Growth Gecko attacks, put a +1/+1 counters on another creature you control. If exactly one other creature attacked with it, this ability triggers three times instead.
+<i>...to teach them to appreciate the many forms and pathways growth takes.</i>
+Tessy Oekaki
+===========
+normal
+177
+1
+rare
+Mystery Egg
+green
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Egg 
+0
+2
+When Mystery Egg enters, search your library for a card and exile it face down, then shuffle your library. You may look at that card.<br>///br///<span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice Mystery Egg: Turn the exiled card face up. You may cast that card this turn if it&#39;s a creature spell, and you may cast that spell as though it had flash.
+
+ewokakukaede
+
+
+
+
+
+2
+
+
+
+===========
+normal
+156
+3
+rare
+Berry Fermenter
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Turtle 
+1
+4
+When Berry Fermenter enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Berries you control have &#8220;<span class="symbol">{T}</span>, Sacrifice this artifact: Add one mana of any color.&#8221; and &#8220;<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>, <span class="symbol">{T}</span>, Sacrifice this artifact: You gain 3 life.&#8221;
+
+&#38634;&#38477;&#12388;&#12422;
+
+
+
+
+
+4
+
+
+
+===========
+normal
+180
+5
+rare
+Parental Pair
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Beast 
+4
+4
+When Parental Pair enters, create a token that&#39;s a copy of it, except it&#39;s 2/2 and doesn&#39;t have this ability.<br>///br///Amity &#8212; Whenever you attack with Parental Pair and exactly one other creature, you may have Parental Pair fight target creature.
+
+CuteSkitty
+
+
+
+
+
+4
+
+
+
+===========
+normal
+189
+3
+rare
+Unflinching Titan
+green
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Golem 
+5
+5
+When Unflinching Titan enters, put a +1/+1 counter on each creature you control and an additional one on each Golem you control.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>, Discard Unflinching Titan: Create a 1/1 white Golem creature token. Trigger its enters ability. Activate only as a sorcery.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-6.png' alt='6' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Astero
+
+
+
+
+
+5
+
+
+
+===========
+normal
+169
+5
+rare
+Frenzy Plant
+green
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Create three Berry tokens, then sacrifice any number of Berries. For each Berry sacrificed this way, creatures you control get +1/+1 until end of turn. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+&#38632;&#23470;&#12450;&#12461;&#12521;
+
+
+
+
+
+
+
+
+
+===========
+double
+167
+1
+rare
+Entangled Fossil
+green, artifact
+<img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Artifact
+
+
+<span class="symbol"><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>, Sacrifice Entangled Fossil: Target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span>. Entangled Fossil surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+The Pok&#233;mon Company International
+Reborn Reef
+green
+
+Creature — Plant 
+4
+
+Vigilance<br>///br///Whenever Reborn Reef attacks, target card in your graveyard gains surface until end of turn. The surface cost is equal to its mana cost.
+
+bluekomadori
+===========
+normal
+172
+2
+rare
+Heavy Winds
+green
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Heavy Winds enters and whenever you cast a spell, prevent all damage up to one target permanent would deal this turn.
+<i>&#8220;The weather is finally stilled. That might be the most worrying outcome of all.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+renepolumorfous
+
+
+
+
+
+
+
+
+
+===========
+normal
+194
+4
+rare
+The Berry Master
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Legendary Creature — Human Druid 
+3
+4
+When The Berry Master enters, create a Berry token.<br>///br///If you would create one or more tokens, also create that many Berry tokens.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>, Sacrifice two Berries: Up to one target creature gets +2/+2 until end of turn. Up to one target creature gets -2/-2 until end of turn. You gain 4 life.
+
+litchi-ve
+
+
+
+
+
+4
+
+
+
+===========
+normal
+15
+3
+rare
+Ema, the Returned
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Legendary Creature — Human Ranger 
+3
+3
+Legendary permanents you control have &#8220;<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>: Tap target creature.&#8221;<br>///br///At the beginning of each end step, scry 1 if you spent <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span> to activate abilities this turn, Ema deals 1 damage to each opponent if you spent <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, and put a +1/+1 counter on a creature you control if you spent <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>.
+
+Hozure
+
+
+
+
+
+3
+
+
+
+===========
+normal
+191
+6
+rare
+The Aqua Crew
+
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Legendary Creature — Human Pirate 
+4
+4
+Flash<br>///br///Whenever The Aqua Crew enters, mill six cards, then you gain 1 life for each card type among cards in your graveyard.<br>///br///You may cast exiled cards you own for their surface costs.
+<i>&#8220;The sea has been protecting us for years. Time to return the favor.&#8221;</i>
+toastydoodles
+
+
+
+
+
+4
+
+
+
+===========
+normal
+215
+5
+rare
+The Magma Council
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Legendary Creature — Human Advisor 
+4
+4
+Landfall &#8212; Whenever a land you control enters, put a drought counter on target permanent. It becomes a land named Lava Flow with &#8220;<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'></span>,&#8221; and loses all other types and abilities.
+<i>&#8220;The sea has been intruding for years. Time to return the favor.&#8221;</i>
+toastydoodles
+
+
+
+
+
+4
+
+
+
+===========
+double
+231
+5
+rare
+Stitches, Adopted
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Legendary Creature — Toy Spirit 
+3
+3
+Haste<br>///br///Amity &#8212; Whenever you attack with Stitches and exactly one other creature, create a 2/2 Toy artifact creature token with defender, then tap all Toys you control. They&#39;re attacking.<br>///br///At the beginning of your end step, if you didn&#39;t create a Toy this turn, transform Stitches.
+<i>Joy wants to be shared.</i>
+haru1suama
+Stitches, Orphaned
+blue, red, green, multicolor
+
+Legendary Creature — Toy Spirit 
+6
+3
+Trample<br>///br///Amity &#8212; Whenever you attack with Stitches, Orphaned and exactly one other creature, transform Stitches at the beginning of the next turn&#39;s upkeep.
+<i>Pain demands to be shared.</i>
+kawacy
+===========
+normal
+224
+4
+rare
+Sanaito, Voidsinger
+white, black, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Legendary Planeswalker — Sanaito 
+
+
+[+1]: Up to one target nonland permanent gets -1/-1 and loses all abilities until your next turn.<br>///br///[0]: Target creature you control gets +2/+2 and gains lifelink until your next turn.<br>///br///[-1]: Each player discards a card. Then you may pay 2 life. If you do, draw a card.<br>///br///[-3]: You and target opponent&#39;s life totals each become equal to half your combined life totals, rounded down.///br///Starting loyalty: 3
+
+lotosu
+
+
+
+
+
+
+
+
+
+===========
+normal
+210
+5
+rare
+Iviana, Dragon Tamer
+blue, red, multicolor
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Legendary Planeswalker — Iviana 
+
+
+At the beginning of combat on your turn, gain control of all Dragons until end of turn. Untap them. They gain haste until end of turn.<br>///br///[+1]: Iviana deals X damage divided as you choose among any number of creatures, where X is 2 plus twice the number of Dragons you control.<br>///br///[-2]: You may reveal a Dragon card you own from outside the game and put it into your hand. Create two Treasure tokens.///br///Starting loyalty: 4
+
+Moritz Cremer
+
+
+
+
+
+
+
+
+
+===========
+normal
+212
+4
+rare
+Jack, Monster Mentor
+black, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Legendary Planeswalker — Jack 
+
+
+Whenever one or more permanent cards are put into graveyards, each opponent loses 1 life and you gain 1 life.<br>///br///[+2]: Mill two cards.<br>///br///[+1]: Sacrifice a land or discard a land card. If you do, you may play target creature or land card in your graveyard this turn.<br>///br///[-3]: Each player sacrifices a creature. Return a creature card from your graveyard to your hand.///br///Starting loyalty: 3
+
+Billy Christian
+
+
+
+
+
+
+
+
+
+===========
+normal
+213
+3
+rare
+Karina, Budding Diplomat
+white, red, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Legendary Planeswalker — Karina 
+
+
+Whenever an opponent gains life or draws cards during your turn, you do the same.<br>///br///[+1]: You may discard a card. If you do, each player may draw a card.<br>///br///[+1]: For each player, up to one target creature they control gains lifelink until end of turn.<br>///br///[-7]: Choose a card type. Each opponent who controls more permanents of that type than you sacrifices a number equal to the difference.///br///Starting loyalty: 3
+
+&#12356;&#12385;&#12363;&#12431;&#12399;&#12427;
+
+
+
+
+
+
+
+
+
+===========
+normal
+229
+5
+rare
+Simul, Genetic Artisan
+blue, green, multicolor
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Legendary Planeswalker — Simul 
+
+
+[+1]: Put a +1/+1 counter on each creature you control.<br>///br///[-3]: You may put a permanent card from your hand onto the battlefield. It enters with two additional +1/+1 or loyalty counters on it.<br>///br///[-7]: For each creature you control, create a token that&#39;s a copy of it. You may merge any number of those tokens into one.///br///Starting loyalty: 4
+
+Sicarius8
+
+
+
+
+
+
+
+
+
+===========
+normal
+204
+3
+rare
+Fragile Soul
+white, black, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Insect Spirit 
+3
+1
+First strike<br>///br///If a source would deal 2 or more damage to Fragile Soul, prevent that damage.
+
+gingy_K_ninja
+
+
+
+
+
+1
+
+
+
+===========
+double
+211
+4
+rare
+Iviana's Spellmaw
+blue, red, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Dragon 
+4
+3
+Flying, trample<br>///br///If a Dragon you control would deal damage to an opponent, it deals that much damage plus 1 instead.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Transform Iviana&#39;s Spellmaw.
+
+LadyKuki
+Iviana's Splitmaw
+blue, red, multicolor
+
+Creature — Dragon 
+4
+3
+Flying, trample<br>///br///If a source you control would deal damage to an opponent or a permanent an opponent controls, if it&#39;s a Dragon or Iviana planeswalker, you may have it deal twice that much damage instead. Otherwise, it deals that much damage plus 2 instead.
+
+Sa-Dui
+===========
+normal
+230
+3
+rare
+Spikey, Jack's Gravetiller
+black, green, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Legendary Creature — Plant Horror 
+4
+3
+As an additional cost to cast this spell, exile two permanent cards from your graveyard.<br>///br///Whenever Spikey, Jack&#39;s Gravetiller deals combat damage to a player, return a card exiled with it to its owner&#39;s hand.<br>///br///You may cast Spikey from your graveyard.
+
+edface
+
+
+
+
+
+3
+
+
+
+===========
+normal
+190
+2
+rare
+Amber, Nimble Companion
+white, red, multicolor
+<img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Legendary Creature — Weasel 
+2
+2
+Once each turn, when you activate a nonmana ability, you may put a counter on Amber that it doesn&#39;t already have from among +1/+1, first strike, prowess, lifelink, haste, and vigilance.<br>///br///<span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, <span class="symbol">{T}</span>, Discard a card: Draw a card.
+
+Null_suke
+
+
+
+
+
+2
+
+
+
+===========
+normal
+216
+4
+rare
+Nocturne, Monstrous Krasis
+blue, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Legendary Creature — Fox Werewolf 
+2
+2
+When Nocturne, Monstrous Krasis enters and at the beginning of your upkeep, put X +1/+1 counters on Nocturne, where X is the number of different kinds of counters on permanents you control.
+<i>&#8220;She scared everyone back in Alola, I&#39;m hoping people will be nicer to her here.&#8221;<br>///br///&#8212;Simul, Genetic Artisan</i>
+Seoxys6 &#38; TsaoShin
+
+
+
+
+
+2
+
+
+
+===========
+normal
+205
+4
+rare
+Heartbreak
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Sorcery
+
+
+Each player chooses up to one nontoken, nonland permanent they control. They lose life equal to its mana value. Destroy the rest.
+
+lotosu
+
+
+
+
+
+
+
+
+
+===========
+normal
+208
+3
+rare
+Idolized Coordinator
+
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Performer 
+3
+3
+Creatures you control that are a target or the source of a spell or ability you control have hexproof <i>(until that spell or ability resolves)</i>.<br>///br///Once each turn, when you spend mana to activate an ability, you may gain that much life.<br>///br///<span class="symbol"><img src='magic-mana-small-X.png' alt='X' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Until end of turn, Idolized Coordinator and another target creature you control each get +X/+X and gain vigilance and ward <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>.
+
+&#12356;&#12378;&#22320;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+235
+5
+rare
+Turf Warfare
+
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Sorcery
+
+
+Each player chooses up to seven cards from their graveyard, then discards their hand and returns the chosen cards to their hand.
+
+kikuyoshi (tracco)
+
+
+
+
+
+
+
+
+
+===========
+normal
+232
+4
+rare
+Suncaller Tortoise
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Creature — Elemental Turtle 
+3
+5
+When Suncaller Tortoise enters, return any number of lands you control to their owner&#39;s hands.<br>///br///Landfall &#8212; When a land you control enters, Suncaller Tortoise deals 2 damage to target player. If it&#39;s a Mountain, it deals 3 damage instead. If it&#39;s a Plains, you gain life equal to the damage dealt. If it&#39;s a Swamp, that player discards a card.
+
+yamaori6
+
+
+
+
+
+5
+
+
+
+===========
+normal
+206
+4
+rare
+Higana, Dragon Tamer
+
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Legendary Creature — Human Ranger 
+3
+3
+Amity &#8212; Whenever you attack with Higana and exactly one other creature, create a 3/3 green, blue, and red Dragon creature token. If the other attacking creature was a Dragon, the token has flying. If it also had flying, the token has vigilance. If it also had vigilance, the token has double strike.<br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Create Shigana, a legendary 2/2 white Beast creature token with haste.
+
+jasonwang7
+
+
+
+
+
+3
+
+
+
+===========
+normal
+240
+3
+rare
+Weaver of Fates
+white, blue, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Bird 
+2
+2
+Flying<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>: Exile the top card of your library face down. You may look at it as long as it remains exiled.<br>///br///During each of your opponents&#39; turns, you may cast a card exiled with Weaver of Fates as though it had flash.
+
+so-taro
+
+
+
+
+
+2
+
+
+
+===========
+normal
+236
+6
+rare
+Warden of Depths
+blue, black, multicolor
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Legendary Creature — Leviathan Avatar 
+6
+6
+Spells you cast cost <span class="symbol"><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span> less to cast.<br>///br///Nonland cards in your graveyard have surface. The surface cost is equal to their mana cost. <i>(You may cast a copy of it from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i><br>///br///Surface <span class="symbol"><img src='magic-mana-small-6.png' alt='6' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'></span>
+
+&#12405;&#12426;&#12419;
+
+
+
+
+
+6
+
+
+
+===========
+normal
+225
+2
+rare
+Scattering Swine
+black, red, multicolor
+<img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Boar Wizard 
+3
+2
+When Scattering Swine deals combat damage to a player, you may return a permanent you control to its owner&#39;s hand. If you do, that player loses 3 life unless they discard a card that shares a type with the returned card.
+
+high-tsubasa
+
+
+
+
+
+2
+
+
+
+===========
+normal
+238
+6
+rare
+Warden of Tremors
+red, green, multicolor
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Legendary Creature — Dinosaur Avatar 
+7
+6
+Spells you cast cost <span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> less to cast.<br>///br///You may play two additional lands on each of your turns.<br>///br///Landfall &#8212; Whenever a land you control enters, you may exile the top three cards of your library. You may play those cards from exile as long as you control Warden of Tremors.
+
+Riccardo Gualdi
+
+
+
+
+
+6
+
+
+
+===========
+normal
+237
+7
+rare
+Warden of Skies
+white, green, multicolor
+<img src='magic-mana-small-4.png' alt='4' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Legendary Creature — Dragon Avatar 
+9
+9
+This spell can&#39;t be countered.<br>///br///Flying, vigilance, trample<br>///br///Each spell that would cost less than its mana value to cast costs that much mana to cast.<br>///br///Players can&#39;t cast spells from anywhere other than their hands.
+
+The Pok&#233;mon Company International
+
+
+
+
+
+9
+
+
+
+===========
+normal
+239
+5
+rare
+Warden of Wishes
+white, black, multicolor
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'>
+Legendary Creature — Faerie Avatar 
+3
+3
+Flying, lifelink<br>///br///When Warden of Wishes enters, put seven wish counters on it, then you gain 7 life.<br>///br///Whenever you lose life, you may remove a wish counter from Warden of Wishes. If you do, search your graveyard, library, and/or outside the game for a card and exile it. You may play that card until the end of your next turn. If you searched your library this way, shuffle.
+
+crow-party
+
+
+
+
+
+3
+
+
+
+===========
+normal
+197
+3
+rare
+Charged Party
+blue, red, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental Mouse 
+1
+4
+Amity &#8212; Whenever you attack with Charged Party and exactly one other creature, create a token that&#39;s a copy of Charged Party that&#39;s tapped and attacking, except its power and toughness are switched. Sacrifice the token at the beginning of the next end step.
+<i>Opposites attacked.</i>
+NezuPanda
+
+
+
+
+
+4
+
+
+
+===========
+normal
+220
+3
+rare
+Poisoned Rose
+black, green, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'>
+Creature — Plant 
+3
+3
+When Poisoned Rose enters, create a Berry token. <i>(It&#39;s an Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i><br>///br///Sacrifice a Berry: Target creature gets -1/-1 until end of turn. Activate only outside of combat.
+
+&#12404;&#12387;&#12404;
+
+
+
+
+
+3
+
+
+
+===========
+double
+209
+3
+rare
+Ironback Tyke
+white, red, multicolor
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Dinosaur 
+3
+3
+When Ironback Tyke enters, you may search your library for a basic Mountain or Plains card, reveal it, put it into your hand, then shuffle.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Any number of target creatures you control have base power and toughness 3/3 until end of turn. If you control seven or more permanents with activated abilities, transform Ironback Tyke. Activate only as a sorcery.
+
+salanchu
+Ironback Sovereign
+white, red, multicolor
+
+Creature — Dinosaur 
+7
+3
+Vigilance, trample<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Any number of target creatures you control have base power and toughness 6/6 until end of turn.
+
+yilx
+===========
+normal
+196
+4
+rare
+Carefree Kappa
+blue, green, multicolor
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Plant 
+3
+3
+Once each turn, when Carefree Kappa enters or becomes the target of a spell or ability, you may create a Weather enchantment token that&#39;s all colors named Looks Like Rain with &#8220;Whenever you attack, you gain 1 life.&#8221;<br>///br///Carefree Kappa gets +1/+1 for each Weather you control.
+
+kawayoo
+
+
+
+
+
+3
+
+
+
+===========
+double
+150
+3
+rare
+Tempermental Chick
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Bird 
+2
+2
+Amity &#8212; Whenever you attack with Tempermental Chick and exactly one other creature, Tempermental Chick deals 1 damage to target creature.<br>///br///When Tempermental Chick deals combat damage to a player, you may transform it.
+<i>Children are each given a tame monster...</i>
+Riley Kitty
+Tempered Fowl
+red
+
+Creature — Bird 
+5
+2
+First strike<br>///br///Amity &#8212; Whenever Tempered Fowl attacks, it deals 1 damage to up to one target creature. It can&#39;t block this turn. If exactly one other creature attacked with it, this ability triggers three times instead.
+<i>...to teach them the power that resides in even the smallest of things.</i>
+Gscreen2
+===========
+normal
+152
+5
+rare
+Warden of Heart
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Legendary Creature — Dragon Avatar 
+4
+3
+Flying, haste<br>///br///Amity &#8212; Whenever you attack with Warden of Heart and exactly one other creature, you may put a legendary or Dragon card from your hand onto the battlefield tapped and attacking.
+
+&#12404;&#12387;&#12404;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+127
+4
+rare
+Earthbreaker Dragon
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Dragon 
+4
+4
+Flying<br>///br///Amity &#8212; Whenever you attack with Earthbreaker Dragon and exactly one other creature, Earthbreaker Dragon deals 1 damage to each of up to two target creatures without flying.
+
+alu_drp
+
+
+
+
+
+4
+
+
+
+===========
+normal
+139
+2
+rare
+Mimicry Elemental
+red
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental 
+1
+3
+<span class="symbol"><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>, <span class="symbol">{T}</span>: Copy target activated ability you control. You may choose new targets for the copy.
+<i>&#8220;The rock monster pretends to be a tree as a defensive measure. If discovered, it can also mimic attacks, just not very well.&#8221;<br>///br///&#8212;Trainee Karina Oblay, field notes</i>
+ame_Ivysaur
+
+
+
+
+
+3
+
+
+
+===========
+normal
+129
+6
+rare
+End of Mutations
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Legendary Creature — Alien Mutant 
+5
+3
+This spell can&#39;t be countered.<br>///br///First strike, haste<br>///br///Each player can&#39;t cast noncreature spells unless they&#39;ve attacked this turn.<br>///br///The first spell cast each turn costs <span class="symbol"><img src='magic-mana-small-X.png' alt='X' width='14' height='14'></span> less to cast, where X is the amount of damage dealt to players this turn.
+
+Chris Hohl
+
+
+
+
+
+3
+
+
+
+===========
+double
+144
+4
+rare
+Rumbling Volcamel
+red
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental Camel  
+4
+5
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Rumbling Volcamel and up to one other target creature you control get +1/+0 until end of turn.<br>///br///Whenever you activate a nonmana ability, if you&#39;ve spent at least six mana to activate nonmana abilities this turn, transform Rumbling Volcamel.
+
+salanchu
+Erupting Volcamel
+red
+
+Creature — Elemental Camel  
+8
+5
+<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'></span>: Erupting Volcamel and up to one other target creature you control get +2/+0 until end of turn.<br>///br///Whenever you activate a nonmana ability, if you&#39;ve spent at least six mana to activate nonmana abilities this turn, Erupting Volcamel deals 2 damage to any target.
+
+AlpacaCarlesi
+===========
+normal
+132
+4
+rare
+Generator Alpha
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Creature — Elemental Dog 
+4
+4
+Trample, haste<br>///br///Landfall &#8212; When a land you control enters, target creature can&#39;t block this turn.<br>///br///At the beginning of your end step, return Generator Alpha or a land you control to its owner&#39;s hand.
+
+TAPI&#23713;&#65312;&#12362;&#20181;&#20107;&#21215;&#38598;&#20013;
+
+
+
+
+
+4
+
+
+
+===========
+normal
+124
+5
+rare
+Desolate Lands
+red
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Desolate Lands enters and whenever you cast a spell, it deals 3 damage to target opponent unless they sacrifice a permanent.
+<i>&#8220;I thought... I hoped learning what was happening would help us stop it. What good is that</i> now<i>?&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+Inklev
+
+
+
+
+
+
+
+
+
+===========
+double
+69
+3
+rare
+Splashing Mudskipper
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Salamander 
+2
+2
+Amity &#8212; Whenever you attack with Splashing Mudskipper and exactly one other creature, surveil 1. <i>(Look at the top card of your library. You may put that card into your graveyard.)</i><br>///br///Whenever Splashing Mudskipper deals combat damage to a player, you may transform it.
+<i>Children are each given a tame monster...</i>
+Riley Kitty
+Surging Mudskipper
+blue
+
+Creature — Salamander 
+4
+2
+Ward <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span><br>///br///Whenever Surging Mudskipper attacks, surveil 1. You may play that card from your graveyard this turn. If exactly one other creature attacked with it, this ability triggers three times instead.
+<i>...to teach them that survival will inevitably demand change.</i>
+Gscreen2
+===========
+normal
+71
+2
+rare
+Tenki, Storm Chaser
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Legendary Creature — Human Ranger 
+1
+1
+When Tenki enters, it acclimates. <i>(You may put a Weather card from your graveyard or outside the game into your hand, or put a +1/+1 counter on this.)</i><br>///br///Weather you control are all colors.<br>///br///<span class="symbol">{T}</span>, Sacrifice a Weather: Tenki acclimates. The next Weather spell you cast this turn has flash and costs <span class="symbol"><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-B.png' alt='B' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-G.png' alt='G' width='14' height='14'></span> less to cast. This effect reduces only the amount of colored mana you pay.
+
+sakusakufugashi
+
+
+
+
+
+1
+
+
+
+===========
+normal
+74
+4
+rare
+Warden of Soul
+blue
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Legendary Creature — Dragon Avatar 
+4
+3
+Flying<br>///br///Amity &#8212; Whenever you attack with Warden of Soul and exactly one other creature, search your library for a legendary or Dragon card, reveal it, put it into your hand, then shuffle.
+
+&#12404;&#12387;&#12404;
+
+
+
+
+
+3
+
+
+
+===========
+normal
+41
+3
+rare
+Aqua Crew Flagship
+blue, artifact
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Artifact — Vehicle 
+4
+4
+<span class="symbol">{T}</span>: Draw a card, then discard a card.<br>///br///Once each turn, when you cast a spell from your graveyard, you may create a 2/1 blue Human Pirate creature token.<br>///br///Crew 2 <i>(Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)</i>
+
+Hariel Fontenele
+
+
+
+
+
+4
+
+
+
+===========
+normal
+73
+2
+rare
+Unspeaking Titan
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Golem 
+3
+4
+Ward <span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span><br>///br///Unspeaking Titan can&#39;t attack or block unless you control three or more Golems.<br>///br///Whenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.<br>///br///<span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'></span>, <span class="symbol">{T}</span>: Create a 1/1 white Golem creature token.
+
+Astero
+
+
+
+
+
+4
+
+
+
+===========
+normal
+76
+8
+rare
+Wrecking Whale
+blue
+<img src='magic-mana-small-6.png' alt='6' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Whale 
+8
+8
+This spell can&#39;t be countered.<br>///br///Trample<br>///br///Surface <span class="symbol"><img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>. Wrecking Whale surfaces tapped. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+PinkGermy
+
+
+
+
+
+8
+
+
+
+===========
+double
+53
+2
+rare
+Fortune Bearer
+blue
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Creature — Oyster 
+0
+4
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'></span>. You may sacrifice Fortune Bearer. If you don&#39;t, you can&#39;t spend this mana to cast a spell from your hand.<br>///br///Surface <span class="symbol"><img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'></span>. Fortune Bearer surfaces transformed. <i>(You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)</i>
+
+Sui
+Devourer of Fortunes
+blue
+
+Creature — Fish 
+6
+4
+Whenever Devourer of Fortunes enters or attacks, return up to one target instant or sorcery card in a graveyard or creature on the battlefield to its owner&#39;s hand. You may cast a copy of it, and may spend mana of any type to cast it. <i>(You still pay its costs. If it&#39;s a permanent spell, it becomes a token.)</i>
+
+EdoNova
+===========
+normal
+63
+7
+rare
+Primordial Seas
+blue
+<img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-U.png' alt='U' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Primordial Seas enters and whenever you cast a spell, create a token that&#39;s a copy of another target permanent you control.
+<i>&#8220;I hate to say &#8216;I told you so,&#39; so.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+&#12458;&#12488;&#12477;&#12521;
+
+
+
+
+
+
+
+
+
+===========
+normal
+234
+3
+rare
+Teetering Panda
+
+<img src='magic-mana-small-U.png' alt='U' width='14' height='14'><img src='magic-mana-small-R.png' alt='R' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Panda 
+3
+3
+As long as Teetering Panda is tapped, it has distorted. <i>(Tapped creatures can block it rather than untapped creatures.)</i><br>///br///<span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>, <span class="symbol">{T}</span>: You may tap or untap another target creature.<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'></span>, <span class="symbol">{Q}</span>: Until end of turn, target creature has distorted as long as it&#39;s tapped.
+
+The Pokemon Company International
+
+
+
+
+
+3
+
+
+
+===========
+normal
+29
+2
+rare
+Smart Shopper
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Human Ranger 
+2
+1
+Once each turn, when Smart Shopper enters or you cast a creature spell, create X Berry tokens, where X is the number of colors spent to cast it. <i>(They&#39;re Equipment with equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span> and &#8220;If equipped creature would deal or be dealt damage, sacrifice this to give it +1/+1 until end of turn.&#8221;)</i>
+
+pippi913
+
+
+
+
+
+1
+
+
+
+===========
+normal
+8
+5
+rare
+Cirriform Dragon
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Dragon 
+4
+3
+Flying, lifelink<br>///br///<span class="symbol"><img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'></span>: Untap each creature you&#39;ve activated this turn. They get +1/+1 and gain lifelink until end of turn. Activate only once each turn.
+
+kipine
+
+
+
+
+
+3
+
+
+
+===========
+double
+30
+4
+rare
+Snoring Stone
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Creature — Elemental Golem 
+3
+4
+Snoring Stone enters with two defender counters on it.<br>///br///Landfall &#8212; Whenever a land you control enters, move a defender counter from Snoring Stone onto another target permanent.<br>///br///When Snoring Stone attacks, transform it.
+<i>a mimir</i>
+chubbysharks
+Seismic Brute
+white
+
+Creature — Elemental Golem 
+6
+4
+Seismic Brute can&#39;t be blocked by creatures with defender.
+<i>When breaking rocks, be wary of what might lie underneath.</i>
+xlordragon
+===========
+normal
+13
+4
+rare
+Dark Horse Victory
+white
+<img src='magic-mana-small-3.png' alt='3' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Sorcery
+
+
+Return target permanent card with an activated ability from your graveyard to the battlefield. You may activate its abilities this turn as though it had haste.
+
+&#12365;&#12367;&#12424;&#12375;&#65306;kikuyosy
+
+
+
+
+
+
+
+
+
+===========
+normal
+5
+2
+rare
+Catch Your Breath
+white
+<img src='magic-mana-small-1.png' alt='1' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Instant
+
+
+When you cast this spell, if an opponent has cast more spells than you this turn, copy it.<br>///br///If an opponent controls more lands than you, search your library for a Plains card, put it onto the battlefield tapped, then shuffle.<br>///br///If an opponent has more life than you, you gain 3 life. If an opponent has more cards in hand than you, draw a card.
+
+James Pajunar
+
+
+
+
+
+
+
+
+
+===========
+normal
+24
+3
+rare
+Plush Collection
+white
+<img src='magic-mana-small-2.png' alt='2' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment
+
+
+Whenever you activate a nontoken creature, if it&#39;s the first time you&#39;ve activated it this turn, you may create a token that&#39;s a copy of that creature, except it&#39;s 1/1 and isn&#39;t legendary.
+
+saku anna
+
+
+
+
+
+
+
+
+
+===========
+normal
+14
+6
+rare
+Diamond Dust
+white
+<img src='magic-mana-small-5.png' alt='5' width='14' height='14'><img src='magic-mana-small-W.png' alt='W' width='14' height='14'>
+Enchantment — Weather 
+
+
+<i>(As a Weather enters, players sacrifice other Weathers that don&#39;t share a color with it.)</i><br>///br///When Diamond Dust enters and whenever you cast a spell, put a +1/+1 counter on each creature you control.
+<i>&#8220;It inspires all the beauty and dread of watching the stars fall from the sky.&#8221;<br>///br///&#8212;Tenki, storm chaser</i>
+budouwain
+
+
+
+
+
+
+
+
+
+===========
+normal
+280
+0
+uncommon
+Weather Research Station
+
+
+Land
+
+
+<span class="symbol">{T}</span>: Add <span class="symbol"><img src='magic-mana-small-C.png' alt='C' width='14' height='14'>.<br>///br///{T}</span>: Add one mana of any color. If you don&#39;t control a Weather, spend this mana only to cast a Weather spell.
+<i>&#8220;The weather&#39;s been erratic lately, surely you&#39;ve noticed....no, no it absolutely has not always been &#8216;like this,&#39; come on, look here...&#8221;</i>
+Haeruh
+
+
+
+
+
+
+
+
+
+===========
+normal
+14
+0
+common
+colorless Berry Equipment CCR
+
+
+Token Artifact — Berry Equipment 
+
+
+Before equipped creature would assign, deal, or be dealt damage, sacrifice this. If you do, equipped creature gets +1/+1 until end of turn.<br>///br///Equip <span class="symbol"><img src='magic-mana-small-1.png' alt='1' width='14' height='14'></span>
+
+zenmai hizu
+
+
+
+
+
+
+
+
+
+===========
+normal
+16
+0
+common
+Treasure
+
+
+Token Artifact — Treasure 
+
+
+<span class="symbol">{T}</span>, Sacrifice this artifact: Add one mana of any color.
+
+Miggs69
+
+
+
+
+
+
+
+
+
+===========
+normal
+1
+0
+common
+white Golem 11CCR
+white
+
+Token Creature — Golem 
+1
+1
+
+
+higa-tsubasa
+
+
+
+
+
+1
+
+
+
+===========
+normal
+3
+0
+common
+blue Fish 11CCR
+blue
+
+Token Creature — Fish 
+1
+1
+Haste
+
+storytelleri
+
+
+
+
+
+1
+
+
+
+===========
+normal
+6
+0
+common
+green Plant 11CCR
+green
+
+Token Creature — Plant 
+1
+1
+
+
+chocoholicmonkey
+
+
+
+
+
+1
+
+
+
+===========
+normal
+8
+0
+common
+white and blue Seal Orb 22CCR
+white, blue, multicolor
+
+Token Creature — Seal Orb 
+2
+2
+
+
+high-tsubasa
+
+
+
+
+
+2
+
+
+
+===========
+normal
+9
+0
+common
+Altaria CCR
+blue, red, green, multicolor
+
+Token Creature — Dragon 
+3
+3
+Flying
+
+ARC_draws
+
+
+
+
+
+3
+
+
+
+===========
+normal
+10
+0
+common
+white and black Bird 33CCR
+white, black, multicolor
+
+Token Creature — Bird 
+3
+3
+Flying, vigilance, haste
+
+rock-bomber
+
+
+
+
+
+3
+
+
+
+===========
+normal
+5
+0
+common
+red Bird Warrior 24CCR
+red
+
+Token Creature — Bird Warrior 
+2
+4
+Double strike, vigilance, haste
+
+hariiro_pon
+
+
+
+
+
+4
+
+
+
+===========
+normal
+11
+0
+common
+Goodra CCR
+blue, red, green, multicolor
+
+Token Creature — Dragon 
+3
+3
+
+
+fusenryo2
+
+
+
+
+
+3
+
+
+
+===========
+normal
+4
+0
+common
+blue Human Pirate 21CCR
+blue
+
+Token Creature — Human Pirate 
+2
+1
+
+
+ValhallaChosen
+
+
+
+
+
+1
+
+
+
+===========
+normal
+12
+0
+common
+Noivern CCR
+blue, red, green, multicolor
+
+Token Creature — Dragon 
+3
+3
+Flying, vigilance
+
+miiko_draw
+
+
+
+
+
+3
+
+
+
+===========
+normal
+13
+0
+common
+Salamence CCR
+blue, red, green, multicolor
+
+Token Creature — Dragon 
+3
+3
+Flying, double strike, vigilance
+
+penta oekaki
+
+
+
+
+
+3
+
+
+
+===========
+normal
+2
+0
+common
+Shigana CCR
+white
+
+Token Legendary Creature — Beast 
+2
+2
+
+
+unapoppo
+
+
+
+
+
+2
+
+
+
+===========
+normal
+15
+0
+common
+colorless Toy 22CCR
+
+
+Token Artifact Creature — Toy 
+2
+2
+Defender
+
+odo 7ta
+
+
+
+
+
+2
+
+
+
+===========
+normal
+7
+0
+common
+Looks Like Rain CCR
+
+
+Token Enchantment — Weather 
+
+
+Looks Like Rain is all colors.<br>///br///Whenever you attack, you gain 1 life.
+
+ponimu
+
+
+
+
+
+
+
+
+
+===========
